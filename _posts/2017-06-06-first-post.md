@@ -1,14 +1,9 @@
 ---
-layout: default
-title: My First Post
+layout: post
+title:  "My First Post"
+date:   2017-06-06 23:53:01 +0200
+categories: blog, life, living, personal
 published: true
-categories:
-  - blog
-  - personal
-tags:
-  - blog
-  - life
-  - living
 ---
 
 # Hello World, My First Post
