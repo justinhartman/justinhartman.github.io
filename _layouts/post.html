@@ -4,12 +4,14 @@
         {% include sidebar.html %}
       </nav>
       <section>
+        {{ content }}
+<!--
         {% for post in site.posts %}
-          <!-- {{ content }} -->
           <h1>
             <a href="{{ post.url }}">{{ post.title }}</a>
           </h1>
           {{ post.content }}
         {% endfor %}
+-->
       </section>
 {% include footer.html %}
