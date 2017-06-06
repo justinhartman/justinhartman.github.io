@@ -10,4 +10,6 @@ tags:
   - index
 ---
 
-# About Justin Hartman
+# About Me
+
+This is a little blurb about me.
