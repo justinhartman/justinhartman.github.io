@@ -9,3 +9,4 @@ gems:
 title: Justin Hartman
 description: My life, as it happens.
 show_downloads: false
+is_project_page: true
