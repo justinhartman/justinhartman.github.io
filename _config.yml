@@ -8,4 +8,4 @@ gems:
   - jekyll-github-metadata
 title: Justin Hartman
 description: My life, as it happens.
-show_downloads: true
+show_downloads: false

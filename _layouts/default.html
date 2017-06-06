@@ -36,9 +36,10 @@
       </div><!-- end banner -->
 
     <div class="wrapper">
-      {% include navigation.html %}
+      {% include sidebar_navigation.html %}
       <section>
-        {{ content }}
+        <!-- {{ content }} -->
+        {% include posts_navigation.html %}
       </section>
       {% include footer.html %}
     </div>
