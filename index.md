@@ -10,7 +10,7 @@ tags:
   - index
 ---
 
-# Welcome to GitHub Pages
+# Welcome to Justin Hartman
 
 You can use the [editor on GitHub](https://github.com/justinhartman/justinhartman.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
