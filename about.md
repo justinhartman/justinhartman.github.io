@@ -1,6 +1,5 @@
 ---
 title: About Me
-published: true
 categories:
   - pages
   - home
