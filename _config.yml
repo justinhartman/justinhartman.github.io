@@ -6,6 +6,8 @@ gems:
   - jemoji
   - jekyll-mentions
   - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-coffeescript
 title: Justin Hartman
 description: My life, as it happens.
 show_downloads: false
