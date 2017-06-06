@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "My Second Post"
 date:   2017-06-07 00:03:01 +0200
 categories: 

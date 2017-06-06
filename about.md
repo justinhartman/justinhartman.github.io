@@ -1,5 +1,4 @@
 ---
-layout: default
 title: About Me
 published: true
 categories:

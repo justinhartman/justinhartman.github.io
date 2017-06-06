@@ -12,3 +12,20 @@ title: Justin Hartman
 description: My life, as it happens.
 show_downloads: false
 is_project_page: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      author: "Justin Hartman"
+      published: false
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Justin Hartman"
+      published: false

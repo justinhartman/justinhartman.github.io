@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Justin Hartman
 published: true
 categories:
