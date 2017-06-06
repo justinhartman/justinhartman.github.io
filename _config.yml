@@ -1,1 +1,10 @@
 theme: jekyll-theme-leap-day
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+  - jekyll-mentions
+  - jekyll-github-metadata
+title: Justin Hartman
+description: My life, as it happens.
