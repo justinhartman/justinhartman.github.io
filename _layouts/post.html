@@ -4,6 +4,7 @@
         {% include sidebar.html %}
       </nav>
       <section>
-        {{ post.content }}
+        {{ content }}
       </section>
+      <a href="{{ page.next }}">{{ page.next }}</a>
 {% include footer.html %}
