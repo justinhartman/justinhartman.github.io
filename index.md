@@ -1,5 +1,6 @@
 ---
 title: Justin Hartman
+layout: post
 categories:
 - pages
 - home
