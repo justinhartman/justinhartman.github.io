@@ -1,11 +1,11 @@
 ---
 title: About Me
 categories:
-  - pages
-  - home
+- pages
+- home
 tags:
-  - welcome
-  - index
+- welcome
+- index
 ---
 
 # About Me

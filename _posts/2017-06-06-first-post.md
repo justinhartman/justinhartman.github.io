@@ -1,12 +1,11 @@
 ---
-title:  "My First Post"
-date:   2017-06-06 23:53:01 +0200
-categories: 
-  - blog
-  - life
-  - living
-  - personal
-published: true
+title: My First Post
+date: 2017-06-06 21:53:01 Z
+categories:
+- blog
+- life
+- living
+- personal
 ---
 
 # Hello World, My First Post

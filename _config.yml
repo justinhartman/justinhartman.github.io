@@ -1,31 +1,23 @@
-theme: jekyll-theme-leap-day
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jemoji
-  - jekyll-mentions
-  - jekyll-github-metadata
-  - jekyll-paginate
-  - jekyll-coffeescript
-title: Justin Hartman
-description: My life, as it happens.
-show_downloads: false
-is_project_page: true
+---
+title: justinhartman.github.io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      author: "Justin Hartman"
-      published: false
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Justin Hartman"
-      published: false
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty

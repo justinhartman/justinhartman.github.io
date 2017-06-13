@@ -1,11 +1,11 @@
 ---
 title: Justin Hartman
 categories:
-  - pages
-  - home
+- pages
+- home
 tags:
-  - welcome
-  - index
+- welcome
+- index
 ---
 
 # Welcome to Justin Hartman
