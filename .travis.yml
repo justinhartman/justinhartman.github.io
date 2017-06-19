@@ -1,0 +1,8 @@
+deploy:
+  provider: pages
+  skip_cleanup: true
+  fqdn: blog.hartman.me
+  name: Travis CI
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
