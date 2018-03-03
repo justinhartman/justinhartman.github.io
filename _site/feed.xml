@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-03T04:03:45+02:00</updated><id>http://localhost:4000/</id><title type="html">justin.hartman.me</title><subtitle>Justin Hartman is a South African entreprenuer who has been growing and innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary.</subtitle><entry><title type="html">Create a humans.txt file with a Last Updated timestamp in Jekyll</title><link href="http://localhost:4000/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll/" rel="alternate" type="text/html" title="Create a humans.txt file with a Last Updated timestamp in Jekyll" /><published>2017-06-23T11:34:00+02:00</published><updated>2017-06-23T11:34:00+02:00</updated><id>http://localhost:4000/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll/">&lt;p&gt;I wanted to create a &lt;a href=&quot;http://humanstxt.org&quot;&gt;humans.txt&lt;/a&gt; file but at the same time I did not want to manually update the &lt;code class=&quot;highlighter-rouge&quot;&gt;Last update&lt;/code&gt; variable in &lt;code class=&quot;highlighter-rouge&quot;&gt;/* SITE */&lt;/code&gt; section every time I made a change. I wanted to automate the process so that I never have to worry about it again.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-03T07:27:16+02:00</updated><id>http://localhost:4000/</id><title type="html">justin.hartman.me</title><subtitle>Justin Hartman is a South African entreprenuer who has been growing and innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary.</subtitle><entry><title type="html">Create a humans.txt file with a Last Updated timestamp in Jekyll</title><link href="http://localhost:4000/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll/" rel="alternate" type="text/html" title="Create a humans.txt file with a Last Updated timestamp in Jekyll" /><published>2017-06-23T11:35:00+02:00</published><updated>2017-06-23T11:35:00+02:00</updated><id>http://localhost:4000/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll/">&lt;p&gt;I wanted to create a &lt;a href=&quot;http://humanstxt.org&quot;&gt;humans.txt&lt;/a&gt; file but at the same time I did not want to manually update the &lt;code class=&quot;highlighter-rouge&quot;&gt;Last update&lt;/code&gt; variable in &lt;code class=&quot;highlighter-rouge&quot;&gt;/* SITE */&lt;/code&gt; section every time I made a change. I wanted to automate the process so that I never have to worry about it again.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/humans-txt.jpg&quot; alt=&quot;Humans.txt&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
 &lt;!-- MarkdownTOC --&gt;
@@ -25,7 +27,8 @@
     &lt;p&gt;Inside this file, paste the following code:
 ```html&lt;/p&gt;
 
-    &lt;p&gt;Installing CakePHP on Mac OS X running XAMPP&lt;/p&gt;
+    &lt;p&gt;Installing CakePHP on Mac OS X running XAMPP
+Written by Justin Hartman&lt;/p&gt;
 
     &lt;table&gt;
       &lt;tbody&gt;
@@ -109,6 +112,9 @@ $ /Applications/XAMPP/bin/php composer create-project –prefer-dist helloworld/
 
 &lt;p&gt;Once the command has run you will now have a new folder in the htdocs folder. You can now fire-up the site in your browser.&lt;/p&gt;
 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Please enable JavaScript to view the comments powered by Disqus.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Save the file as `/_layouts/humans.html`
 
 What you have done is create a completely new template that will only output the content and ignore any template files you may have. 
@@ -135,10 +141,10 @@ I have more in [my file][my-humans] but add what you feel is necessary for yours
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Github Pages, Jekyll&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The `Last update` field is where we use Jekyll's Liquid variable `2018-03-03 04:03:45 +0200`. Copy and paste `2018-03-03 04:03:45 +0200` next to the `Last update:` field so that your Markdown includes the tag and ends up looking like this:
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The `Last update` field is where we use Jekyll's Liquid variable `2018-03-03 07:27:16 +0200`. Copy and paste `2018-03-03 07:27:16 +0200` next to the `Last update:` field so that your Markdown includes the tag and ends up looking like this:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;/* SITE */
-    Last update: 2018-03-03 04:03:45 +0200
+    Last update: 2018-03-03 07:27:16 +0200
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Github Pages, Jekyll&lt;/p&gt;
@@ -165,7 +171,7 @@ permalink: ‘/humans.txt’
     From: The country you live in&lt;/p&gt;
 
 &lt;p&gt;/* SITE */
-    Last update: 2018-03-03 04:03:45 +0200
+    Last update: 2018-03-03 07:27:16 +0200
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Github Pages, Jekyll&lt;/p&gt;
@@ -192,7 +198,7 @@ Add the following line to your template:
 &lt;p&gt;Once you have published your changes you should be able to access your newly created humans file at &lt;code class=&quot;highlighter-rouge&quot;&gt;yourdomain.com/humans.txt&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;support&quot;&gt;Support&lt;/h2&gt;
-&lt;p&gt;If you need any help, found a bug or to report any issues please &lt;a href=&quot;https://github.com/justinhartman/howto/issues/new&quot;&gt;click here&lt;/a&gt; and log a support request.&lt;/p&gt;</content><author><name></name></author><summary type="html">I wanted to create a humans.txt file but at the same time I did not want to manually update the Last update variable in /* SITE */ section every time I made a change. I wanted to automate the process so that I never have to worry about it again.</summary></entry><entry><title type="html">Installing CakePHP on Mac OS X running XAMPP</title><link href="http://localhost:4000/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp/" rel="alternate" type="text/html" title="Installing CakePHP on Mac OS X running XAMPP" /><published>2017-06-16T01:21:00+02:00</published><updated>2017-06-16T01:21:00+02:00</updated><id>http://localhost:4000/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp</id><content type="html" xml:base="http://localhost:4000/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp/">&lt;p&gt;The following Howto will install &lt;a href=&quot;http://cakephp.com&quot;&gt;CakePHP&lt;/a&gt; and get you up and running using &lt;a href=&quot;http:///xampp.com&quot;&gt;XAMPP&lt;/a&gt; on Mac OS X 10.7.5+.&lt;/p&gt;
+&lt;p&gt;If you need any help, found a bug or to report any issues please &lt;a href=&quot;https://github.com/justinhartman/howto/issues/new&quot;&gt;click here&lt;/a&gt; and log a support request.&lt;/p&gt;</content><author><name>Justin Hartman</name></author><summary type="html">I wanted to create a humans.txt file but at the same time I did not want to manually update the Last update variable in /* SITE */ section every time I made a change. I wanted to automate the process so that I never have to worry about it again.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/posts/humans-txt.jpg" /></entry><entry><title type="html">Installing CakePHP on Mac OS X running XAMPP</title><link href="http://localhost:4000/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp/" rel="alternate" type="text/html" title="Installing CakePHP on Mac OS X running XAMPP" /><published>2017-06-16T01:21:00+02:00</published><updated>2017-06-16T01:21:00+02:00</updated><id>http://localhost:4000/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp</id><content type="html" xml:base="http://localhost:4000/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp/">&lt;p&gt;The following Howto will install &lt;a href=&quot;http://cakephp.com&quot;&gt;CakePHP&lt;/a&gt; and get you up and running using &lt;a href=&quot;http:///xampp.com&quot;&gt;XAMPP&lt;/a&gt; on Mac OS X 10.7.5+.&lt;/p&gt;
 
 &lt;p&gt;This guide is a series of terminal commands that will:&lt;/p&gt;
 
@@ -274,7 +280,7 @@ Add the following line to your template:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Very Important:&lt;/strong&gt; In the above command you need to replace &lt;em&gt;helloworld&lt;/em&gt; with the name of the project you are setting up.&lt;/p&gt;
 
-&lt;p&gt;Once the command has run you will now have a new folder in the &lt;code class=&quot;highlighter-rouge&quot;&gt;htdocs&lt;/code&gt; folder. You can now fire-up the site in your browser.&lt;/p&gt;</content><author><name></name></author><summary type="html">The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.</summary></entry><entry><title type="html">Complete List Of Html Meta Tags</title><link href="http://localhost:4000/html/complete-list-of-html-meta-tags/" rel="alternate" type="text/html" title="Complete List Of Html Meta Tags" /><published>2017-06-09T02:00:00+02:00</published><updated>2017-06-09T02:00:00+02:00</updated><id>http://localhost:4000/html/complete-list-of-html-meta-tags</id><content type="html" xml:base="http://localhost:4000/html/complete-list-of-html-meta-tags/">&lt;p&gt;Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.&lt;/p&gt;
+&lt;p&gt;Once the command has run you will now have a new folder in the &lt;code class=&quot;highlighter-rouge&quot;&gt;htdocs&lt;/code&gt; folder. You can now fire-up the site in your browser.&lt;/p&gt;</content><author><name>Justin Hartman</name></author><summary type="html">The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/posts/humans-txt.jpg" /></entry><entry><title type="html">Complete List Of Html Meta Tags</title><link href="http://localhost:4000/html/complete-list-of-html-meta-tags/" rel="alternate" type="text/html" title="Complete List Of Html Meta Tags" /><published>2017-06-09T02:00:00+02:00</published><updated>2017-06-09T02:00:00+02:00</updated><id>http://localhost:4000/html/complete-list-of-html-meta-tags</id><content type="html" xml:base="http://localhost:4000/html/complete-list-of-html-meta-tags/">&lt;p&gt;Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.&lt;/p&gt;
 
 &lt;p&gt;Know of any tags that have been omitted below? Please &lt;a href=&quot;justin@hartman.me&quot;&gt;send me an email&lt;/a&gt; so that I can add them.&lt;/p&gt;
 
@@ -584,4 +590,4 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 
 &lt;h2 id=&quot;contributors--thanks&quot;&gt;Contributors &amp;amp; Thanks&lt;/h2&gt;
 
-&lt;p&gt;This list was originally &lt;a href=&quot;http://code.lancepollard.com/complete-list-of-html-meta-tags/&quot;&gt;published here&lt;/a&gt; and created by &lt;a href=&quot;https://gist.github.com/lancejpollard&quot;&gt;Lance Pollard&lt;/a&gt;. I found additional tags which were created by &lt;a href=&quot;https://gist.github.com/kevinSuttle&quot;&gt;Kevin Suttle&lt;/a&gt; and have merged Lance, Kevin and my additions to one document and will continue to update as needed.&lt;/p&gt;</content><author><name></name></author><summary type="html">Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.</summary></entry></feed>
+&lt;p&gt;This list was originally &lt;a href=&quot;http://code.lancepollard.com/complete-list-of-html-meta-tags/&quot;&gt;published here&lt;/a&gt; and created by &lt;a href=&quot;https://gist.github.com/lancejpollard&quot;&gt;Lance Pollard&lt;/a&gt;. I found additional tags which were created by &lt;a href=&quot;https://gist.github.com/kevinSuttle&quot;&gt;Kevin Suttle&lt;/a&gt; and have merged Lance, Kevin and my additions to one document and will continue to update as needed.&lt;/p&gt;</content><author><name>Justin Hartman</name></author><summary type="html">Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/posts/humans-txt.jpg" /></entry></feed>

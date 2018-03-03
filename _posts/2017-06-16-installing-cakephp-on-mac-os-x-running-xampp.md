@@ -1,14 +1,22 @@
 ---
 title: Installing CakePHP on Mac OS X running XAMPP
+author: Justin Hartman
+image: '/images/posts/humans-txt.jpg'
 date: 2017-06-16 01:21:00 +02:00
+description: The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.
 permalink: "/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp/"
 categories:
 - php
 - cakephp
+keywords:
+- cakephp,
+- php,
+- composer,
+- macos,
+- xampp
 layout: post
 published: true
 ---
-
 The following Howto will install [CakePHP](http://cakephp.com) and get you up and running using [XAMPP](http:///xampp.com) on Mac OS X 10.7.5+.
 
 This guide is a series of terminal commands that will:

@@ -3,7 +3,7 @@
  <title>Justin Hartman</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-03-03T04:03:45+02:00</updated>
+ <updated>2018-03-03T07:27:16+02:00</updated>
  <id>http://localhost:4000/</id>
  <author>
    <name>Justin Hartman</name>
@@ -13,9 +13,11 @@
  <entry>
    <title>Create a humans.txt file with a Last Updated timestamp in Jekyll</title>
    <link href="http://localhost:4000/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll/"/>
-   <updated>2017-06-23T11:34:00+02:00</updated>
+   <updated>2017-06-23T11:35:00+02:00</updated>
    <id>http://localhost:4000/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll</id>
    <content type="html">&lt;p&gt;I wanted to create a &lt;a href=&quot;http://humanstxt.org&quot;&gt;humans.txt&lt;/a&gt; file but at the same time I did not want to manually update the &lt;code class=&quot;highlighter-rouge&quot;&gt;Last update&lt;/code&gt; variable in &lt;code class=&quot;highlighter-rouge&quot;&gt;/* SITE */&lt;/code&gt; section every time I made a change. I wanted to automate the process so that I never have to worry about it again.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/humans-txt.jpg&quot; alt=&quot;Humans.txt&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
 &lt;!-- MarkdownTOC --&gt;
@@ -42,7 +44,8 @@
     &lt;p&gt;Inside this file, paste the following code:
 ```html&lt;/p&gt;
 
-    &lt;p&gt;Installing CakePHP on Mac OS X running XAMPP&lt;/p&gt;
+    &lt;p&gt;Installing CakePHP on Mac OS X running XAMPP
+Written by Justin Hartman&lt;/p&gt;
 
     &lt;table&gt;
       &lt;tbody&gt;
@@ -126,6 +129,9 @@ $ /Applications/XAMPP/bin/php composer create-project –prefer-dist helloworld/
 
 &lt;p&gt;Once the command has run you will now have a new folder in the htdocs folder. You can now fire-up the site in your browser.&lt;/p&gt;
 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Please enable JavaScript to view the comments powered by Disqus.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Save the file as `/_layouts/humans.html`
 
 What you have done is create a completely new template that will only output the content and ignore any template files you may have. 
@@ -152,10 +158,10 @@ I have more in [my file][my-humans] but add what you feel is necessary for yours
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Github Pages, Jekyll&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The `Last update` field is where we use Jekyll's Liquid variable `2018-03-03 04:03:45 +0200`. Copy and paste `2018-03-03 04:03:45 +0200` next to the `Last update:` field so that your Markdown includes the tag and ends up looking like this:
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The `Last update` field is where we use Jekyll's Liquid variable `2018-03-03 07:27:16 +0200`. Copy and paste `2018-03-03 07:27:16 +0200` next to the `Last update:` field so that your Markdown includes the tag and ends up looking like this:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;/* SITE */
-    Last update: 2018-03-03 04:03:45 +0200
+    Last update: 2018-03-03 07:27:16 +0200
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Github Pages, Jekyll&lt;/p&gt;
@@ -182,7 +188,7 @@ permalink: ‘/humans.txt’
     From: The country you live in&lt;/p&gt;
 
 &lt;p&gt;/* SITE */
-    Last update: 2018-03-03 04:03:45 +0200
+    Last update: 2018-03-03 07:27:16 +0200
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Github Pages, Jekyll&lt;/p&gt;

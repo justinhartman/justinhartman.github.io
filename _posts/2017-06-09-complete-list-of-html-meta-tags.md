@@ -1,13 +1,24 @@
 ---
 title: Complete List Of Html Meta Tags
+author: Justin Hartman
+image: '/images/posts/humans-txt.jpg'
 date: 2017-06-09 02:00:00 +02:00
+description: Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
 permalink: "/html/complete-list-of-html-meta-tags/"
 categories:
 - html
+keywords:
+- html,
+- meta-tags,
+- opengraph,
+- google,
+- twitter,
+- facebook,
+- rails,
+- windows 8
 layout: post
 published: true
 ---
-
 Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
 
 Know of any tags that have been omitted below? Please [send me an email][email] so that I can add them.

@@ -1,30 +1,43 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html itemscope itemtype="http://schema.org/CreativeWork">
 <head>
 		<title>Installing CakePHP on Mac OS X running XAMPP – Justin Hartman</title>
-			<meta charset="utf-8" />
-	<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-	
-	<meta name="description" content="The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.
+		<meta charset="utf-8" />
+		<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+		<meta name="referrer" content="origin-when-cross-origin" />
+		<meta itemprop="type" content="CreativeWork">
+	    <meta itemprop="creator" content="Justin Hartman">
+	    <meta itemprop="name" content="Justin Hartman">
+	    <meta itemprop="dateModified" content="2018-03-03 07:27:16 +0200">
+	    <meta itemprop="version" content="0129abd3a9d13224e5f1c9785ccc3ea63fdc1d9e">
+	    <meta itemprop="license" content="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+	    <meta itemprop="copyrightHolder" content="Justin Hartman">
+	    <meta itemprop="copyrightYear" content="2018">
+	    <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/717118?v=3&s=460">
+	    
+		<meta property="og:title" content="Installing CakePHP on Mac OS X running XAMPP" />
+		<meta property="twitter:title" content="Installing CakePHP on Mac OS X running XAMPP" />
+		
+		
+		<meta itemprop="about" content="The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.
+
+">
+		<meta name="description" content="The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.
 
 " />
-	<meta property="og:description" content="The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.
+		<meta property="og:description" content="The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.
 
 " />
-	
-	<link rel='author' href='humans.txt' type='text/plain'>
-	
-	<meta property="og:title" content="Installing CakePHP on Mac OS X running XAMPP" />
-	<meta property="twitter:title" content="Installing CakePHP on Mac OS X running XAMPP" />
-	
+		
+		<link rel='author' href='humans.txt' type='text/plain'>
+
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link rel="stylesheet" type="text/css" href="http://localhost:4000/style.css" />
-		<link rel="alternate" type="application/rss+xml" title="Justin Hartman - Justin Hartman is a South African entreprenuer who has been growing and innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary." href="http://localhost:4000/feed.xml" /> 
-    <!-- Last modified at: 2018-03-03 04:03:45 +0200 | Revision 8408bb7b79f2c3b013401c445941c0b21a41f10c -->
+		<link rel="alternate" type="application/rss+xml" title="Justin Hartman" href="http://localhost:4000/atom.xml" />
 </head>
   <body>
     <div class="wrapper-masthead">
@@ -45,9 +58,12 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <article class="post">
+      <script type="application/ld+json">
+{"@context":"http://schema.org","@type":"Article","name":"Installing CakePHP on Mac OS X running XAMPP","headline":"Installing CakePHP on Mac OS X running XAMPP","genre":"phpcakephp","keywords":"cakephp,php,composer,macos,xampp","url":"http://localhost:4000/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp/","identifier":"http://localhost:4000/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp/","datePublished":"2017-06-16 01:21:00 +0200","dateModified":"2018-03-03 07:27:16 +0200","author":{"@type":"Person","name":"Justin Hartman","sameAs":["https://www.facebook.com/justin.hartman.me","https://www.flickr.com/photos/justinhartman/","https://www.github.com/justinhartman","https://www.instagram.com/justin.hartman/","https://www.linkedin.com/in/justinhartman","https://za.pinterest.com/iamjustinhartman/","https://twitter.com/justinhartman","https://stackoverflow.com/users/1322242/justinhartman"]},"publisher":{"@type":"Organization","name":"Justin Hartman","sameAs":["https://www.facebook.com/justin.hartman.me","https://www.flickr.com/photos/justinhartman/","https://www.github.com/justinhartman","https://www.instagram.com/justin.hartman/","https://www.linkedin.com/in/justinhartman","https://za.pinterest.com/iamjustinhartman/","https://twitter.com/justinhartman","https://stackoverflow.com/users/1322242/justinhartman"],"logo":{"@type":"ImageObject","url":"https://avatars2.githubusercontent.com/u/717118?v=3&s=460"}},"image":{"@type":"ImageObject","contentUrl":"http://localhost:4000/images/posts/humans-txt.jpg","url":"http://localhost:4000","height":"300","width":"800"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp/"},"articleSection":"The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.","articleBody":"The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.This guide is a series of terminal commands that will:  Install the latest version of Composer.  Move the composer phar file to the XAMPP bin directory.  Install the latest version of CakePHP.Table of Contents  Minimum Requirements  Getting Composer          Download and Build      Moving things around        Setting up a CakePHP project          Working Directory      Install CakePHP      Minimum RequirementsI have successfully tested the installation using the following package versions:  Mac OS X 10.7.5  XAMPP 5.6.30-0  Composer 1.4.1Earlier versions of the above software may indeed work however I have not tested them so YMMV.Getting ComposerOpen up a terminal window and run the following shell commands. This will download the composer setup file, verify the installer is valid and create the packaged composer.phar file.Download and Build$ /Applications/XAMPP/bin/php -r &quot;copy('https://getcomposer.org/installer', 'composer-setup.php');&quot;$ /Applications/XAMPP/bin/php -r &quot;if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;&quot;$ /Applications/XAMPP/bin/php composer-setup.php$ /Applications/XAMPP/bin/php -r &quot;unlink('composer-setup.php');&quot;Moving things aroundOnce you see the Installer Verified message output in your terminal window you can then run the following command.$ mv composer.phar /Applications/XAMPP/bin/composer$ alias composer='/Applications/XAMPP/bin/composer/composer.phar'This command moves the composer.phar file to the XAMPP bin directory so that you can access it from a centralised location within XAMPP. The alias command makes composer available globally. It is useful to move it as you may want or need to install other packages via Composer.You will now be able to run composer at the following location:$ /Applications/XAMPP/bin/composer/composer.pharor simply run:$ composerSetting up a CakePHP projectBy default Composer will install the most current version of CakePHP that works with the PHP version in XAMPP. I did not want to run PHP 7 so I chose to download XAMPP using PHP version 5.6.30. Running PHP 5 or 7 really won’t matter to installing CakePHP; either version will work.Working DirectoryXAMPP serves website files from the htdocs folder so you will need to ensure that you are in the correct path before installing CakePHP.In the terminal window run the following command to navigate to the htdocs folder.$ cd /Applications/XAMPP/xamppfiles/htdocsInstall CakePHPFinally we are now ready to install CakePHP. You can do this by running the following command in your terminal window.$ /Applications/XAMPP/bin/php composer create-project --prefer-dist helloworld/app helloworldVery Important: In the above command you need to replace helloworld with the name of the project you are setting up.Once the command has run you will now have a new folder in the htdocs folder. You can now fire-up the site in your browser.","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","bestRating":"5","worstRating":"5","ratingCount":"1"}}
+</script>
+<article class="post">
   <h1>Installing CakePHP on Mac OS X running XAMPP</h1>
-
+  <h4>Written by Justin Hartman</h4>
   <div class="date">
     Published on June 16, 2017 | Updated on March  3, 2018
   </div>
@@ -140,9 +156,23 @@
   </div>
 
   
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+
+	    var disqus_shortname = 'iamjustinhartman';
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
 </article>
-<!-- Text Highlighting via TXTpen -->
-<script src="https://txtpen.com/embed.js?site=_nix>"></script>
 
     </div>
 

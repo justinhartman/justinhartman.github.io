@@ -1,14 +1,22 @@
 ---
 title: Create a humans.txt file with a Last Updated timestamp in Jekyll
-date: 2017-06-23 11:34:00 +02:00
+author: Justin Hartman
+image: '/images/posts/humans-txt.jpg'
+date: 2017-06-23 11:35:00 +02:00
+description: I wanted to create a humans.txt file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again. 
 permalink: '/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll/'
 categories:
 - jekyll
+keywords:
+- jekyll,
+- humans.txt,
+- automation
 layout: post
 published: true
 ---
+I wanted to create a [humans.txt][humans] file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again.
 
-I wanted to create a [humans.txt][humans] file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again. 
+![Humans.txt][image]
 
 ## Table of Contents
 <!-- MarkdownTOC -->
@@ -126,3 +134,5 @@ If you need any help, found a bug or to report any issues please [click here][su
 [humans]: http://humanstxt.org
 [standard]: http://humanstxt.org/Standard.html
 [support]: https://github.com/justinhartman/howto/issues/new
+[image]: /images/posts/humans-txt.jpg
+

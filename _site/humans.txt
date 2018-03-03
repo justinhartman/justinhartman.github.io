@@ -9,8 +9,8 @@
     Jekyll Now: https://github.com/barryclark/jekyll-now
 
 /* SITE */
-    Last update: 2018-03-03 04:03:45 +0200
-    Revision: 8408bb7b79f2c3b013401c445941c0b21a41f10c
+    Last update: 2018-03-03 07:27:16 +0200
+    Revision: 0129abd3a9d13224e5f1c9785ccc3ea63fdc1d9e
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Sourcetree, Github Pages, Jekyll, Github
