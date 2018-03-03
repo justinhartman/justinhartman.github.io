@@ -3,7 +3,7 @@ language: generic
 deploy:
   provider: pages
   skip_cleanup: true
-  fqdn: blog.hartman.me
+  fqdn: justin.hartman.me
   name: Travis CI
   github_token: $GITHUB_TOKEN
   on:
