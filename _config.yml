@@ -1,1 +1,35 @@
+---
+title: justin.hartman.me
+timezone: Africa/Johannesburg
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+name: Justin Hartman
+description: Justin Hartman is a South African entreprenuer who has been growing and innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary.
+sass:
+  style: expanded
+avatar: https://avatars2.githubusercontent.com/u/717118?v=3&s=460
+google_analytics: UA-100937492-1
+url: http://justin.hartman.me
+baseurl: 
+permalink: "/:title/"
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+gems:
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-last-modified-at
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE.md
+- CNAME
 theme: jekyll-theme-cayman
