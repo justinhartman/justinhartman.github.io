@@ -1,12 +1,16 @@
 ---
 title: Justin Hartman
-layout: post
+date: 2018-03-03 03:03:00 +02:00
+permalink: "/"
 categories:
+- me
 - pages
 - home
 tags:
 - welcome
-- index
+- home
+layout: post
+published: true
 ---
 
 # Welcome to Justin Hartman
