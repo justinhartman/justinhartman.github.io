@@ -13,6 +13,7 @@ keywords:
 - automation
 layout: post
 published: true
+comments: on
 ---
 I wanted to create a [humans.txt][humans] file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again.
 

@@ -18,6 +18,7 @@ keywords:
 - windows 8
 layout: post
 published: true
+comments: on
 ---
 Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
 

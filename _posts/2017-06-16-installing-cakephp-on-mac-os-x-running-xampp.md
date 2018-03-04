@@ -16,6 +16,7 @@ keywords:
 - xampp
 layout: post
 published: true
+comments: on
 ---
 The following Howto will install [CakePHP](http://cakephp.com) and get you up and running using [XAMPP](http:///xampp.com) on Mac OS X 10.7.5+.
 
