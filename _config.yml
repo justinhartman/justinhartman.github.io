@@ -20,7 +20,7 @@ author_links:
   twitter                     : https://twitter.com/justinhartman
   stackoverflow               : https://stackoverflow.com/users/1322242/justinhartman
 # Basic site structure / setup
-url                           : "http://justin.hartman.me"
+url                           : "https://justin.hartman.me"
 baseurl                       : 
 permalink                     : "/:title/"
 kramdown:
@@ -145,7 +145,7 @@ author:
   bio                         : "Justin Hartman is a South African entreprenuer who has been innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary."
   location                    : "South Africa"
   email                       : justin@hartman.me
-  uri                         : http://justin.hartman.me
+  uri                         : https://justin.hartman.me
   home                        : / # null (default), "absolute or relative url to link to author home"
   # bitbucket                 : justinhartman
   codepen                     : 

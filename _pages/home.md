@@ -29,7 +29,7 @@ feature_row:
   - image_path: '/assets/images/posts/meta-tag_580x300.jpg'
     alt: "Complete Meta-tag List"
     title: "Meta Tags List"
-    excerpt: "Ever wondered how many HTML meta tags there are? This is the most concise list of meta tags which are at your disposal."
+    excerpt: "Ever wondered how many HTML meta tags there are? This is the most concise list of meta tags, ready and at your disposal."
     url: "/html/complete-list-of-html-meta-tags.html"
     btn_class: "btn--primary"
     btn_label: "Learn More"
