@@ -1,44 +1,157 @@
----
-title: justin.hartman.me
-timezone: Africa/Johannesburg
+timezone                      : Africa/Johannesburg
 collections:
   posts:
-    title: Posts
-    output: true
+    title                     : Posts
+    output                    : true
+  pages:
+    title                     : Pages
+    output                    : true
   uploads:
-    title: Uploads
-    output: true
-name: Justin Hartman
-description: Justin Hartman is a South African entreprenuer who has been growing and innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary.
-sass:
-  style: expanded
-avatar: https://avatars2.githubusercontent.com/u/717118?v=3&s=460
+    title                     : Uploads
+    output                    : true
+# Retaining author links from old theme
 author_links:
-  facebook: https://www.facebook.com/justin.hartman.me
-  flickr: https://www.flickr.com/photos/justinhartman/
-  github: https://www.github.com/justinhartman
-  instagram: https://www.instagram.com/justin.hartman/
-  linkedin: https://www.linkedin.com/in/justinhartman
-  pinterest: https://za.pinterest.com/iamjustinhartman/
-  twitter: https://twitter.com/justinhartman
-  stackoverflow: https://stackoverflow.com/users/1322242/justinhartman
-disqus: justin-hartman
-google_analytics: UA-100937492-4
-baseurl: 
-permalink: "/:title/"
+  facebook                    : https://www.facebook.com/justin.hartman.me
+  flickr                      : https://www.flickr.com/photos/justinhartman/
+  github                      : https://www.github.com/justinhartman
+  instagram                   : https://www.instagram.com/justin.hartman/
+  linkedin                    : https://www.linkedin.com/in/justinhartman
+  pinterest                   : https://za.pinterest.com/iamjustinhartman/
+  twitter                     : https://twitter.com/justinhartman
+  stackoverflow               : https://stackoverflow.com/users/1322242/justinhartman
+# Basic site structure / setup
+url                           : "http://justin.hartman.me"
+baseurl                       : 
+permalink                     : "/:title/"
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+  input                       : GFM
+  syntax_highlighter          : rouge
   syntax_highlighter_opts:
-    css_class: highlight
+    css_class                 : highlight
 exclude:
-- Gemfile
-- Gemfile.lock
-- README.md
-- LICENSE.md
-- CNAME
-url: "http://justin.hartman.me"
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.md
+  - CNAME
+  - TODO
+  - docs
+  - justin.hartman.me.sublime-project
+  - justin.hartman.me.sublime-workspace
+# Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-last-modified-at
+# Theme configuration
+theme                         : minimal-mistakes-jekyll
+minimal_mistakes_skin         : "justin" # (contrast or neon. justin is based off contrast)
+locale                        : "en-GB"
+title                         : "Justin Hartman"
+title_separator               : "-"
+name                          : "Justin Hartman"
+description                   : "Justin Hartman is a South African entreprenuer who has been growing and innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary."
+repository                    : justinhartman/minimal-mistakes
+# Default settings for posts and pages
+teaser                        : "/assets/images/general/580x300.jpg"
+breadcrumbs                   : true
+defaults:
+  - scope:
+      path                    : ""
+      type                    : posts
+    values:
+      read_time               : true
+      comments                : true
+      layout                  : single
+      author_profile          : true
+      share                   : true
+      related                 : true
+      toc                     : true
+      toc_label               : "On this Page"
+      toc_icon                : bookmark
+  - scope:
+      path                    : ""
+      type                    : pages
+    values:
+      layout                  : single
+      comments                : false
+      author_profile          : true
+      read_time               : true
+      share                   : false
+      toc                     : false
+      toc_label               : "On this Page"
+      toc_icon                : bookmark
+words_per_minute              : 200
+# Archive Pages
+category_archive:
+  type                        : liquid
+  path                        : /categories/
+tag_archive:
+  type                        : liquid
+  path                        : /tags/
+# Comments
+comments:
+  provider                    : facebook # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  disqus:
+    shortname                 : justin-hartman
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                     : 112996658724332
+    num_posts                 : 5
+    colorscheme               : light # "light" (default), "dark"
+reCaptcha:
+  siteKey                     : 6LfjtkwUAAAAAEmkBKSJ1jsVlf6qKXPrqqjGgv1i
+  secret                      : 6LfjtkwUAAAAAPeJyxISYz8aFsbLM2Qt7ZmZXSGJ
+atom_feed:
+  path                        : /feed.xml
+# Search Config
+search                        : true
+search_full_content           : true
+search_provider               : lunr # lunr (default), algolia
+# SEO Related
+google_site_verification      :
+bing_site_verification        :
+yandex_site_verification      :
+naver_site_verification       :
+# Social Sharing
+twitter:
+  username                    : justinhartman
+facebook:
+  username                    : justin.hartman.me
+  app_id                      : 112996658724332
+  publisher                   : Justin Hartman
+og_image                      : "/assets/images/general/justin-hartman.jpeg"
+social:
+  type                        : Person
+  name                        : Justin Hartman
+  links: 
+  - https://www.facebook.com/justin.hartman.me
+  - https://www.flickr.com/photos/justinhartman
+  - https://www.github.com/justinhartman
+  - https://www.instagram.com/justin.hartman/
+  - https://www.linkedin.com/in/justinhartman
+  - https://za.pinterest.com/iamjustinhartman
+  - https://twitter.com/justinhartman
+  - https://stackoverflow.com/users/1322242/justinhartman
+# Analytics
+analytics:
+  provider                    : google # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id               : UA-100937492-4
+# Site Author
+author:
+  name                        : "Justin Hartman"
+  avatar                      : "/assets/images/general/justin-hartman.jpeg"
+  bio                         : "Justin Hartman is a South African entreprenuer who has been innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary."
+  location                    : "South Africa"
+  email                       : justin@hartman.me
+  uri                         : http://justin.hartman.me
+  home                        : / # null (default), "absolute or relative url to link to author home"
+  # bitbucket                 : justinhartman
+  codepen                     : 
+  flickr                      : justinhartman
+  facebook                    : justin.hartman.me
+  github                      : justinhartman
+  # google_plus               : iamjustinhartman
+  instagram                   : justin.hartman
+  linkedin                    : justinhartman

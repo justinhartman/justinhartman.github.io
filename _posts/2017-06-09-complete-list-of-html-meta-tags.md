@@ -1,51 +1,33 @@
 ---
 title: Complete List Of Html Meta Tags
-author: Justin Hartman
-image: '/images/posts/humans-txt.jpg'
+header:
+  overlay_image: /assets/images/posts/meta-tag.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Photo by [**Pexels**](https://www.pexels.com/photo/coffee-cup-mug-apple-4159/)"
+  teaser: '/assets/images/posts/meta-tag_580x300.jpg'
+image: '/assets/images/posts/meta-tag_580x300.jpg'
+permalink: "/html/complete-list-of-html-meta-tags.html"
+published: true
 date: 2017-06-09 02:00:00 +02:00
+last_modified_at: 2018-03-14 19:21:00 +02:00
 description: Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
-permalink: "/html/complete-list-of-html-meta-tags/"
 categories:
 - html
-keywords:
-- html,
-- meta-tags,
-- opengraph,
-- google,
-- twitter,
-- facebook,
-- rails,
+tags:
+- html
+- meta-tags
+- opengraph
+- google
+- twitter
+- facebook
+- rails
 - windows 8
-layout: post
-published: true
-comments: on
 ---
+
 Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
 
-Know of any tags that have been omitted below? Please [send me an email][email] so that I can add them.
-
-## Table of Contents
-<!-- MarkdownTOC -->
-
-- [Basic HTML Meta Tags](#basic-html-meta-tags)
-- [OpenGraph Meta Tags](#opengraph-meta-tags)
-- [Create Custom Meta Tags](#create-custom-meta-tags)
-- [Company/Service Meta Tags](#companyservice-meta-tags)
-	- [ClaimID](#claimid)
-	- [Apple Meta Tags](#apple-meta-tags)
-		- [Safari 9 Pinned tabs in El Capitan](#safari-9-pinned-tabs-in-el-capitan)
-	- [Internet Explorer Meta Tags](#internet-explorer-meta-tags)
-	- [Windows 8 Meta Tags](#windows-8-meta-tags)
-	- [Google Meta Tags](#google-meta-tags)
-	- [Twitter Cards](#twitter-cards)
-	- [TweetMeme Meta Tags](#tweetmeme-meta-tags)
-	- [Blog Catalog Meta Tags](#blog-catalog-meta-tags)
-	- [Rails Meta Tags](#rails-meta-tags)
-- [HTML Link Tags](#html-link-tags)
-- [Other Resources](#other-resources)
-- [Contributors & Thanks](#contributors--thanks)
-
-<!-- /MarkdownTOC -->
+<a name="more"></a>
+Know of any tags that have been omitted below? Please [open a support request][support] so that I can add them.
 
 ## Basic HTML Meta Tags
 
@@ -336,7 +318,10 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 
 This list was originally [published here][original] and created by [Lance Pollard][lance]. I found additional tags which were created by [Kevin Suttle][kevin] and have merged Lance, Kevin and my additions to one document and will continue to update as needed.
 
-[email]: justin@hartman.me
+The photo used in the post is credited to [jamesosborne][pic-credit].
+
+[support]: https://github.com/justinhartman/justinhartman.github.io/issues/new
 [original]: http://code.lancepollard.com/complete-list-of-html-meta-tags/
 [lance]: https://gist.github.com/lancejpollard
 [kevin]: https://gist.github.com/kevinSuttle
+[pic-credit]: https://pixabay.com/en/code-html-digital-coding-web-1076536/

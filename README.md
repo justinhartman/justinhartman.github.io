@@ -1,35 +1,24 @@
-# Project
+# justin.hartman.me
+This repo contains the source code that runs my personal site @ [justin.hartman.me][site]. 
 
-# Description
+## Credits
 
-# Usage
-
-# Contributing
-
-# Credits
-
-# License
-
-# This is the data for my blog
-
-It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll)
-into a static site whenever I push this repository to GitHub.
-
-I was tired of having my blog posts end up in a database off on some remote
-server. That is backwards. I've lost valuable posts that way. I want to author
-my posts locally in Textile or Markdown. My blog should be easily stylable and
-customizable any way I please. It should take care of creating a feed for me.
-And most of all, my site should be stored on GitHub so that I never lose data
-again.
+* Jekyll: [jekyllrb.com](https://jekyllrb.com)
+* Minimal Mistakes: [minimal-mistakes-jekyll-theme](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/)
 
 ## License
 
-The following directories and their contents are Copyright Tom Preston-Werner.
-You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright &copy; 2007-2018 <a rel="author" href="http://justin.hartman.me">Justin Hartman</a> and are licensed under a <a rel="license external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
 
-* \_posts/
-* images/
+If you do plan on re-using any of the work contained within in these folders please [send me an email][email] or [open an issue request][issue] informing me of how and where you plan to re-use my content.
 
-All other directories and files are MIT Licensed. Feel free to use the HTML and
-CSS as you please. If you do use them, a link back to
-http://github.com/mojombo/jekyll would be appreciated, but is not required.
+* `_drafts/`
+* `_posts/`
+* `_pages/`
+* `assets/`
+
+All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please.
+
+[site]: http://justin.hartman.me
+[email]: mailto:justin@hartman.me?subject=Content+Attribution
+[issue]: https://github.com/justinhartman/justinhartman.github.io/issues/new

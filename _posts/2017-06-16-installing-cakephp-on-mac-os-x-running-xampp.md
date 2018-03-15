@@ -1,22 +1,25 @@
 ---
 title: Installing CakePHP on Mac OS X running XAMPP
-author: Justin Hartman
-image: '/images/posts/humans-txt.jpg'
+header:
+  overlay_image: /assets/images/posts/cakephp.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Photo by [**Pexels**](https://www.pexels.com/photo/coffee-cup-mug-apple-4159/)"
+  teaser: '/assets/images/posts/cakephp_580x300.jpg'
+image: '/assets/images/posts/cakephp_580x300.jpg'
+permalink: "/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp.html"
+published: true
 date: 2017-06-16 01:21:00 +02:00
+last_modified_at: 2018-03-15 02:18:00 +02:00
 description: The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.
-permalink: "/php/cakephp/installing-cakephp-on-mac-os-x-running-xampp/"
 categories:
 - php
 - cakephp
-keywords:
-- cakephp,
-- php,
-- composer,
-- macos,
+tags:
+- cakephp
+- php
+- composer
+- macos
 - xampp
-layout: post
-published: true
-comments: on
 ---
 The following Howto will install [CakePHP](http://cakephp.com) and get you up and running using [XAMPP](http:///xampp.com) on Mac OS X 10.7.5+.
 
@@ -25,19 +28,6 @@ This guide is a series of terminal commands that will:
  1. Install the latest version of Composer.
  2. Move the `composer phar` file to the XAMPP `bin` directory.
  3. Install the latest version of CakePHP.
-
-## Table of Contents
-<!-- MarkdownTOC -->
-
-- [Minimum Requirements](#minimum-requirements)
-- [Getting Composer](#getting-composer)
-    - [Download and Build](#download-and-build)
-    - [Moving things around](#moving-things-around)
-- [Setting up a CakePHP project](#setting-up-a-cakephp-project)
-    - [Working Directory](#working-directory)
-    - [Install CakePHP](#install-cakephp)
-
-<!-- /MarkdownTOC -->
 
 ## Minimum Requirements
 I have successfully tested the installation using the following package versions:

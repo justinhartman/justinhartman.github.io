@@ -1,35 +1,26 @@
 ---
 title: Create a humans.txt file with a Last Updated timestamp in Jekyll
-author: Justin Hartman
-image: '/images/posts/humans-txt.jpg'
+header:
+  overlay_image: /assets/images/posts/humans-txt_main.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Photo by [**Startup Stock Photos from Pexels**](https://www.pexels.com/photo/man-wearing-black-and-white-stripe-shirt-looking-at-white-printer-papers-on-the-wall-212286/)"
+  teaser: '/assets/images/posts/humans-txt_580x300.jpg'
+image: '/assets/images/posts/humans-txt_580x300.jpg'
+permalink: '/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll.html'
+published: true
 date: 2017-06-23 11:35:00 +02:00
+last_modified_at: 2018-03-13 19:54:00 +02:00
 description: I wanted to create a humans.txt file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again. 
-permalink: '/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll/'
 categories:
 - jekyll
-keywords:
-- jekyll,
-- humans.txt,
+tags:
+- jekyll
+- humans.txt
 - automation
-layout: post
-published: true
-comments: on
 ---
 I wanted to create a [humans.txt][humans] file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again.
 
 ![Humans.txt][image]
-
-## Table of Contents
-<!-- MarkdownTOC -->
-
-- [Create a new Jekyll template](#create-a-new-jekyll-template)
-- [Create Humans Markdown file](#create-humans-markdown-file)
-- [Linking your template and define a permalink](#linking-your-template-and-define-a-permalink)
-- [Adding the meta-tag to your template](#adding-the-meta-tag-to-your-template)
-- [Give it a whirl](#give-it-a-whirl)
-- [Support](#support)
-
-<!-- /MarkdownTOC -->
 
 [Click here][my-humans] to see my `humans.txt` file. The below is what I did to get it to work and conform to standards.
 
@@ -38,9 +29,13 @@ For this to work you need to create a template so that when the file is accessed
 
 * Create a new file in `/_layouts/`
 * Inside this file, paste the following code:
-```html
+
+{% highlight ruby %}
+{% raw %}
 {{ content | strip_html }}
-```
+{% endraw %}
+{% endhighlight %}
+
 * Save the file as `/_layouts/humans.html`
 
 What you have done is create a completely new template that will only output the content and ignore any template files you may have. 
@@ -68,10 +63,10 @@ I have more in [my file][my-humans] but add what you feel is necessary for yours
     Doctype: HTML5
     IDE: Sublime Text 3, Github Pages, Jekyll
 ```
-The `Last update` field is where we use Jekyll's Liquid variable `{{ site.time }}`. Copy and paste `{{ site.time }}` next to the `Last update:` field so that your Markdown includes the tag and ends up looking like this:
+The `Last update` field is where we use Jekyll's Liquid variable `{% raw %}{{ site.time }}{% endraw %}`. Copy and paste `{% raw %}{{ site.time }}{% endraw %}` next to the `Last update:` field so that your Markdown includes the tag and ends up looking like this:
 ```
 /* SITE */
-    Last update: {{ site.time }}
+    Last update: {% raw %}{{ site.time }}{% endraw %}
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Github Pages, Jekyll
@@ -100,7 +95,7 @@ permalink: '/humans.txt'
     From: The country you live in
 
 /* SITE */
-    Last update: {{ site.time }}
+    Last update: {% raw %}{{ site.time }}{% endraw %}
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Github Pages, Jekyll
@@ -112,16 +107,16 @@ The final step is to add a valid meta-tag to your `<head>` section in your main 
 
 Add the following line to your template:
 ```html
-<link rel='author' href='humans.txt' type='text/plain'>
+<link rel='author' href='/humans.txt' type='text/plain'>
 ```
-
 If you aren't sure where to put this meta-tag look for the structure similar to the below example which is in your template.
 ```html
 <head>
-    <title></title>
+    <title>My Jekyll Site</title>
     <meta name="description" content="" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <link rel='author' href='/humans.txt' type='text/plain'>
 </head>
 ```
 
@@ -134,6 +129,5 @@ If you need any help, found a bug or to report any issues please [click here][su
 [my-humans]: /humans.txt
 [humans]: http://humanstxt.org
 [standard]: http://humanstxt.org/Standard.html
-[support]: https://github.com/justinhartman/howto/issues/new
-[image]: /images/posts/humans-txt.jpg
-
+[support]: https://github.com/justinhartman/justinhartman.github.io/issues/new
+[image]: /assets/images/posts/humans-txt.jpg
