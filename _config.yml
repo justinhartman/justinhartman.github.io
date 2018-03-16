@@ -40,9 +40,15 @@ exclude:
   - justin.hartman.me.sublime-workspace
 # Plugins
 plugins:
-  - jekyll-sitemap
-  - jekyll-feed
   - jekyll-last-modified-at
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-avatar
+  - jemoji
+  - jekyll-mentions
+  - jekyll-include-cache
 # Theme configuration
 theme                         : minimal-mistakes-jekyll
 minimal_mistakes_skin         : "justin" # (contrast or neon. justin is based off contrast)
@@ -133,6 +139,7 @@ social:
   - https://za.pinterest.com/iamjustinhartman
   - https://twitter.com/justinhartman
   - https://stackoverflow.com/users/1322242/justinhartman
+  - https://plus.google.com/115788405127011300666
 # Analytics
 analytics:
   provider                    : google # false (default), "google", "google-universal", "google-gtag", "custom"
@@ -152,6 +159,6 @@ author:
   flickr                      : justinhartman
   facebook                    : justin.hartman.me
   github                      : justinhartman
-  # google_plus               : iamjustinhartman
+  google_plus                 : 115788405127011300666
   instagram                   : justin.hartman
   linkedin                    : justinhartman
