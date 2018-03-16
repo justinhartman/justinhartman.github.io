@@ -1,5 +1,7 @@
 ---
 title: Introducing the Diceware Password Generator
+toc: false
+classes: wide
 header:
   overlay_image: /assets/images/posts/diceware-password-generator-1200.jpg
   overlay_filter: rgba(0, 0, 0, 0.5)
@@ -22,8 +24,6 @@ tags:
 - security
 - online security
 - free software
-toc: false
-class: wide
 ---
 I have a problem with passwords. I take them very seriously and for at least the last 10 years I have been using some type of password manager to manage all my passwords and other critical, personal information.
 

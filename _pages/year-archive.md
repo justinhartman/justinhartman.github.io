@@ -1,14 +1,16 @@
 ---
 layout: archive
-class: wide
+classes: wide
 permalink: /year-archive/
-title: "Posts by Year"
-author_profile: true
+title: "Recent Articles"
+author_profile: false
 ---
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
 {% for year in postsByYear %}
   <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
+<div class="grid__wrapper">
   {% for post in year.items %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
+</div>
 {% endfor %}
