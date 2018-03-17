@@ -1,11 +1,11 @@
-# justin.hartman.me
+# Justin Hartman Website
 This repo contains the source code that runs my personal site @ [justin.hartman.me][site]. 
 
 ## Credits
 
 * Jekyll: [jekyllrb.com][jekyll]
 * Minimal Mistakes: [minimal-mistakes-jekyll-theme][mm]
-* @mmistakes has created a truly magnificent theme and to be honest, it inspired me to really put effort into my site. Without this theme I fear I would still be without a site. Thank you @mmistakes.
+* [@mmistakes][mmistakes] has created a truly magnificent theme and to be honest, it inspired me to really put effort into my site. Without this theme I fear I would still be without a site. Thank you [@mmistakes][mmistakes].
 
 ## License
 
@@ -26,3 +26,4 @@ All other directories and files are MIT Licensed. Feel free to use the HTML and 
 [issue]: https://github.com/justinhartman/justinhartman.github.io/issues/new
 [mm]: https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
 [jekyll]: https://jekyllrb.com
+[mmistakes]: https://github.com/mmistakes
