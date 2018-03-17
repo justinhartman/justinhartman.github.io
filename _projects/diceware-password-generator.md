@@ -43,10 +43,10 @@ I've often debated with myself around how to solve this problem. To remember a p
 
 And here is where the _Dicewear Password Generator (DPG)_ comes into play. DPG uses a world list and _"dice"_ to output an easy to remember password based on a sequence of words like `boots-imbecile-nextdoor-espresso-cosmetics-remote`. While this is a long password, it certainly can be memorised - and quickly.
 
-It turns out that not only is a password like `mumbo-giver-alarm-lived-gig-wages-exit` easy to memorise, it is over **100 times**<sup>[[1]](#footnote)</sup> more secure than this `%u}+6:~TY/(8uR[/vB` password.
+It turns out that not only is a password like `mumbo-giver-alarm-lived-gig-wages-exit` easy to memorise, it is over **100 times**<sup>[[1]](#footnote1)</sup> more secure than this `%u}+6:~TY/(8uR[/vB` password.
 
 ## About the Dicewear Methodology
-Diceware is a method for picking passphrases that uses dice to select words at random from a special list called the Diceware Word List. Each word in the list is preceded by a five digit number. All the digits are between one and six, allowing you to use the outcomes of five dice rolls to select a word from the list.
+Diceware is a method for picking passphrases that uses dice to select words at random from a special list called the Diceware Word List. Each word in the list is preceded by a five digit number. All the digits are between one and six, allowing you to use the outcomes of five dice rolls to select a word from the list<sup>[[2]](#footnote2)</sup>.
 
 Here is a short excerpt from a Diceware word list:
 ```text
@@ -205,8 +205,11 @@ This doesn't change the copyright or license of the original Dicewear software a
 
 ---
 
-<a name="footnote"><sup>[1]</sup></a> I don't actually know if this is accurate but it sounds impressive. Whether accurate or not, the DPG creates passwords that are extremely secure all thanks to entropy.
+<a name="footnote1"><sup>[1]</sup></a> I don't actually know if this is accurate but it sounds impressive. Whether accurate or not, the DPG creates passwords that are extremely secure all thanks to entropy.
 {: .notice--info}
+
+<a name="footnote2"><sup>[2]</sup></a> This is accurate for the original word list created by Arnold G. Reinhold as well as the long word list supplied by the EFF. The other shorter word lists are not all between one and six digits nor are they necessarily preceded by a five digit number.
+{: .notice--danger}
 
 [dice_home]: http://www.diceware.com
 [eff]: https://www.eff.org/dice
