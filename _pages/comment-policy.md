@@ -1,19 +1,16 @@
 ---
 title: Comment Policy
 classes: wide
-image: '/images/posts/humans-txt.jpg'
+header:
+  overlay_image: /assets/images/pages/comment-policy.jpg
+  overlay_filter: rgba(0, 0, 0, 0.2)
+  caption: "Photo by [**Pexels**](https://www.pexels.com/photo/architecture-art-artwork-bench-206784/)"
+  teaser: '/assets/images/pages/comment-policy_580x300.jpg'
+excerpt: I would love to hear your views, opinions, questions and feedback on my site however there are a few simple ground rules that come into play when doing so.
 permalink: "/comment-policy.html"
 published: true
 date: 2018-03-04 20:33:00 +02:00
-last_modified_at: 2018-03-14 22:22:00 +02:00
-description: I would love to hear your views, opinions, questions and feedback on my site however there are a few simple ground rules that come into play when doing so.
-categories:
-- legal
-tags:
-- blog
-- comments
-- policy
-- rules
+last_modified_at: 2018-03-17 00:06:00 +02:00
 ---
 I would love to hear your views, opinions, questions and feedback on my site however there are a few simple ground rules that come into play when doing so.
 

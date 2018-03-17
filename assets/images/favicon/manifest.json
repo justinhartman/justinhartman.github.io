@@ -1,5 +1,13 @@
 {
 	"name": "Justin Hartman",
+	"short_name": "Justin Hartman",
+	"start_url": "/",
+	"dir": "auto",
+	"lang": "en-GB",
+	"theme_color": "#013366",
+	"background_color": "#013366",
+	"display": "fullscreen",
+	"orientation": "portrait-primary",
 	"icons": [
 		{
 			"src": "\/assets\/images\/favicon\/Icon-36.png",

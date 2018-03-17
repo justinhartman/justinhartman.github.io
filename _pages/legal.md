@@ -2,25 +2,16 @@
 title: Legal Notices
 toc: true
 header:
-  overlay_color: "#5e616c"
   overlay_image: /assets/images/pages/legal-notices.jpg
-  caption:
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  teaser: '/assets/images/pages/legal-notices_580x300.jpg'
+excerpt: The following legal notices are applicable to you as part of using this website. Each agreement is there mostly for your protection and I implore you to read through them to understand your rights.
 image: '/assets/images/pages/legal-notices.jpg'
 permalink: "/legal-notices.html"
 published: true
 date: 2018-03-14 19:25:00 +02:00
 last_modified_at: 2018-03-14 22:22:00 +02:00
 description: The following legal notices are applicable to you as part of using this website. Each agreement is there mostly for your protection and I implore you to read through them to understand your rights.
-categories:
-- legal
-tags:
-- legal
-- comment policy
-- disclosure
-- policies
-- privacy policy
-- terms and conditions
-- cookies
 ---
 As much as I like to believe we live in an altruistic world where hand-shakes and _your word_ still meant something; sadly this just isn't the case any more.
 
