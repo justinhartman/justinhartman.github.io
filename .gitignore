@@ -5,6 +5,7 @@
 _site/
 docs/
 .jekyll-metadata
+.sass-cache
 
 ### Pixelmator Templates ###
 image-template-with-backgrounds.pxm
