@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Projects that keep me out of trouble"
+permalink: /projects/
+author_profile: true
+classes: wide
+header:
+  overlay_image: /assets/images/pages/projects.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Photo by [**Startup Stock Photos from Pexels**](https://www.pexels.com/photo/schedule-planning-startup-launching-7376/)"
+  teaser: '/assets/images/pages/projects_580x300.jpg'
+excerpt: It all started in a garage. Literally. These days I still find myself hacking away in my private space, looking to change the world. Here's some of my latest projects that inspire, create purpose and drive me closer to my ultimate goal.
+---
+<div class="grid__wrapper">
+  {% for post in site.projects %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>

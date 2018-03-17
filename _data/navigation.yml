@@ -2,5 +2,46 @@
 main:
   - title: "Posts"
     url: /year-archive/
+  - title: "Projects"
+    url: /projects/
+  - title: "Everything"
+    url: /everything/
   - title: "Legal"
     url: /legal-notices.html
+
+# Dicewear Sidebar Navigation
+dicewear-sidebar:
+  - title: Overview
+    url: "/projects/diceware-password-generator.html#diceware-password-generator"
+  - title: "Dicewear Methodology"
+    url: "/projects/diceware-password-generator.html#about-the-dicewear-methodology"
+  - title: "Installation"
+    url: "/projects/diceware-password-generator.html#installation"
+    children:
+      - title: "Clone and Download"
+        url: "/projects/diceware-password-generator.html#clone-repo-and-download-the-word-lists"
+  - title: "Usage"
+    url: "/projects/diceware-password-generator.html#usage"
+  - title: "Usage Examples"
+    url: "/projects/diceware-password-generator.html#usage-examples"
+    children:
+      - title: "Standard word list (no flag)"
+        url: "/projects/diceware-password-generator.html#standard-word-list-default-number-of-words-no-flag"
+      - title: "Standard word list (with flag)"
+        url: "/projects/diceware-password-generator.html#standard-word-list-requesting-4-words-with-flag"
+      - title: "Vorvig word list"
+        url: "/projects/diceware-password-generator.html#vorvig-word-list"
+      - title: "Short, memorable word list"
+        url: "/projects/diceware-password-generator.html#short-memorable-word-list"
+      - title: "Short, experimental word list"
+        url: "/projects/diceware-password-generator.html#short-experimental-word-list"
+      - title: "Beale Diceware word list"
+        url: "/projects/diceware-password-generator.html#arnold-reinholds-beale-diceware-word-list"
+  - title: "Known Bug"
+    url: "/projects/diceware-password-generator.html#known-bug"
+  - title: "License"
+    url: "/projects/diceware-password-generator.html#license"
+  - title: "Credits"
+    url: "/projects/diceware-password-generator.html#credits"
+  - title: "Links"
+    url: "/projects/diceware-password-generator.html#links"

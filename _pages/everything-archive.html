@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "Everything I've created"
+permalink: /everything/
+author_profile: true
+classes: wide
+header:
+  overlay_image: /assets/images/pages/justin-hartman-google.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  teaser: '/assets/images/pages/justin-hartman-google_580x300.jpg'
+excerpt: Open Pandora's box and you'll find everything I've posted on this site. It aint Google but it's got everything you need below.
+---
+{% capture written_label %}'None'{% endcapture %}
+{% for collection in site.collections %}
+  {% unless collection.output == false or collection.label == "pages" %}
+    {% capture label %}{{ collection.label }}{% endcapture %}
+    {% if label != written_label %}
+      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
+      {% capture written_label %}{{ label }}{% endcapture %}
+    {% endif %}
+  {% endunless %}
+  {% for post in collection.docs %}
+    {% unless collection.output == false or collection.label == "pages" %}
+      {% include archive-single.html %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% include paginator.html %}
