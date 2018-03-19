@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Technical HOWTOs"
+permalink: /technical/
+redirect_from:
+  - /html/
+  - /php/
+  - /jekyll/
+author_profile: true
+classes: wide
+header:
+  overlay_image: /assets/images/pages/technical.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Photo by [**Startup Stock Photos from Pexels**](https://www.pexels.com/photo/schedule-planning-startup-launching-7376/)"
+  teaser: '/assets/images/pages/technical_580x300.jpg'
+excerpt: This collection of HOWTOs covers posts relating to development, technology, servers, linux, macos and anything else that falls within the technical landscape.
+---
+<div class="grid__wrapper">
+    <h1 id="technical" class="archive__subtitle">Technical</h1>
+  {% for post in site.technical %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>

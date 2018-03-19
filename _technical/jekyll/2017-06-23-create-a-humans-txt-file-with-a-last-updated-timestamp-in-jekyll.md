@@ -6,17 +6,22 @@ header:
   caption: "Photo by [**Startup Stock Photos from Pexels**](https://www.pexels.com/photo/man-wearing-black-and-white-stripe-shirt-looking-at-white-printer-papers-on-the-wall-212286/)"
   teaser: '/assets/images/posts/humans-txt_580x300.jpg'
 image: '/assets/images/posts/humans-txt_580x300.jpg'
-permalink: '/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll.html'
+permalink: '/technical/jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll.html'
+redirect_from:
+  - /jekyll/create-a-humans-txt-file-with-a-last-updated-timestamp-in-jekyll.html
 published: true
 date: 2017-06-23 11:35:00 +02:00
-last_modified_at: 2018-03-13 19:54:00 +02:00
 description: I wanted to create a humans.txt file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again. 
+excerpt: I wanted to create a humans.txt file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again. 
 categories:
 - jekyll
+- technical
 tags:
 - jekyll
 - humans.txt
 - automation
+- technical
+- howto
 ---
 I wanted to create a [humans.txt][humans] file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again.
 

@@ -9,8 +9,8 @@ image: '/assets/images/posts/meta-tag_580x300.jpg'
 permalink: "/html/complete-list-of-html-meta-tags.html"
 published: true
 date: 2017-06-09 02:00:00 +02:00
-last_modified_at: 2018-03-14 19:21:00 +02:00
-description: Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
+excerpt: blah blah
+description: blah blah
 categories:
 - html
 tags:
@@ -23,9 +23,7 @@ tags:
 - rails
 - windows 8
 ---
-
-OVERVIEW OR INTRO TEXT MUST GO HERE BEFORE THE TABLE OF CONTENTS.
-
+# Complete List Of Html Meta Tags
 
 ## Page Migration
 This page first appeared on the [original Debian Wiki][history] which was created over a decade ago.

@@ -1,16 +1,20 @@
 # Main Top Navigation
 main:
-  - title: "Posts"
-    url: /year-archive/
+  - title: "Life"
+    url: /life/
   - title: "Projects"
     url: /projects/
+  - title: "Technical"
+    url: /technical/
+  - title: "Linux"
+    url: /linux/
   - title: "Everything"
     url: /everything/
   - title: "Legal"
     url: /legal-notices.html
 
-# Dicewear Sidebar Navigation
-dicewear-sidebar:
+# Dicewear Sidebar
+dicewear:
   - title: Overview
     url: "/projects/diceware-password-generator.html#diceware-password-generator"
   - title: "Dicewear Methodology"
@@ -25,6 +29,8 @@ dicewear-sidebar:
   - title: "Usage Examples"
     url: "/projects/diceware-password-generator.html#usage-examples"
     children:
+      - title: "No Options"
+        url: "/projects/diceware-password-generator.html#no-options"
       - title: "Standard word list (no flag)"
         url: "/projects/diceware-password-generator.html#standard-word-list-default-number-of-words-no-flag"
       - title: "Standard word list (with flag)"
@@ -36,12 +42,25 @@ dicewear-sidebar:
       - title: "Short, experimental word list"
         url: "/projects/diceware-password-generator.html#short-experimental-word-list"
       - title: "Beale Diceware word list"
-        url: "/projects/diceware-password-generator.html#arnold-reinholds-beale-diceware-word-list"
+        url: "/projects/diceware-password-generator.html#beale-diceware-word-list"
   - title: "Known Bug"
     url: "/projects/diceware-password-generator.html#known-bug"
   - title: "License"
     url: "/projects/diceware-password-generator.html#license"
+  - title: "Release Notes"
+    url: "/projects/diceware-password-generator.html#release-notes"
   - title: "Credits"
     url: "/projects/diceware-password-generator.html#credits"
   - title: "Links"
     url: "/projects/diceware-password-generator.html#links"
+
+# Dicewear Release Notes
+dicewear-release-notes:
+  - title: Overview
+    url: "/projects/dicewear-password-generator-release-notes.html#release-notes"
+  - title: v1.0.2
+    url: "/projects/dicewear-password-generator-release-notes.html#v102"
+  - title: v1.0.1
+    url: "/projects/dicewear-password-generator-release-notes.html#v101"
+  - title: v1.0.0
+    url: "/projects/dicewear-password-generator-release-notes.html#v100"

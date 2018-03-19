@@ -13,6 +13,14 @@ collections:
     title                     : Projects
     output                    : true
     permalink                 : /:collection/:path/:title
+  linux:
+    title                     : Linux
+    output                    : true
+    permalink                 : /:collection/:path/:title
+  technical:
+    title                     : Technical
+    output                    : true
+    permalink                 : /:collection/:path/:title
 # Basic site structure / setup
 kramdown:
   input                       : GFM
@@ -90,6 +98,32 @@ defaults:
       read_time               : true
       share                   : true
       toc                     : false
+      related                 : true
+  - scope:
+      path                    : ""
+      type                    : linux
+    values:
+      layout                  : single
+      comments                : true
+      author_profile          : true
+      read_time               : true
+      share                   : true
+      toc                     : true
+      toc_label               : "On this Page"
+      toc_icon                : bookmark
+      related                 : true
+  - scope:
+      path                    : ""
+      type                    : technical
+    values:
+      layout                  : single
+      comments                : true
+      author_profile          : true
+      read_time               : true
+      share                   : true
+      toc                     : true
+      toc_label               : "On this Page"
+      toc_icon                : bookmark
       related                 : true
 words_per_minute              : 200
 # Archive Pages
@@ -169,13 +203,4 @@ author:
   # google_plus               : 115788405127011300666
   instagram                   : justin.hartman
   linkedin                    : justinhartman
-# Retaining author links from old theme
-author_links:
-  facebook                    : https://www.facebook.com/justin.hartman.me
-  flickr                      : https://www.flickr.com/photos/justinhartman/
-  github                      : https://www.github.com/justinhartman
-  instagram                   : https://www.instagram.com/justin.hartman/
-  linkedin                    : https://www.linkedin.com/in/justinhartman
-  pinterest                   : https://za.pinterest.com/iamjustinhartman/
-  twitter                     : https://twitter.com/justinhartman
-  stackoverflow               : https://stackoverflow.com/users/1322242/justinhartman
+  twitter                     : justinhartman

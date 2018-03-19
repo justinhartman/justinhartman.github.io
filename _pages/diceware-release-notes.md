@@ -1,0 +1,43 @@
+---
+title: Diceware Password Generator Release Notes
+permalink: /projects/dicewear-password-generator-release-notes.html
+header:
+  overlay_image: /assets/images/posts/diceware-password-generator-1200.jpg
+  overlay_filter: rgba(0, 0, 0, 0.65)
+  caption: "Photo by [**Pexels**](https://www.pexels.com/photo/6-pieces-of-black-and-white-dice-37534/)"
+  cta_label: "<i class='fas fa-angle-double-right'></i>  Read More"
+  cta_url: "/projects/diceware-password-generator.html"
+excerpt: 'This is a dedicated page which documents the changes made to the Diceware Password Generator as well as all the release notes for the software. You can read more about the project itself by clicking the _Read More_ button below.'
+author_profile: false
+sidebar:
+  nav: "dicewear-release-notes"
+published: true
+date: 2018-03-19 15:50:54 +02:00
+---
+# Release Notes
+This is a dedicated page which documents the changes made to the [Diceware Password Generator][diceware] as well as all the release notes for the software. 
+
+## v1.0.2
+Release Date: 19 March 2018
+
+- Expanded on `-h` option to include `--help` as a flag.
+- Fixed default option so you can just run `$ ./passphrase` without any options and it will return 5 words from the default list.
+- Added license to `download-words`.
+- Printed out more meaningful help when there's an exception when running the script.
+
+## v1.0.1
+Release Date: 18 March 2018
+
+- Minor changes to the output of the command line options.
+- Minor visual update to the License file.
+
+## v1.0.0
+Release Date: 15 March 2018
+
+- First major release since working on the project.
+- Re-factored the original source code to incorporate:
+    + 5 word list dictionaries.
+    + Flags for options as part of the command execution.
+- New license; public domain.
+
+[diceware]: /projects/diceware-password-generator.html

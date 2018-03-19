@@ -1,12 +1,11 @@
 ---
 title: Diceware Password Generator
-layout: single
 permalink: /projects/diceware-password-generator.html
 redirect_from:
   - /python/introducing-the-diceware-password-generator.html
   - /diceware-password-generator/
 sidebar:
-  nav: "dicewear-sidebar"
+  nav: "dicewear"
 header:
   overlay_image: /assets/images/posts/diceware-password-generator-1200.jpg
   overlay_filter: rgba(0, 0, 0, 0.5)
@@ -19,9 +18,8 @@ header:
 image: '/assets/images/posts/diceware-password-generator_580x300.jpg'
 published: true
 date: 2018-03-16 21:12:00 +02:00
-last_modified_at: 2018-03-16 21:12:00 +02:00
 excerpt: The Dicewear Password Generator is open-source software I wrote in Python that uses a world list and "dice" to output an easy to remember, yet highly secure password based on a sequence of words.
-description: The Dicewear Password Generator is open-source software I wrote in Python that uses a world list and “dice” to output an easy to remember, yet highly secure password based on a sequence of words.
+description: The Dicewear Password Generator is open-source software I wrote in Python that uses a world list and "dice" to output an easy to remember, yet highly secure password based on a sequence of words.
 categories:
 - python
 tags:
@@ -69,7 +67,6 @@ For most uses, generating a six-word passphrase with a long list is recommended,
 
 Passphrases generated using shorter lists will be weaker than the long list on a per-word basis (10.3 bits/word). Put another way, this means you would need to choose more words from the short list, to get comparable security to the long list — for example, using eight words from the short will provide a strength of about 82 bits, slightly stronger than six words from a long list.
 
-
 ## Installation
 
 ### Clone Repo and Download the Word Lists
@@ -95,25 +92,45 @@ $ cd ~/diceware
 $ chmod +x passphrase
 $ ./passphrase -h
 ```
-The `-h`, or `--help` flag will output all the available commands:
-```terminal
-Usage: ./passphrase [options] [-n] <number of words>
--w, --words     Standard word list (default)
+The `-h`, or `--help` flag will output all the available options:
+```bash
+# Version: diceware-password-generator 1.0.1
+# Release Date: 18 March 2018
+# Project: https://justin.hartman.me/projects/diceware-password-generator.html
+#
+# The author disclaims copyright to this source code. In place of
+# a legal notice, here is a blessing:
+#
+#   - May you do good and not evil.
+#   - May you find forgiveness for yourself and forgive others.
+#   - May you share freely, never taking more than you give.
+#
+Usage: $ ./passphrase [options] [-n] <number of words>
+Options:
+-w, --words     Standard word list (default list)
 -v, --vorvig    Vorvig word list
 -s, --short     Short, memorable word list
 -e, --edit      Short, editable word list. Experimental.
--b, --beale     Arnold Reinhold's Beale Diceware word list.
+-b, --beale     Beale Diceware word list.
 --------------------------------------------------------
 -n, --number    Input an integer for the number of words
                 you want generated for your passphrase.
+
+Example: $ ./passphrase --words -n 4
 ```
 Each word list has its own flag (e.g. `-v` or `--vorvig`) so you can find the right word list to suit your requirements. Each one is different and you'll see why when you start generating passwords.
 
-Additionally, there is an _optional_ `-n` flag which is used to specify how many words you want the DPG to return back to you. For example you may want 4 long words (`-n 4`) or 6 shorter words (`-n 6`) and changing the integer value after the `-n` flag will return the number you requested. If you omit the flag entirely, the DPG will default to 5 numbers of words returned to you to.
+Additionally, there is an _optional_ `-n` flag which is used to specify how many words you want the DPG to return back to you. For example you may want 4 long words (`-n 4`) or 6 shorter words (`-n 6`) and changing the integer value after the `-n` flag will return the number you requested. If you omit the flag entirely, the DPG will default to 5 words returned to you to.
 
 ## Usage Examples
 The following examples use each of the various word lists and output a certain number of words as specified (or not) with the `-n` flag.
 
+### No Options
+```bash
+$ ./passphrase
+levers-glitter-basics-crate-livestock
+```
+Running this without any options will return 5 words from the standard word list.
 ### Standard word list, default number of words (no flag)
 ```bash
 $ ./passphrase -w
@@ -139,13 +156,14 @@ gong-pulse-life-outer-undo-start
 $ ./passphrase -e -n 6
 sainthood-gnomish-scenario-upkeep-pauper-sled
 ```
-### Arnold Reinhold's Beale Diceware word list
+### Beale Diceware word list
 ```bash
 $ ./passphrase -b -n 4
 wielder-oomph-mugshot-easel
 ```
 ## Known Bug
-If you run into issues with the `beale` word list whereby running `$ ./passphrase -b` or `$ ./passphrase --beale` returns the following error:
+You will most likely encounter the following error with the `beale` word list when running   
+`$ ./passphrase -b` or `$ ./passphrase --beale`:
 ```python
 Traceback (most recent call last):
   File "./passphrase", line 47, in <module>
@@ -154,7 +172,7 @@ Traceback (most recent call last):
     beale = [s.split()[1] for s in open(sys.path[0]+'/words-beale')]
 IndexError: list index out of range
 ```
-This is happening because the word list has been digitally signed and you need to remove the signed signature in order to get it to work correctly.
+This happens because the word list has been digitally signed and you need to remove the signed signature in order to get it to work correctly.
 ```bash
 $ cd ~/dicewear
 $ nano words-beale
@@ -182,17 +200,20 @@ This should resolve this issue.
 The original [Dicewear software][dicewear] is [Copyright &copy; 2018 Alexey Shamrin][mit] and is licensed under [The MIT License (MIT)][mit]. 
 
 I believe I've made substantial enough changes to the original source code that I am going to release this version of the software to the public domain. 
-```terminal
-(*
- * The author disclaims copyright to this source code. In place of
- * a legal notice, here is a blessing:
- *
- *    May you do good and not evil.
- *    May you find forgiveness for yourself and forgive others.
- *    May you share freely, never taking more than you give.
- *)
+```markdown
+#
+# The author disclaims copyright to this source code. In place of
+# a legal notice, here is a blessing:
+#
+#   - May you do good and not evil.
+#   - May you find forgiveness for yourself and forgive others.
+#   - May you share freely, never taking more than you give.
+#
 ```
 This doesn't change the copyright or license of the original Dicewear software and a [copy of the original source code][first_commit] are contained in the [first commit of this repo][first_commit].
+
+## Release Notes
+There is a [dedicated page][release_notes] which documents the changes made to the Diceware Password Generator as well as all the release notes for the software. You can view this page by [clicking here][release_notes].
 
 ## Credits
 - [Dicewear][dicewear] by [Alexey Shamrin][shamrin].
@@ -221,6 +242,7 @@ This doesn't change the copyright or license of the original Dicewear software a
 [beale]: http://world.std.com/%7Ereinhold/beale.wordlist.asc
 [mit]: https://github.com/shamrin/diceware/blob/master/LICENSE
 [dicewear]: https://github.com/shamrin/diceware
-[shamrin]: @shamrin
+[shamrin]: https://github.com/shamrin
 [first_commit]: https://github.com/justinhartman/diceware-password-generator/tree/95bdd32e12f0e77e24d9db2dc51d12ebd5bc299e
 [reinhold]: http://world.std.com/~reinhold/diceware.html
+[release_notes]: /projects/dicewear-password-generator-release-notes.html

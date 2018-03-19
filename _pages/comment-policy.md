@@ -10,7 +10,12 @@ excerpt: I would love to hear your views, opinions, questions and feedback on my
 permalink: "/comment-policy.html"
 published: true
 date: 2018-03-04 20:33:00 +02:00
-last_modified_at: 2018-03-17 00:06:00 +02:00
+categories:
+- legal
+tags:
+- legal 
+- comments 
+- policy 
 ---
 I would love to hear your views, opinions, questions and feedback on my site however there are a few simple ground rules that come into play when doing so.
 

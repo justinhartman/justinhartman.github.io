@@ -1,0 +1,25 @@
+---
+layout: archive
+title: "Debian & Ubuntu HOWTOs"
+permalink: /linux/
+redirect_from:
+  - /debian/
+  - /server/
+  - /mail-server/
+  - /lamp/
+  - /ubuntu/
+author_profile: true
+classes: wide
+header:
+  overlay_image: /assets/images/pages/linux.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Photo by [**Startup Stock Photos from Pexels**](https://www.pexels.com/photo/schedule-planning-startup-launching-7376/)"
+  teaser: '/assets/images/pages/linux_580x300.jpg'
+excerpt: Below are a collection of HOWTOs aimed specifically towards Debian and Ubuntu.
+---
+<div class="grid__wrapper">
+    <h1 id="linux" class="archive__subtitle">Linux</h1>
+  {% for post in site.linux %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>

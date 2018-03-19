@@ -10,7 +10,6 @@ image: '/assets/images/pages/legal-notices.jpg'
 permalink: "/legal-notices.html"
 published: true
 date: 2018-03-14 19:25:00 +02:00
-last_modified_at: 2018-03-14 22:22:00 +02:00
 description: The following legal notices are applicable to you as part of using this website. Each agreement is there mostly for your protection and I implore you to read through them to understand your rights.
 ---
 As much as I like to believe we live in an altruistic world where hand-shakes and _your word_ still meant something; sadly this just isn't the case any more.
@@ -18,7 +17,7 @@ As much as I like to believe we live in an altruistic world where hand-shakes an
 As such, the following legal notices are applicable to you as part of using this website. Each agreement is there mostly for your protection and I implore you to read through them to understand your rights.
 
 ## License
-All the content on this website is Copyright &copy; 2007-2018 <a rel="author" href="http://justin.hartman.me">Justin Hartman</a> and is licensed under a <a rel="license external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
+All the content on this website is Copyright &copy; 2005-2018 <a rel="author" href="http://justin.hartman.me">Justin Hartman</a> and is licensed under a <a rel="license external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
 
 This license gives you permission to re-use the content on this site along with attribution. If you do plan on re-using any of the work please [open a support request][support] informing me of how and where you plan to re-use my content.
 

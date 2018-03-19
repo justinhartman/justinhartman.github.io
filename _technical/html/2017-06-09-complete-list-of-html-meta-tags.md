@@ -6,13 +6,16 @@ header:
   caption: "Photo by [**Pexels**](https://www.pexels.com/photo/coffee-cup-mug-apple-4159/)"
   teaser: '/assets/images/posts/meta-tag_580x300.jpg'
 image: '/assets/images/posts/meta-tag_580x300.jpg'
-permalink: "/html/complete-list-of-html-meta-tags.html"
+permalink: "/technical/html/complete-list-of-html-meta-tags.html"
+redirect_from:
+  - /html/complete-list-of-html-meta-tags.html
 published: true
 date: 2017-06-09 02:00:00 +02:00
-last_modified_at: 2018-03-14 19:21:00 +02:00
 description: Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
+excerpt: Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
 categories:
 - html
+- technical
 tags:
 - html
 - meta-tags
@@ -22,8 +25,9 @@ tags:
 - facebook
 - rails
 - windows 8
+- technical
+- howto
 ---
-
 Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
 
 <a name="more"></a>
@@ -136,7 +140,7 @@ Use custom meta tags to store data that you need in JavaScript instead of hard-c
 
 ## Company/Service Meta Tags
 
-#### ClaimID
+### ClaimID
 
 ```html
 <meta name='microid' content='mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7'>
@@ -147,7 +151,7 @@ Use custom meta tags to store data that you need in JavaScript instead of hard-c
 <meta name='norton-safeweb-site-verification' content='tz8iotmk-pkhui406y41y5bfmfxdwmaa4a-yc0hm6r0fga7s6j0j27qmgqkmc7oovihzghbzhbdjk-uiyrz438nxsjdbj3fggwgl8oq2nf4ko8gi7j4z7t78kegbidl4'>
 ```
 
-#### Apple Meta Tags
+### Apple Meta Tags
 
 ```html
 <meta name="apple-mobile-web-app-title" content="My App"> <!-- New in iOS6 -->
@@ -167,13 +171,13 @@ Use custom meta tags to store data that you need in JavaScript instead of hard-c
 <link href='http://github.com/images/apple-touch-icon-57x57.png' sizes='57x57' rel='apple-touch-icon-precomposed'>
 ```
 
-##### Safari 9 Pinned tabs in El Capitan
+#### Safari 9 Pinned tabs in El Capitan
 
 ```html
 <link rel="mask-icon" href="website_icon.svg" color="red">
 ```
 
-#### Internet Explorer Meta Tags
+### Internet Explorer Meta Tags
 
 ```html
 <meta http-equiv='Page-Enter' content='RevealTrans(Duration=2.0,Transition=2)'>
@@ -193,7 +197,7 @@ Use custom meta tags to store data that you need in JavaScript instead of hard-c
 <meta http-equiv='cleartype' content='on'>
 ```
 
-#### Windows 8 Meta Tags
+### Windows 8 Meta Tags
 
 ```html
 <meta name="application-name" content=" Contoso" />
@@ -206,13 +210,13 @@ Use custom meta tags to store data that you need in JavaScript instead of hard-c
 polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml" />
 ```
 
-#### Google Meta Tags
+### Google Meta Tags
 
 ```html
 <meta name="news_keywords" content="World Cup, Brazil 2014, Spain vs Netherlands, soccer, football">
 ```
 
-#### Twitter Cards
+### Twitter Cards
 
 ```html
 <meta name="twitter:card" content="summary" />
@@ -244,19 +248,19 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 <meta name="twitter:app:url:googleplay" content="http://cannonball.fabric.io/poem/5149e249222f9e600a7540ef">
 ```
 
-#### TweetMeme Meta Tags
+### TweetMeme Meta Tags
 
 ```html
 <meta name='tweetmeme-title' content='Retweet Button Explained'>
 ```
 
-#### Blog Catalog Meta Tags
+### Blog Catalog Meta Tags
 
 ```html
 <meta name='blogcatalog'>
 ```
 
-#### Rails Meta Tags
+### Rails Meta Tags
 
 ```html
 <meta name='csrf-param' content='authenticity_token'>
