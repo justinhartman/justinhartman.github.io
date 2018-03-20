@@ -11,7 +11,7 @@ main:
   - title: "Everything"
     url: /everything/
   - title: "Legal"
-    url: /legal-notices.html
+    url: /legal/legal-notices.html
 
 # Dicewear Sidebar
 dicewear:

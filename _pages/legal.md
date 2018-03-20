@@ -7,7 +7,9 @@ header:
   teaser: '/assets/images/pages/legal-notices_580x300.jpg'
 excerpt: The following legal notices are applicable to you as part of using this website. Each agreement is there mostly for your protection and I implore you to read through them to understand your rights.
 image: '/assets/images/pages/legal-notices.jpg'
-permalink: "/legal-notices.html"
+permalink: "/legal/legal-notices.html"
+redirect_from:
+  - /legal-notices.html
 published: true
 date: 2018-03-14 19:25:00 +02:00
 description: The following legal notices are applicable to you as part of using this website. Each agreement is there mostly for your protection and I implore you to read through them to understand your rights.
@@ -28,11 +30,19 @@ By posting on my site you agree to certain ground rules and these can be found i
 
 ## Privacy Policy
 
-## Cookie Notice
+[My Privacy Policy][privacy] page informs you of my policies regarding the collection, use and disclosure of Personal Information I receive from users of the Site. I use your Personal Information only for providing and improving my website.
+
+## Cookies Policy
+
+[My Cookies Policy][cookie-policy] explains what cookies are, how I use cookies, how third-parties I may partner with may use cookies on my website, your choices regarding cookies and further information about cookies. 
 
 ## Terms and Conditions
 
+[My Terms and Conditions][terms] apply to all visitors, users and others who access or use my website. By accessing or using the website you agree to be bound by these Terms and Conditions. Please read through these Terms and Conditions carefully.
 
 [support]: https://github.com/justinhartman/justinhartman.github.io/issues/new
 [pic-credit]: https://www.pexels.com/photo/police-money-finance-funny-33596/
-[comment-policy]: /comment-policy.html
+[comment-policy]: /legal/comment-policy.html
+[cookie-policy]: /legal/cookies-policy.html
+[privacy]: /legal/privacy-policy.html
+[terms]: /legal/terms-and-conditions.html

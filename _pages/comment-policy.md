@@ -7,7 +7,9 @@ header:
   caption: "Photo by [**Pexels**](https://www.pexels.com/photo/architecture-art-artwork-bench-206784/)"
   teaser: '/assets/images/pages/comment-policy_580x300.jpg'
 excerpt: I would love to hear your views, opinions, questions and feedback on my site however there are a few simple ground rules that come into play when doing so.
-permalink: "/comment-policy.html"
+permalink: "/legal/comment-policy.html"
+redirect_from:
+  - /comment-policy.html
 published: true
 date: 2018-03-04 20:33:00 +02:00
 categories:
