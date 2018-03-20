@@ -1,6 +1,6 @@
 ---
 title: Diceware Password Generator Release Notes
-permalink: /projects/dicewear-password-generator-release-notes.html
+permalink: /projects/diceware-password-generator-release-notes.html
 header:
   overlay_image: /assets/images/posts/diceware-password-generator-1200.jpg
   overlay_filter: rgba(0, 0, 0, 0.65)
@@ -10,12 +10,20 @@ header:
 excerpt: 'This is a dedicated page which documents the changes made to the Diceware Password Generator as well as all the release notes for the software. You can read more about the project itself by clicking the _Read More_ button below.'
 author_profile: false
 sidebar:
-  nav: "dicewear-release-notes"
+  title: "Release Notes"
+  nav: "diceware-release-notes"
 published: true
 date: 2018-03-19 15:50:54 +02:00
 ---
 # Release Notes
 This is a dedicated page which documents the changes made to the [Diceware Password Generator][diceware] as well as all the release notes for the software. 
+
+## v1.0.3
+Release Date: 21 March 3018
+
+- Minor change to the output of the help section to include more examples by default.
+
+[Download v1.0.3][v103]{: .btn .btn--success}
 
 ## v1.0.2
 Release Date: 19 March 2018
@@ -25,11 +33,15 @@ Release Date: 19 March 2018
 - Added license to `download-words`.
 - Printed out more meaningful help when there's an exception when running the script.
 
+[Download v1.0.2][v102]{: .btn .btn--success}
+
 ## v1.0.1
 Release Date: 18 March 2018
 
 - Minor changes to the output of the command line options.
 - Minor visual update to the License file.
+
+[Download v1.0.1][v101]{: .btn .btn--success}
 
 ## v1.0.0
 Release Date: 15 March 2018
@@ -40,4 +52,10 @@ Release Date: 15 March 2018
     + Flags for options as part of the command execution.
 - New license; public domain.
 
+[Download v1.0.0][v100]{: .btn .btn--success}
+
 [diceware]: /projects/diceware-password-generator.html
+[v100]: https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.0
+[v101]: https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.1
+[v102]: https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.2
+[v103]: https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.3

@@ -55,12 +55,49 @@ dicewear:
     url: "/projects/diceware-password-generator.html#links"
 
 # Dicewear Release Notes
-dicewear-release-notes:
+diceware-release-notes:
   - title: Overview
-    url: "/projects/dicewear-password-generator-release-notes.html#release-notes"
+    url: "/projects/diceware-password-generator-release-notes.html#release-notes"
+  - title: v1.0.3
+    url: "/projects/diceware-password-generator-release-notes.html#v103"
   - title: v1.0.2
-    url: "/projects/dicewear-password-generator-release-notes.html#v102"
+    url: "/projects/diceware-password-generator-release-notes.html#v102"
   - title: v1.0.1
-    url: "/projects/dicewear-password-generator-release-notes.html#v101"
+    url: "/projects/diceware-password-generator-release-notes.html#v101"
   - title: v1.0.0
-    url: "/projects/dicewear-password-generator-release-notes.html#v100"
+    url: "/projects/diceware-password-generator-release-notes.html#v100"
+
+# Kitchen Sink
+kitchen:
+  - title: "Video Embed"
+    url: /kitchen-sink.html#responsive-video-embed
+    children:
+      - title: "YouTube"
+        url: /kitchen-sink.html#youtube
+      - title: "Vimeo"
+        url: /kitchen-sink.html#vimeo
+  - title: Footnotes
+    url: /kitchen-sink.html#footnotes
+  - title: Text Alignment
+    url: /kitchen-sink.html#text-alignment
+  - title: Figure
+    url: /kitchen-sink.html#figure
+  - title: Gallery
+    url: /kitchen-sink.html#gallery
+  - title: Feature Row
+    url: /kitchen-sink.html#feature-row
+  - title: Image Alignment
+    url: /kitchen-sink.html#image-alignment
+  - title: Buttons
+    url: /kitchen-sink.html#buttons
+  - title: Notices
+    url: /kitchen-sink.html#notices
+  - title: JavaScript
+    url: /kitchen-sink.html#javascript
+  - title: Octopress
+    url: /kitchen-sink.html#adding-content-with-octopress
+    children: 
+      - title: New Post
+        url: /kitchen-sink.html#new-post
+      - title: New Page
+        url: /kitchen-sink.html#new-page
