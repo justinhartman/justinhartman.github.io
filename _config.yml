@@ -53,7 +53,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-redirect-from
 # Theme configuration
-theme                         : minimal-mistakes-jekyll
+remote_theme                  : mmistakes/minimal-mistakes
 minimal_mistakes_skin         : "justin" # (contrast or neon. justin is based off contrast)
 locale                        : "en-GB"
 title                         : "Justin Hartman"
