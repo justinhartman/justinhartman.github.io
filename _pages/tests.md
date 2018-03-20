@@ -46,7 +46,7 @@ feature_row:
     alt: "Default image 2"
     title: "Default 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "/kitchen-sink.html"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/kitchen-sink/gallery-10-th.jpeg
