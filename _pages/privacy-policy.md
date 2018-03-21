@@ -72,4 +72,4 @@ If you have any questions about this Privacy Policy, [please contact me][github]
 [me]: https://justin.hartman.me
 [cookie-policy]: /legal/cookies-policy.html
 [github]: https://github.com/justinhartman/justinhartman.github.io/issues/new
-[github_privacy]: https://github.com/justinhartman/justinhartman.github.io/_pages/privacy-policy.md/revisions
+[github_privacy]: https://github.com/justinhartman/justinhartman.github.io/commits/master/_pages/privacy-policy.md

@@ -53,4 +53,4 @@ If you have any questions about these Terms and Conditions, [please contact me][
 
 [me]: https://justin.hartman.me
 [github]: https://github.com/justinhartman/justinhartman.github.io/issues/new
-[github_privacy]: https://github.com/justinhartman/justinhartman.github.io/_pages/terms-and-conditions.md/revisions
+[github_privacy]: https://github.com/justinhartman/justinhartman.github.io/commits/master/_pages/terms-and-conditions.md
