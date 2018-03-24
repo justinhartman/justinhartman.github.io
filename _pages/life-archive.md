@@ -14,7 +14,7 @@ header:
 excerpt: This is my space where I house a collection of personal blog posts which I've written over the years. Both current as well as older writings from my original blog are featured here below.
 ---
 <div class="grid__wrapper">
-    <h1 id="posts" class="archive__subtitle">Posts</h1>
+    <h1 id="posts" class="archive__subtitle">Life</h1>
   {% for post in site.posts %}
     {% include archive-single.html %}
   {% endfor %}

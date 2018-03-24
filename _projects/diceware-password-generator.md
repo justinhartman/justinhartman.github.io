@@ -248,4 +248,4 @@ There is a [dedicated page][release_notes] which documents the changes made to t
 [shamrin]: https://github.com/shamrin
 [first_commit]: https://github.com/justinhartman/diceware-password-generator/tree/95bdd32e12f0e77e24d9db2dc51d12ebd5bc299e
 [reinhold]: http://world.std.com/~reinhold/diceware.html
-[release_notes]: /projects/dicewear-password-generator-release-notes.html
+[release_notes]: /projects/diceware-password-generator-release-notes.html

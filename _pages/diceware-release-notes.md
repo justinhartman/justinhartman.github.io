@@ -1,6 +1,8 @@
 ---
 title: Diceware Password Generator Release Notes
 permalink: /projects/diceware-password-generator-release-notes.html
+redirect_from:
+  - /projects/dicewear-password-generator-release-notes.html
 header:
   overlay_image: /assets/images/posts/diceware-password-generator-1200.jpg
   overlay_filter: rgba(0, 0, 0, 0.65)
