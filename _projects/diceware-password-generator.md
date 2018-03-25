@@ -15,14 +15,14 @@ header:
   cta_label: "<i class='fab fa-fw fa-github'></i>  View Source Code"
   cta_url: "https://github.com/justinhartman/diceware-password-generator/"
   cta_label2: "<i class='fas fa-download'></i>  Download Software"
-  cta_url2: "https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.3"
+  cta_url2: "https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.4"
 image: '/assets/images/posts/diceware-password-generator_580x300.jpg'
 published: true
 date: 2018-03-16 21:12:00 +02:00
 excerpt: The Dicewear Password Generator is open-source software I wrote in Python that uses a world list and "dice" to output an easy to remember, yet highly secure password based on a sequence of words.
-description: The Dicewear Password Generator is open-source software I wrote in Python that uses a world list and "dice" to output an easy to remember, yet highly secure password based on a sequence of words.
 categories:
 - python
+- projects
 tags:
 - python
 - passwords
@@ -99,8 +99,8 @@ $ ./passphrase -h
 ```
 The `-h`, or `--help` flag will output all the available options:
 ```bash
-# Version: diceware-password-generator 1.0.3
-# Release Date: 21 March 2018
+# Version: diceware-password-generator 1.0.4
+# Release Date: 25 March 2018
 # Project: https://justin.hartman.me/projects/diceware-password-generator.html
 #
 # The author disclaims copyright to this source code. In place of
@@ -109,9 +109,16 @@ The `-h`, or `--help` flag will output all the available options:
 #   - May you do good and not evil.
 #   - May you find forgiveness for yourself and forgive others.
 #   - May you share freely, never taking more than you give.
-#
-Usage: $ ./passphrase [options] [-n] <number of words>
+
+Usage:
+------
+$ ./passphrase [options] [-n] <number of words>
+
 Options:
+--------
+Every option has a long form along with the short one.
+Long options are more convenient to remember but take time to type.
+
 -w, --words     Standard word list (default list)
 -v, --vorvig    Vorvig word list
 -s, --short     Short, memorable word list
@@ -120,20 +127,38 @@ Options:
 --------------------------------------------------------
 -n, --number    Input an integer for the number of words
                 you want generated for your passphrase.
-
-Example: $ ./passphrase
-Example: $ ./passphrase --words
-Example: $ ./passphrase -w
-Example: $ ./passphrase --words -n 4
-Example: $ ./passphrase -w -n 4
 ```
 Each word list has its own flag (e.g. `-v` or `--vorvig`) so you can find the right word list to suit your requirements. Each one is different and you'll see why when you start generating passwords.
 
 Additionally, there is an _optional_ `-n` flag which is used to specify how many words you want the DPG to return back to you. For example you may want 4 long words (`-n 4`) or 6 shorter words (`-n 6`) and changing the integer value after the `-n` flag will return the number you requested. If you omit the flag entirely, the DPG will default to 5 words returned to you to.
 
 ## Usage Examples
-The following examples use each of the various word lists and output a certain number of words as specified (or not) with the `-n` flag.
+These examples use each of the various word lists and output a certain number of words as specified (or not) with the `-n` flag.
 
+The following examples are all equivalent to each other and will output five words from the Standard word list.
+```bash
+$ ./passphrase
+$ ./passphrase --words
+$ ./passphrase -w
+$ ./passphrase --words -n 5
+$ ./passphrase -w -n 5
+```
+**Pro Tip:** The space between the option accepting an argument and the argument may be omitted. Instead of `-n 5` you can write `-n5`.
+{: .notice--info}
+
+```bash
+$ ./passphrase -w -n5
+```
+**Pro Tip:** You may also put all the options together, like:
+{: .notice--success}
+
+```bash
+$ ./passphrase -wn5
+```
+This is completely equivalent to:
+```bash
+$ ./passphrase -w -n 5
+```
 ### No Options
 ```bash
 $ ./passphrase

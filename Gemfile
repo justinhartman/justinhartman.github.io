@@ -12,4 +12,5 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jemoji'
   gem 'jekyll-mentions'
+  gem 'jekyll-import'
 end

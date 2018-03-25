@@ -20,8 +20,16 @@ date: 2018-03-19 15:50:54 +02:00
 # Release Notes
 This is a dedicated page which documents the changes made to the [Diceware Password Generator][diceware] as well as all the release notes for the software. 
 
+## v1.0.4
+Release Date: 25 March 2018
+
+- Updated the default help output with more examples.
+- Updated the Project page with new examples.
+
+[Download v1.0.4][v104]{: .btn .btn--success}
+
 ## v1.0.3
-Release Date: 21 March 3018
+Release Date: 21 March 2018
 
 - Minor change to the output of the help section to include more examples by default.
 
@@ -61,3 +69,4 @@ Release Date: 15 March 2018
 [v101]: https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.1
 [v102]: https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.2
 [v103]: https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.3
+[v104]: https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.4

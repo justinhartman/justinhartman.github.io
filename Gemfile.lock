@@ -29,6 +29,7 @@ GEM
     execjs (2.7.0)
     faraday (0.14.0)
       multipart-post (>= 1.2, < 3)
+    fastercsv (1.5.5)
     ffi (1.9.23)
     filesize (0.1.1)
     forwardable-extended (2.6.0)
@@ -132,6 +133,10 @@ GEM
     jekyll-github-metadata (2.9.3)
       jekyll (~> 3.1)
       octokit (~> 4.0, != 4.4.0)
+    jekyll-import (0.14.0)
+      fastercsv
+      jekyll (>= 1.4)
+      nokogiri
     jekyll-include-cache (0.1.0)
       jekyll (~> 3.3)
     jekyll-last-modified-at (1.0.1)
@@ -272,6 +277,7 @@ DEPENDENCIES
   github-pages
   jekyll-algolia
   jekyll-feed
+  jekyll-import
   jekyll-include-cache
   jekyll-last-modified-at
   jekyll-mentions

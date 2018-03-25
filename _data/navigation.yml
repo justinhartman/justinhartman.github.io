@@ -58,6 +58,8 @@ dicewear:
 diceware-release-notes:
   - title: Overview
     url: "/projects/diceware-password-generator-release-notes.html#release-notes"
+  - title: v1.0.4
+    url: "/projects/diceware-password-generator-release-notes.html#v104"
   - title: v1.0.3
     url: "/projects/diceware-password-generator-release-notes.html#v103"
   - title: v1.0.2
