@@ -3,9 +3,13 @@ layout: archive
 title: "Sitemap"
 permalink: /sitemap.html
 author_profile: false
+classes: wide
+sitemap:
+    changefreq: weekly
+    priority: 1.0
 ---
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ "sitemap.xml" | absolute_url }}) available for digesting as well.
+A list of all the posts and pages found on the site. For you robots out there, I have an [XML version]({{ "sitemap.xml" | absolute_url }}) available for digesting; just for you.
 {: .notice--primary}
 
 <h1>What I've Written</h1>

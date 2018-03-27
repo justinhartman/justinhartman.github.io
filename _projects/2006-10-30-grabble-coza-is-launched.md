@@ -12,6 +12,7 @@ tags:
 - grabble
 - search
 - search engine
+- projects
 header:
   overlay_image: '/assets/images/projects/grabble.co.za_1200x400.jpg'
   overlay_filter: rgba(0, 0, 0, 0.5)

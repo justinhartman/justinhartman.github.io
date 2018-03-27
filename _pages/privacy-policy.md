@@ -15,7 +15,10 @@ categories:
 tags:
 - legal 
 - privacy 
-- policy 
+- policy
+sitemap:
+    changefreq: yearly
+    priority: 0.7
 ---
 # Privacy Policy
 

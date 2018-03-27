@@ -17,7 +17,10 @@ tags:
 - terms
 - conditions
 - terms and conditions 
-- policy 
+- policy
+sitemap:
+    changefreq: yearly
+    priority: 0.8
 ---
 # Terms and Conditions
 Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using [https://justin.hartman.me][me] (the "Site") operated by Justin Hartman ("I", "us", "we", or "our").

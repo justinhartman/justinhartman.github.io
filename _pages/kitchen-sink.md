@@ -8,6 +8,9 @@ toc_label: "Utility Tests"
 toc_icon: "cog"
 published: true
 author_profile: false
+sitemap:
+    changefreq: monthly
+    priority: 0.5
 # layout: splash
 classes:
 #   - landing
@@ -19,6 +22,7 @@ header:
   #   provider: youtube
   overlay_image: /assets/images/kitchen-sink/justin-hartman-google.jpg
   overlay_filter: rgba(0, 0, 0, 0.5)
+  teaser: /assets/images/kitchen-sink/justin-hartman-google_580x300.jpg
 image:
   feature: /assets/images/kitchen-sink/justin-hartman-google.jpg
   thumb: /assets/images/kitchen-sink/Icon-196.png #keep it square 200x200 px is good
@@ -56,6 +60,63 @@ sidebar:
   title: "Utilities & Helpers"
   nav: "kitchen"
 ---
+## Absolute Paths
+This tests how using different Liquid tags will output URLs. While all of them output the same results, `Option 2` in each case is the cleanest and shortest method.
+
+### Site Absolute URL
+- Option 1: {{ site.url }}{{ site.basurl }}   
+  `{% raw %}{{ site.url }}{{ site.basurl }}{% endraw %}`
+- Option 2: {{ site.url | absolute_url }}   
+  `{% raw %}{{ site.url | absolute_url }}{% endraw %}`
+
+### Page URL
+- Option 1: {{ site.url | absolute_url }}{{ page.url }}   
+  `{% raw %}{{ site.url | absolute_url }}{{ page.url }}{% endraw %}`
+- Option 2: {{ page.url | absolute_url }}   
+  `{% raw %}{{ page.url | absolute_url }}{% endraw %}`
+- Option 3: {{ site.url }}{{ site.basurl }}{{ page.url }}   
+  `{% raw %}{{ site.url }}{{ site.basurl }}{{ page.url }}{% endraw %}`
+
+### Page Header Teaser
+- Option 1: {{ site.url | absolute_url }}{{ page.header.teaser }}   
+  `{% raw %}{{ site.url | absolute_url }}{{ page.header.teaser }}{% endraw %}`
+- Option 2: {{ page.header.teaser | absolute_url }}   
+  `{% raw %}{{ page.header.teaser | absolute_url }}{% endraw %}`
+- Option 3: {{ site.url }}{{ site.basurl }}{{ page.header.teaser }}   
+  `{% raw %}{{ site.url }}{{ site.basurl }}{{ page.header.teaser }}{% endraw %}`
+
+### Site Author Avatar
+- Option 1: {{ site.url | absolute_url }}{{ site.author.avatar }}   
+  `{% raw %}{{ site.url | absolute_url }}{{ site.author.avatar }}{% endraw %}`
+- Option 2: {{ site.author.avatar | absolute_url }}   
+  `{% raw %}{{ site.author.avatar | absolute_url }}{% endraw %}`
+- Option 3: {{ site.url }}{{ site.basurl }}{{ site.author.avatar }}   
+  `{% raw %}{{ site.url }}{{ site.basurl }}{{ site.author.avatar }}{% endraw %}`
+
+### Image Paths
+- Option 1: {{ site.url | absolute_url }}/assets/images/favicon/Icon-60.png   
+  `{% raw %}{{ site.url | absolute_url }}/assets/images/favicon/Icon-60.png{% endraw %}`
+- Option 2: {{ '/assets/images/favicon/Icon-60.png' | absolute_url }}   
+  `{% raw %}{{ '/assets/images/favicon/Icon-60.png' | absolute_url }}{% endraw %}`
+- Option 3: {{ site.url }}{{ site.basurl }}/assets/images/favicon/Icon-60.png   
+  `{% raw %}{{ site.url }}{{ site.basurl }}/assets/images/favicon/Icon-60.png{% endraw %}`
+
+### File Paths
+- Option 1: {{ site.url | absolute_url }}/assets/images/favicon/browserconfig.xml   
+  `{% raw %}{{ site.url | absolute_url }}/assets/images/favicon/browserconfig.xml{% endraw %}`
+- Option 2: {{ '/assets/images/favicon/browserconfig.xml' | absolute_url }}   
+  `{% raw %}{{ '/assets/images/favicon/browserconfig.xml' | absolute_url }}{% endraw %}`
+- Option 3: {{ site.url }}{{ site.basurl }}/assets/images/favicon/browserconfig.xml   
+  `{% raw %}{{ site.url }}{{ site.basurl }}/assets/images/favicon/browserconfig.xml{% endraw %}`
+
+### Atom Feed
+- Option 1: {{ site.url | absolute_url }}{{ site.atom_feed.path }}   
+  `{% raw %}{{ site.url | absolute_url }}{{ site.atom_feed.path }}{% endraw %}`
+- Option 2: {{ site.atom_feed.path | absolute_url }}   
+  `{% raw %}{{ site.atom_feed.path | absolute_url }}{% endraw %}`
+- Option 3: {{ site.url }}{{ site.basurl }}{{ site.atom_feed.path }}   
+  `{% raw %}{{ site.url }}{{ site.basurl }}{{ site.atom_feed.path }}{% endraw %}`
+
 ## Responsive Video Embed
 
 Embed a video from YouTube or Vimeo that responsively sizes to fit the width of its parent.

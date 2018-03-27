@@ -8,15 +8,15 @@ sidebar:
   title: "DGP"
   nav: "dicewear"
 header:
-  overlay_image: /assets/images/posts/diceware-password-generator-1200.jpg
+  overlay_image: /assets/images/projects/diceware-password-generator-1200.jpg
   overlay_filter: rgba(0, 0, 0, 0.5)
   caption: "Photo by [**Pexels**](https://www.pexels.com/photo/6-pieces-of-black-and-white-dice-37534/)"
-  teaser: '/assets/images/posts/diceware-password-generator_580x300.jpg'
+  teaser: '/assets/images/projects/diceware-password-generator_580x300.jpg'
   cta_label: "<i class='fab fa-fw fa-github'></i>  View Source Code"
   cta_url: "https://github.com/justinhartman/diceware-password-generator/"
   cta_label2: "<i class='fas fa-download'></i>  Download Software"
   cta_url2: "https://github.com/justinhartman/diceware-password-generator/releases/tag/v1.0.4"
-image: '/assets/images/posts/diceware-password-generator_580x300.jpg'
+image: '/assets/images/projects/diceware-password-generator_580x300.jpg'
 published: true
 date: 2018-03-16 21:12:00 +02:00
 excerpt: The Dicewear Password Generator is open-source software I wrote in Python that uses a world list and "dice" to output an easy to remember, yet highly secure password based on a sequence of words.
@@ -143,7 +143,7 @@ $ ./passphrase -w
 $ ./passphrase --words -n 5
 $ ./passphrase -w -n 5
 ```
-**Pro Tip:** The space between the option accepting an argument and the argument may be omitted. Instead of `-n 5` you can write `-n5`.
+**Pro Tip:** The space between the option accepting an argument and the argument may be omitted. Instead of _**-n 5**_ you can write _**-n5**_.
 {: .notice--info}
 
 ```bash

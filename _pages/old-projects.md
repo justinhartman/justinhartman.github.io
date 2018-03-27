@@ -11,6 +11,9 @@ categories:
 tags:
 - projects
 comments: []
+sitemap:
+    changefreq: monthly
+    priority: 0.6
 ---
 <h2 class="pagetitle">Afrigator</h2>
 <a href="http://afrigator.com/" target="_blank"><img alt="africa's largest content aggregator" src="/assets/images/uploads/images/afrigator350x106.png" /></a>

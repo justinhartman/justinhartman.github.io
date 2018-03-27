@@ -12,7 +12,9 @@ redirect_from:
   - /legal-notices.html
 published: true
 date: 2018-03-14 19:25:00 +02:00
-description: The following legal notices are applicable to you as part of using this website. Each agreement is there mostly for your protection and I implore you to read through them to understand your rights.
+sitemap:
+    changefreq: yearly
+    priority: 0.8
 ---
 As much as I like to believe we live in an altruistic world where hand-shakes and _your word_ still meant something; sadly this just isn't the case any more.
 

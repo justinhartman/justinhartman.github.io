@@ -2,6 +2,9 @@
 title: History of the Howto Guides
 date: 2017-06-10 06:38:00 +02:00
 permalink: "/howto-history.html"
+sitemap:
+    changefreq: monthly
+    priority: 0.7
 ---
 
 On the 15th of January 2007 I launched a [MediaWiki][wiki] website called the **Debian Wiki** which used to be hosted at `linux.justinhartman.com`. I began this website solely for selfish reasons as I wanted to document how I got various software packages up and running so I could come back to them at a later stage for easy deployment.
@@ -10,12 +13,12 @@ I had no choice really but to do this because everything I found online had beco
 
 <!-- MarkdownTOC -->
 
-- [The objective back then](#the-objective-back-then)
-- [What she looked like](#what-she-looked-like)
-- [Why Debian?](#why-debian)
-- [How it evolved](#how-it-evolved)
-- [Russians and Godaddy collude and I lose everything...](#russians-and-godaddy-collude-and-i-lose-everything)
-- [Out with the old, in with the new?](#out-with-the-old-in-with-the-new)
+- The objective back then
+- What she looked like
+- Why Debian?
+- How it evolved
+- Russians and Godaddy collude and I lose everything...
+- Out with the old, in with the new?
 
 <!-- /MarkdownTOC -->
 

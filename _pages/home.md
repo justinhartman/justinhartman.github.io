@@ -3,7 +3,8 @@ layout: splash
 permalink: /
 title: Introducing the Diceware Password Generator
 header:
-  overlay_image: /assets/images/posts/diceware-password-generator-1200.jpg
+  overlay_image: /assets/images/projects/diceware-password-generator-1200.jpg
+  teaser: /assets/images/projects/diceware-password-generator_580x300.jpg
   overlay_filter: rgba(0, 0, 0, 0.65)
   caption: "Photo by [**Pexels**](https://www.pexels.com/photo/6-pieces-of-black-and-white-dice-37534/)"
   cta_label: "<i class='fas fa-angle-double-right'></i>  Read More"
@@ -11,6 +12,9 @@ header:
   cta_label2: "<i class='fas fa-download'></i>  Download Software"
   cta_url2: "https://github.com/justinhartman/diceware-password-generator/"
 excerpt: 'A piece of open-source software I wrote in Python that uses a world list and "dice" to output an easy to remember, yet highly secure password based on a sequence of words.'
+sitemap:
+    changefreq: weekly
+    priority: 1.0
 feature_row:
   - image_path: '/assets/images/posts/humans-txt_580x300.jpg'
     alt: "humans.txt"

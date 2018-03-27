@@ -4,9 +4,10 @@ permalink: /projects/diceware-password-generator-release-notes.html
 redirect_from:
   - /projects/dicewear-password-generator-release-notes.html
 header:
-  overlay_image: /assets/images/posts/diceware-password-generator-1200.jpg
+  overlay_image: /assets/images/projects/diceware-password-generator-1200.jpg
   overlay_filter: rgba(0, 0, 0, 0.65)
   caption: "Photo by [**Pexels**](https://www.pexels.com/photo/6-pieces-of-black-and-white-dice-37534/)"
+  teaser: '/assets/images/projects/diceware-password-generator_580x300.jpg'
   cta_label: "<i class='fas fa-angle-double-right'></i>  Read More"
   cta_url: "/projects/diceware-password-generator.html"
 excerpt: 'This is a dedicated page which documents the changes made to the Diceware Password Generator as well as all the release notes for the software. You can read more about the project itself by clicking the _Read More_ button below.'

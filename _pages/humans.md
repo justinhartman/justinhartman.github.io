@@ -1,6 +1,9 @@
 ---
 layout: humans
 permalink: '/humans.txt'
+sitemap:
+    changefreq: monthly
+    priority: 0.5
 ---
 
 /* TEAM */

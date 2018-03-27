@@ -16,6 +16,9 @@ tags:
 - legal 
 - cookie 
 - policy 
+sitemap:
+    changefreq: yearly
+    priority: 0.7
 ---
 # Cookies Policy
 

@@ -78,6 +78,9 @@ defaults:
       toc                     : true
       toc_label               : "On this Page"
       toc_icon                : bookmark
+      sitemap:
+        changefreq            : monthly
+        priority              : 0.9
   - scope:
       path                    : ""
       type                    : pages
@@ -88,6 +91,9 @@ defaults:
       read_time               : true
       share                   : false
       toc                     : false
+      sitemap:
+        changefreq            : yearly
+        priority              : 0.8
   - scope:
       path                    : ""
       type                    : projects
@@ -99,6 +105,9 @@ defaults:
       share                   : true
       toc                     : false
       related                 : true
+      sitemap:
+        changefreq            : monthly
+        priority              : 0.9
   - scope:
       path                    : ""
       type                    : linux
@@ -112,6 +121,9 @@ defaults:
       toc_label               : "On this Page"
       toc_icon                : bookmark
       related                 : true
+      sitemap:
+        changefreq            : monthly
+        priority              : 0.9
   - scope:
       path                    : ""
       type                    : technical
@@ -125,6 +137,9 @@ defaults:
       toc_label               : "On this Page"
       toc_icon                : bookmark
       related                 : true
+      sitemap:
+        changefreq            : monthly
+        priority              : 0.9
 words_per_minute              : 200
 # Archive Pages
 category_archive:
