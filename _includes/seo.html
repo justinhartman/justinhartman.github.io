@@ -77,6 +77,7 @@
     {% if site.facebook %}{% if site.facebook.publisher %}<meta property="article:publisher" content="{{ site.facebook.publisher }}">{% endif %}
     {% if site.facebook.app_id %}<meta property="fb:app_id" content="{{ site.facebook.app_id }}">{%- endif -%}{% endif %}
     <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="alternate" href="{{ canonical_url }}" hreflang="en-GB" />
     {% if paginator.previous_page %}<link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">{%- endif -%}
     {% if paginator.next_page %}<link rel="next" href="{{ paginator.next_page_path | absolute_url }}">{%- endif -%}
     {% if site.og_image %}<script type="application/ld+json">
