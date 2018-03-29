@@ -7,7 +7,7 @@ classes: wide
 sitemap:
     changefreq: weekly
     priority: 1.0
-last_modified_at: 2018-03-23 00:39 +02:00
+last_modified_at: 2018-03-29 19:49 +02:00
 ---
 
 A list of all the posts and pages found on the site. For you robots out there, I have an [XML version]({{ "sitemap.xml" | absolute_url }}) available for digesting; just for you.
