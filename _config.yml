@@ -171,7 +171,7 @@ search                        : true
 search_full_content           : true
 search_provider               : lunr # lunr (default), algolia
 # SEO Related
-google_site_verification      :
+google_site_verification      : P53F097c0BKW94kUm136hziQhHK_Ex_b-Jxwp2T_2u8
 bing_site_verification        :
 yandex_site_verification      :
 naver_site_verification       :
