@@ -19,7 +19,7 @@ permalink: /sitemap.xml
 {% endfor %}
     <url>
         <loc>{{ '/sitemap.xml' | absolute_url }}</loc>
-        <lastmod>2018-03-29T18:59:27+02:00</lastmod>
+        <lastmod>2018-03-29T19:49:52+02:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>

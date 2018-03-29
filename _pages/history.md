@@ -1,8 +1,9 @@
 ---
 title: History of the Howto Guides
 date: 2017-06-10 06:38:00 +02:00
-last_modified_at: 2018-03-20 01:21 +02:00
-permalink: "/howto-history.html"
+last_modified_at: 2018-03-29 19:49:52 +02:00
+permalink: "/projects/howto-history.html"
+redirect_from: "/howto-history.html"
 sitemap:
     changefreq: monthly
     priority: 0.7
