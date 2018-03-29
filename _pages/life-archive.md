@@ -3,6 +3,7 @@ layout: archive
 permalink: /life/
 redirect_from:
   - /year-archive/
+  - /justin@hartman.me/
 title: "My personal life"
 author_profile: true
 classes: wide
