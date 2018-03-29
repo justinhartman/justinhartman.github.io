@@ -10,6 +10,7 @@ excerpt: "This page informs you of my policies regarding the collection, use and
 permalink: "/legal/privacy-policy.html"
 published: true
 date: 2018-03-21 00:22:22 +02:00
+last_modified_at: 2018-03-21 10:43 +02:00
 categories:
 - legal
 tags:

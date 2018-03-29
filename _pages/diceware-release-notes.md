@@ -17,6 +17,7 @@ sidebar:
   nav: "diceware-release-notes"
 published: true
 date: 2018-03-19 15:50:54 +02:00
+last_modified_at: 2018-03-25 04:14 +02:00
 ---
 # Release Notes
 This is a dedicated page which documents the changes made to the [Diceware Password Generator][diceware] as well as all the release notes for the software. 

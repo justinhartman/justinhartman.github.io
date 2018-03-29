@@ -9,7 +9,7 @@ toc: false
 classes: wide
 excerpt: OK so I'm getting really frustrated with CSS and Internet Explorer. Why Micro$oft can't create a better standards-based browser I will never know. They've done much better with IE7 but still it's a freeking mess if you ask me.
 date: '2007-04-02 01:17:13 +0200'
-last_modified_at: '2007-04-01 23:17:13 +0200'
+last_modified_at: '2007-04-02 01:17:13 +0200'
 categories:
 - technical
 tags:

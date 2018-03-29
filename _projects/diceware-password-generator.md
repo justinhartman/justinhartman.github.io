@@ -19,6 +19,7 @@ header:
 image: '/assets/images/projects/diceware-password-generator_580x300.jpg'
 published: true
 date: 2018-03-16 21:12:00 +02:00
+last_modified_at: 2018-03-25 04:14 +02:00
 excerpt: The Dicewear Password Generator is open-source software I wrote in Python that uses a world list and "dice" to output an easy to remember, yet highly secure password based on a sequence of words.
 categories:
 - python

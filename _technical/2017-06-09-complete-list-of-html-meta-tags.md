@@ -12,6 +12,7 @@ redirect_from:
   - /technical/html/complete-list-of-html-meta-tags.html
 published: true
 date: 2017-06-09 02:00:00 +02:00
+last_modified_at: 2018-03-23 00:39 +02:00
 description: Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
 excerpt: Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
 categories:

@@ -12,6 +12,7 @@ redirect_from:
   - /legal-notices.html
 published: true
 date: 2018-03-14 19:25:00 +02:00
+last_modified_at: 2018-03-21 01:04 +02:00
 sitemap:
     changefreq: yearly
     priority: 0.8

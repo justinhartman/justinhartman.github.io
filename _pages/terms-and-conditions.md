@@ -10,6 +10,7 @@ excerpt: "My Terms and Conditions apply to all visitors, users and others who ac
 permalink: "/legal/terms-and-conditions.html"
 published: true
 date: 2018-03-21 00:22:22 +02:00
+last_modified_at: 2018-03-21 10:43 +02:00
 categories:
 - legal
 tags:

@@ -3,6 +3,7 @@ title: "The Kitchen Sink"
 permalink: /kitchen-sink.html
 excerpt: "A simple page which houses some of the features of the theme. It's here for my reference so if you found it, well done :wink:"
 date: 2018-03-20 17:21:11 +02:00
+last_modified_at: 2018-03-25 04:14 +02:00
 toc: false
 toc_label: "Utility Tests"
 toc_icon: "cog"

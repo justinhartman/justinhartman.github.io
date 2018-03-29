@@ -1,6 +1,7 @@
 ---
 title: DNS Installation and Setup using BIND9
 date: 2007-01-15 18:45:00 +02:00
+last_modified_at: 2018-03-20 01:21 +02:00
 permalink: "/linux/debian/mail-server/dns-installationand-setup-using-bind9.html"
 categories:
 - mail-server

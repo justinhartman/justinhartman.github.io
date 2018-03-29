@@ -1,6 +1,7 @@
 ---
 title: How to change Apple Command key and CTRL key on Ubuntu 17.04
 date: 2017-07-17 10:22:00 +02:00
+last_modified_at: 2018-03-20 01:21 +02:00
 permalink: "/linux/ubuntu/change-apple-command-and-ctrl-key-on-ubuntu-17.04.html"
 categories:
 - ubuntu

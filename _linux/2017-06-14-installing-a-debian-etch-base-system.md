@@ -1,6 +1,7 @@
 ---
 title: Installing a Debian Etch base system
 date: 2007-02-05 18:16:00 +02:00
+last_modified_at: 2018-03-20 01:21 +02:00
 permalink: "/linux/debian/installing-a-debian-etch-base-system.html"
 categories:
 - debian
