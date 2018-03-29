@@ -6,22 +6,12 @@ permalink: "/howto-history.html"
 sitemap:
     changefreq: monthly
     priority: 0.7
+toc: true
 ---
 
 On the 15th of January 2007 I launched a [MediaWiki][wiki] website called the **Debian Wiki** which used to be hosted at `linux.justinhartman.com`. I began this website solely for selfish reasons as I wanted to document how I got various software packages up and running so I could come back to them at a later stage for easy deployment.
 
 I had no choice really but to do this because everything I found online had become outdated and I had to solve my challenges by myself. What I didn't realise was how popular this wiki would become and people were using these howto's on a daily basis.
-
-<!-- MarkdownTOC -->
-
-- The objective back then
-- What she looked like
-- Why Debian?
-- How it evolved
-- Russians and Godaddy collude and I lose everything...
-- Out with the old, in with the new?
-
-<!-- /MarkdownTOC -->
 
 ## The objective back then
 
@@ -55,13 +45,13 @@ Oh, there was also another reason why I chose Debian, because I really digged th
 
 As I learnt more about Debian and my tinkering progressed so did the howto list expand quite rapidly. The wiki ended up with a solid set of howto tutorials covering the following:
 
- 1 Debian Server Tutorials
- 2 LAMP & FTP Tutorials
- 3 Mail Server Tutorials
- 4 Server Security Tutorials
- 5 Debian Software Configuration Tutorials
- 6 Gnome Desktop Tutorials
- 7 Debian Categories
+1. Debian Server Tutorials
+2. LAMP & FTP Tutorials
+3. Mail Server Tutorials
+4. Server Security Tutorials
+5. Debian Software Configuration Tutorials
+6. Gnome Desktop Tutorials
+7. Debian Categories
 
 ## Russians and Godaddy collude and I lose everything...
 
@@ -91,4 +81,4 @@ As I play, so will you.
  [debian-logo]: /assets/images/pages/history/debian.png "Debian Logo"
  [russian-assholes]: /assets/images/pages/history/linux.justinhartman.com.png "The Russian Assholes"
  [icann]: https://www.icann.org
- [justin-home]: http://justin.hartman.me
+ [justin-home]: https://justin.hartman.me
