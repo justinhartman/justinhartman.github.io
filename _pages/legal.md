@@ -10,6 +10,7 @@ image: '/assets/images/pages/legal-notices.jpg'
 permalink: "/legal/legal-notices.html"
 redirect_from:
   - /legal-notices.html
+  - /legal/
 published: true
 date: 2018-03-14 19:25:00 +02:00
 last_modified_at: 2018-03-21 01:04 +02:00
