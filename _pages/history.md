@@ -87,8 +87,8 @@ As I play, so will you.
 
 
  [wiki]: https://www.mediawiki.org/wiki/MediaWiki
- [wiki-design]: /images/pages/history/linux.justinhartman.com.design.png "Original Debain Wiki Design"
- [debian-logo]: /images/pages/history/debian.png "Debian Logo"
- [russian-assholes]: /images/pages/history/linux.justinhartman.com.png "The Russian Assholes"
+ [wiki-design]: /assets/images/pages/history/linux.justinhartman.com.design.png "Original Debain Wiki Design"
+ [debian-logo]: /assets/images/pages/history/debian.png "Debian Logo"
+ [russian-assholes]: /assets/images/pages/history/linux.justinhartman.com.png "The Russian Assholes"
  [icann]: https://www.icann.org
  [justin-home]: http://justin.hartman.me
