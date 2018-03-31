@@ -172,9 +172,10 @@ search_full_content           : true
 search_provider               : lunr # lunr (default), algolia
 # SEO Related
 google_site_verification      : P53F097c0BKW94kUm136hziQhHK_Ex_b-Jxwp2T_2u8
-bing_site_verification        :
+bing_site_verification        : C7D6FF50BE25A9929352025D72EA0ED5
 yandex_site_verification      :
 naver_site_verification       :
+alexa_site_verification       :
 # Social Sharing
 twitter:
   username                    : justinhartman
