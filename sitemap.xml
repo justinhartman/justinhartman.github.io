@@ -10,6 +10,7 @@ permalink: /sitemap.xml
     {%- unless collection.output == false %}
     <url>
         <loc>{{ post.url | absolute_url }}</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ post.url | absolute_url }}" />
         <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
         <changefreq>{{ post.sitemap.changefreq }}</changefreq>
         <priority>{{ post.sitemap.priority }}</priority>
@@ -19,6 +20,7 @@ permalink: /sitemap.xml
 {% endfor %}
     <url>
         <loc>{{ '/sitemap.xml' | absolute_url }}</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ '/sitemap.xml' | absolute_url }}" />
         <lastmod>2018-03-31T04:07:42+02:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>

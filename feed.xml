@@ -1,7 +1,5 @@
 ---
 layout: atom
-redirect_from:
-  - /atom.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xml" href="{{ site.url | absolute_url }}/feed.xslt.xml"?>
