@@ -7,6 +7,9 @@ docs/
 .jekyll-metadata
 .sass-cache
 
+### Octopress ###
+.deploy/
+
 ### Pixelmator Templates ###
 image-template-with-backgrounds.pxm
 image-template.pxm

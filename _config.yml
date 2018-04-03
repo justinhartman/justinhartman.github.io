@@ -40,6 +40,9 @@ exclude:
   - image-template-with-backgrounds.pxm
   - image-template.pxm
   - post_580x300.pxm
+  - _deploy.yml
+  - .deploy/
+  - _templates/
 # Plugins
 plugins:
   - jemoji
@@ -52,6 +55,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jekyll-redirect-from
+  - octopress
 # Theme configuration
 remote_theme                  : mmistakes/minimal-mistakes
 minimal_mistakes_skin         : "justin" # (contrast or neon. justin is based off contrast)
@@ -212,11 +216,24 @@ author:
   email                       : justin@hartman.me
   uri                         : https://justin.hartman.me
   home                        : / # null (default), "absolute or relative url to link to author home"
-  # bitbucket                 : justinhartman
+  #bitbucket                  : justinhartman
   flickr                      : justinhartman
   facebook                    : justin.hartman.me
   github                      : justinhartman
-  # google_plus               : 115788405127011300666
+  google_plus                 : 115788405127011300666
   instagram                   : justin.hartman
   linkedin                    : justinhartman
   twitter                     : justinhartman
+# Octopress Configuration
+# Default extension for new posts and pages
+post_ext: md
+page_ext: md
+# Default templates for posts and pages
+post_layout: single
+page_layout: archive
+# Format titles with titlecase?
+titlecase: true
+# Change default template file (in _templates/)
+post_template: life
+page_template: page
+draft_template: draft

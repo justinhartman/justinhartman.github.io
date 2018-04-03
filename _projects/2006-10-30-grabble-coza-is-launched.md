@@ -69,8 +69,6 @@ comments:
 
 It's the latest addition to my stable of projects and I'm extremely proud to share it with you! Grabble (<a href="http://www.grabble.co.za">http://www.grabble.co.za</a>) is a new South African search engine with a difference! Grabble gives you fast, accurate and AD FREE results and best of all we only search South African websites.
 
-<!--more-->
-
 ## How Grabble Works
 Grabble is a sophisticated and intelligent search engine. Every time you enter a search query Grabble compiles results, eliminates duplicates, and displays the final results in a unique manner according to a special relevance formula. This process tends to remove much of the useless clutter and meaningless results.
 

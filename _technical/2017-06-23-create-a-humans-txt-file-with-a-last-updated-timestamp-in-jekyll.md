@@ -12,7 +12,6 @@ redirect_from:
 published: true
 date: 2017-06-23 11:35:00 +02:00
 last_modified_at: 2018-03-20 16:37 +02:00
-description: I wanted to create a humans.txt file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again. 
 excerpt: I wanted to create a humans.txt file but at the same time I did not want to manually update the `Last update` variable in `/* SITE */` section every time I made a change. I wanted to automate the process so that I never have to worry about it again. 
 categories:
 - jekyll
