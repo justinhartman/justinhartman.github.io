@@ -1,0 +1,23 @@
+---
+title: "{{ title }}"
+layout: {{ layout }}
+permalink: /linux/{{ slug }}.html
+# redirect_from: 
+#  - /url/
+published: false
+classes: wide
+toc: false
+date: {{ date }}
+last_modified_at: {{ date }}
+categories:
+- linux
+tags:
+- linux
+header:
+  overlay_image: '/assets/images/linux/{{ slug }}.jpg'
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Photo by []()"
+  teaser: '/assets/images/linux/{{ slug }}_580x300.jpg'
+image: '/assets/images/linux/{{ slug }}_580x300.jpg'
+excerpt:
+---

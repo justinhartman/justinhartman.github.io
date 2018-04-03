@@ -1,0 +1,23 @@
+---
+title: "{{ title }}"
+layout: {{ layout }}
+permalink: /{{ slug }}.html
+# redirect_from: 
+#  - /url/
+published: false
+classes: wide
+toc: false
+date: {{ date }}
+last_modified_at: {{ date }}
+categories:
+-
+tags:
+-
+header:
+  overlay_image: '/assets/images//{{ slug }}.jpg'
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Photo by []()"
+  teaser: '/assets/images//{{ slug }}_580x300.jpg'
+image: '/assets/images//{{ slug }}_580x300.jpg'
+excerpt:
+---

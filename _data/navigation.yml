@@ -72,96 +72,96 @@ diceware-release-notes:
 # Kitchen Sink
 kitchen:
   - title: "Absolute Paths"
-    url: /kitchen-sink.html#absolute-paths
+    url: /personal/kitchen-sink.html#absolute-paths
     children:
       - title: "Site Absolute URL"
-        url: /kitchen-sink.html#site-absolute-url
+        url: /personal/kitchen-sink.html#site-absolute-url
       - title: "Page URL"
-        url: /kitchen-sink.html#page-url
+        url: /personal/kitchen-sink.html#page-url
       - title: "Page Header Teaser"
-        url: /kitchen-sink.html#page-header-teaser
+        url: /personal/kitchen-sink.html#page-header-teaser
       - title: "Site Author Avatar"
-        url: /kitchen-sink.html#site-author-avatar
+        url: /personal/kitchen-sink.html#site-author-avatar
       - title: "Image Paths"
-        url: /kitchen-sink.html#image-paths
+        url: /personal/kitchen-sink.html#image-paths
       - title: "File Paths"
-        url: /kitchen-sink.html#file-paths
+        url: /personal/kitchen-sink.html#file-paths
       - title: "Atom Feed"
-        url: /kitchen-sink.html#atom-feed
+        url: /personal/kitchen-sink.html#atom-feed
   - title: "Video Embed"
-    url: /kitchen-sink.html#responsive-video-embed
+    url: /personal/kitchen-sink.html#responsive-video-embed
     children:
       - title: "YouTube"
-        url: /kitchen-sink.html#youtube
+        url: /personal/kitchen-sink.html#youtube
       - title: "Vimeo"
-        url: /kitchen-sink.html#vimeo
+        url: /personal/kitchen-sink.html#vimeo
   - title: Footnotes
-    url: /kitchen-sink.html#footnotes
+    url: /personal/kitchen-sink.html#footnotes
   - title: Text Alignment
-    url: /kitchen-sink.html#text-alignment
+    url: /personal/kitchen-sink.html#text-alignment
   - title: Figure
-    url: /kitchen-sink.html#figure
+    url: /personal/kitchen-sink.html#figure
   - title: Gallery
-    url: /kitchen-sink.html#gallery
+    url: /personal/kitchen-sink.html#gallery
   - title: Feature Row
-    url: /kitchen-sink.html#feature-row
+    url: /personal/kitchen-sink.html#feature-row
   - title: Image Alignment
-    url: /kitchen-sink.html#image-alignment
+    url: /personal/kitchen-sink.html#image-alignment
   - title: Buttons
-    url: /kitchen-sink.html#buttons
+    url: /personal/kitchen-sink.html#buttons
   - title: Notices
-    url: /kitchen-sink.html#notices
+    url: /personal/kitchen-sink.html#notices
   - title: JavaScript
-    url: /kitchen-sink.html#javascript
+    url: /personal/kitchen-sink.html#javascript
   - title: Blockquotes
-    url: /kitchen-sink.html#blockquotes
+    url: /personal/kitchen-sink.html#blockquotes
   - title: Tables
-    url: /kitchen-sink.html#tables
+    url: /personal/kitchen-sink.html#tables
   - title: Definition Lists
-    url: /kitchen-sink.html#definition-lists
+    url: /personal/kitchen-sink.html#definition-lists
   - title: Unordered Lists (Nested)
-    url: /kitchen-sink.html#unordered-lists-nested
+    url: /personal/kitchen-sink.html#unordered-lists-nested
   - title: Ordered List (Nested)
-    url: /kitchen-sink.html#ordered-list-nested
+    url: /personal/kitchen-sink.html#ordered-list-nested
   - title: Forms
-    url: /kitchen-sink.html#forms
+    url: /personal/kitchen-sink.html#forms
   - title: HTML Tags
-    url: /kitchen-sink.html#html-tags
+    url: /personal/kitchen-sink.html#html-tags
     children:
       - title: "Address Tag"
-        url: /kitchen-sink.html#address-tag
+        url: /personal/kitchen-sink.html#address-tag
       - title: "Anchor Tag (aka. Link)"
-        url: /kitchen-sink.html#anchor-tag-aka-link
+        url: /personal/kitchen-sink.html#anchor-tag-aka-link
       - title: "Abbreviation Tag"
-        url: /kitchen-sink.html#abbreviation-tag
+        url: /personal/kitchen-sink.html#abbreviation-tag
       - title: "Cite Tag"
-        url: /kitchen-sink.html#cite-tag
+        url: /personal/kitchen-sink.html#cite-tag
       - title: "Code Tag"
-        url: /kitchen-sink.html#code-tag
+        url: /personal/kitchen-sink.html#code-tag
       - title: "Strike Tag"
-        url: /kitchen-sink.html#strike-tag
+        url: /personal/kitchen-sink.html#strike-tag
       - title: "Emphasize Tag"
-        url: /kitchen-sink.html#emphasize-tag
+        url: /personal/kitchen-sink.html#emphasize-tag
       - title: "Insert Tag"
-        url: /kitchen-sink.html#insert-tag
+        url: /personal/kitchen-sink.html#insert-tag
       - title: "Keyboard Tag"
-        url: /kitchen-sink.html#keyboard-tag
+        url: /personal/kitchen-sink.html#keyboard-tag
       - title: "Preformatted Tag"
-        url: /kitchen-sink.html#preformatted-tag
+        url: /personal/kitchen-sink.html#preformatted-tag
       - title: "Quote Tag"
-        url: /kitchen-sink.html#quote-tag
+        url: /personal/kitchen-sink.html#quote-tag
       - title: "Strong Tag"
-        url: /kitchen-sink.html#strong-tag
+        url: /personal/kitchen-sink.html#strong-tag
       - title: "Subscript Tag"
-        url: /kitchen-sink.html#subscript-tag
+        url: /personal/kitchen-sink.html#subscript-tag
       - title: "Superscript Tag"
-        url: /kitchen-sink.html#superscript-tag
+        url: /personal/kitchen-sink.html#superscript-tag
       - title: "Variable Tag"
-        url: /kitchen-sink.html#variable-tag
+        url: /personal/kitchen-sink.html#variable-tag
   - title: Octopress
-    url: /kitchen-sink.html#adding-content-with-octopress
+    url: /personal/kitchen-sink.html#adding-content-with-octopress
     children: 
       - title: New Post
-        url: /kitchen-sink.html#new-post
+        url: /personal/kitchen-sink.html#new-post
       - title: New Page
-        url: /kitchen-sink.html#new-page
+        url: /personal/kitchen-sink.html#new-page
