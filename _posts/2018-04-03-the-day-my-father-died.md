@@ -7,6 +7,9 @@ permalink: /life/death/the-day-my-father-died.html
 published: true
 date: 2018-04-03T21:05:28+02:00
 last_modified_at: 2018-04-03T21:05:28+02:00
+sitemap: 
+  changefreq: monthly
+  priority: 0.9
 categories:
 - life
 - death

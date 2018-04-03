@@ -9,6 +9,9 @@ classes: wide
 toc: false
 date: {{ date }}
 last_modified_at: {{ date }}
+sitemap: 
+  changefreq: monthly
+  priority: 0.9
 categories:
 - life
 tags:
