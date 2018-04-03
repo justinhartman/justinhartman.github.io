@@ -11,12 +11,14 @@ This repo contains the source code that runs my personal site @ [justin.hartman.
 
 The following directories and their contents are Copyright &copy; 2005-2018 <a rel="author" href="http://justin.hartman.me">Justin Hartman</a> and are licensed under a <a rel="license external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
 
+* `_data/`
 * `_drafts/`
 * `_linux/`
 * `_pages/`
 * `_posts/`
 * `_projects/`
 * `_technical/`
+* `_templates/`
 * `assets/`
 
 This license gives you permission to re-use the content on this site along with attribution. If you do plan on re-using any of the work please [open a support request][issue] informing me of how and where you plan to re-use my content.
