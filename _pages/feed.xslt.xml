@@ -1,6 +1,7 @@
 ---
 layout: atom
 permalink: /feed.xslt.xml
+last_modified_at: 2018-04-05 22:20:02 +02:00
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:transform  version="1.0" xmlns:a="http://www.w3.org/2005/Atom" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -14,7 +15,6 @@ permalink: /feed.xslt.xml
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="a:entry">
-        <xsl:text>  ----------------------------------------</xsl:text>
         <xsl:text>  /** Feed Entry **/</xsl:text>
         <xsl:text>  URL: </xsl:text>
         <xsl:value-of select="a:id"/>

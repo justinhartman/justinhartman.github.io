@@ -43,6 +43,7 @@ exclude:
   - _deploy.yml
   - .deploy/
   - _templates/
+  - expand_date
 # Plugins
 plugins:
   - jemoji
