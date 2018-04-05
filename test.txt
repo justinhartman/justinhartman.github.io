@@ -1,2 +1,5 @@
-$Id$
 $Date$
+
+Now we test this. Checking the file back to the repo should mean that the above Date, which currently reads `Date: Thu Apr 5 04:06:03 2018 +0200` should now just have the Date variable. If the Date is actually visible then this didn't work.
+
+Let's see what happens.
