@@ -59,7 +59,7 @@ plugins:
 # Theme configuration
 remote_theme                  : mmistakes/minimal-mistakes
 minimal_mistakes_skin         : "justin" # (contrast or neon. justin is based off contrast)
-locale                        : "en-GB"
+locale                        : "en-ZA"
 title                         : "Justin Hartman"
 title_separator               : "-"
 name                          : "Justin Hartman"
@@ -161,7 +161,6 @@ comments:
   disqus:
     shortname                 : justin-hartman
   facebook:
-    # https://developers.facebook.com/docs/plugins/comments
     appid                     : 112996658724332
     num_posts                 : 5
     colorscheme               : light
@@ -169,16 +168,16 @@ reCaptcha:
   siteKey                     : 6LfjtkwUAAAAAEmkBKSJ1jsVlf6qKXPrqqjGgv1i
   secret                      : 6LfjtkwUAAAAAPeJyxISYz8aFsbLM2Qt7ZmZXSGJ
 atom_feed:
-  path                        : /feed.xml
+  path                        : https://justin.hartman.me/feed.xml
 # Search Config
 search                        : true
 search_full_content           : true
-search_provider               : lunr # lunr (default), algolia
+search_provider               : lunr # or use: algolia
 # SEO Related
 google_site_verification      : P53F097c0BKW94kUm136hziQhHK_Ex_b-Jxwp2T_2u8
 bing_site_verification        : C7D6FF50BE25A9929352025D72EA0ED5
-yandex_site_verification      :
-naver_site_verification       :
+yandex_site_verification      : 0e53bcee54bd0f45
+naver_site_verification       : cff9b1642528de3b4703608b5c9ae651d8ed9307
 alexa_site_verification       :
 # Social Sharing
 twitter:

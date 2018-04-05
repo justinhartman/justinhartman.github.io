@@ -1,15 +1,16 @@
 ---
 layout: atom
+permalink: /feed.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xml" href="{{ site.url | absolute_url }}/feed.xslt.xml"?>
+<?xml-stylesheet type="text/xml" href="{{ '/feed.xslt.xml' | absolute_url }}"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
-    <link href="{{ site.url | absolute_url }}/feed.xml" rel="self" type="application/atom+xml" />
-    <link href="{{ site.url | absolute_url }}/" rel="alternate" type="text/html" />
+    <link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/atom+xml" />
+    <link href="{{ site.url | absolute_url }}" rel="alternate" type="text/html" />
     <title type="html">{{ site.title }}</title>
     <subtitle>{{ site.description }}</subtitle>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>{{ site.url | absolute_url }}/</id>
+    <id>{{ site.url | absolute_url }}</id>
     <author>
         <name>{{ site.author.name }}</name>
         <email>{{ site.author.email }}</email>
@@ -20,11 +21,11 @@ layout: atom
     {% unless collection.output == false or collection.label == "pages" %}
     <entry>
         <title type="html">{{ post.title }}</title>
-        <link href="{{ site.url | absolute_url }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}" />
+        <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title }}" />
         <published>{{ post.date | date_to_xmlschema }}</published>
         <updated>{{ post.last_modified_at | date_to_xmlschema }}</updated>
-        <id>{{ site.url | absolute_url }}{{ post.url }}</id>
-        <content type="html" xml:base="{{ site.url | absolute_url }}{{ post.url }}">{{ post.excerpt | xml_escape | strip_newlines }}</content>
+        <id>{{ post.url | absolute_url }}</id>
+        <content type="html" xml:base="{{ post.url | absolute_url }}">{{ post.excerpt | xml_escape | strip_newlines }}</content>
     </entry>
     {%- endunless -%}
   {%- endfor -%}
