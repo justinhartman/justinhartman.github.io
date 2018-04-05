@@ -1,2 +1,4 @@
-*.txt filter=indent
+*.txt filter=revs
 *.txt filter=dater
+
+

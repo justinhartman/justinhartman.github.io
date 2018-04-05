@@ -4,6 +4,8 @@ Now we test this. Checking the file back to the repo should mean that the above 
 
 Let's see what happens.
 
-UPDATE: OK the above worked. Yay! Now I'm going to try and get `Id` to work. Here is the variable below.
+UPDATE - 04:15: OK the above worked. Yay! Now I'm going to try and get `Id` to work. Here is the variable below.
 
 $Id$
+
+UPDATE - 04:25: This didn't work. My date still functions but Id is not being expanded. Going to try use a similar method to the Date function now.
