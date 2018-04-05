@@ -1,7 +1,7 @@
 ---
 layout: atom
 permalink: /sitemap.xml
-last_modified_at: 2018-04-05 22:20:02 +02:00
+last_modified_at: 2018-04-06 00:11:33 +02:00
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="{{ '/sitemap.xsl' | absolute_url }}"?>
