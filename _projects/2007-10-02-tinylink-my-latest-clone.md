@@ -3,10 +3,23 @@ published: true
 title: TinyLink - My latest clone
 wordpress_id: 127
 redirect_from: /2007/10/02/tinylink-my-latest-clone/
+permalink: /projects/tinylink-my-latest-clone.html
+header:
+  overlay_image: '/assets/images/projects/tinylink_1200x400.jpg'
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  teaser: '/assets/images/projects/tinylink_580x300.jpg'
+  caption: ""
+excerpt: I've been a big fan of TinyURL for some time now and I've been quite fascinated with how the whole thing is put together so I decided to have a go and see what I could come up with.
+author_profile: true
+toc: false
+classes: wide
+sitemap:
+    changefreq: yearly
+    priority: 0.9
 date: '2007-10-02 10:57:58 +0200'
 last_modified_at: '2007-10-02 08:57:58 +0200'
 categories:
-- life
+- projects
 tags:
 - TinyLink
 - Projects
@@ -233,7 +246,11 @@ comments:
   content: nice one mate
 ---
 <a href="http://tinylink.co.za/"><img src='/assets/images/uploads/2007/10/tinylink.png' alt='TinyLink' /></a>
+
 I've been a big fan of <a href="http://tinyurl.com">TinyURL!</a> for some time now and I've been quite fascinated with how the whole thing is put together so after having a chat with <a href="http://blog.colindaniels.co.za/">Colin</a> and <a href="http://groogle.co.za">Gregor</a> on Friday about the whole architecture of TinyURL I decided to have a go and see what I could come up with. I'm pleased to say that it didn't take altogether that long and by Sunday evening <a href="http://tinylink.co.za">TinyLink</a> went live.
+
 The biggest challenge for me was structuring the database so that a shortened URL would never exceeding six characters and this took some figuring out but I've now got a structure that can handle, literally, a couple billion short URLs.
+
 I also created some help files for IE7, Firefox and Safari which shows you how to add a TinyLink button to your browser so that you can easily convert a long URL into a short one with one simple click.
+
 There is absolutely no commercial value in this, the logo is crap and I only did it to see if I could replicate this great service so please go easy on me...

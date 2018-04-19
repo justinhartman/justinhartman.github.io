@@ -3,12 +3,26 @@ published: true
 title: Afrigator - the history behind the project
 wordpress_id: 37
 redirect_from: /2007/04/04/afrigator-the-history-behind-the-project/
+permalink: /projects/afrigator-the-history-behind-the-project.html
+header:
+  overlay_image: '/assets/images/projects/afrigator_1200x400.jpg'
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  teaser: '/assets/images/projects/afrigator_580x300.jpg'
+  caption: "Afrigator presented at TED. Photo by [**Erik Hersman**](https://www.flickr.com/photos/justinhartman/534626772/)"
+excerpt: Afrigator is our solution to a social media aggregator and directory built especially for Africa. Its _leak_ comes only two weeks after Amatomu was launched which in comparison becomes our biggest competitor but I've tried to avoid, where possible, us conflicting with each other.
+author_profile: true
+toc: false
+classes: wide
+sitemap:
+    changefreq: yearly
+    priority: 0.9
 date: '2007-04-04 12:39:46 +0200'
 last_modified_at: '2007-04-04 10:39:46 +0200'
 categories:
-- life
+- projects
 tags:
 - Afrigator
+- projects
 comments:
 - id: 129
   author: rafiq
@@ -156,16 +170,28 @@ comments:
   content: nice one dude, its looking hot. I still need to sign up which I&#39;ll
     do this weekend...
 ---
-So the secret's out and there's no turning back for us. My latest personal project, <a href="http://afrigator.com">Afrigator</a>, was leaked to the public yesterday morning by <a href="http://www.rafiq.za.net/blog/2007/04/03/afrigator-the-african-blog-aggregator/">Rafiq</a> and it's been a chaotic time ever since. 
+So the secrets out and there's no turning back for us. My latest personal project, <a href="http://afrigator.com">Afrigator</a>, was leaked to the public yesterday morning by <a href="http://www.rafiq.za.net/blog/2007/04/03/afrigator-the-african-blog-aggregator/">Rafiq</a> and it's been a chaotic time ever since.
+
 It's a project that is still in early Alpha release yet despite this we had 69 new sites sign up yesterday alone with a further 20 odd this morning and already we've pulled in <a href="http://www.afrigator.com/search.php?rss_query=afrigator">15 blog posts</a> that have been written by bloggers all around Africa about this new Alpha baby.
-Afrigator is our solution to a social media aggregator and directory built especially for Africa. Its &acirc;&euro;&oelig;leak&acirc;&euro; comes only two weeks after <a href="http://amatomu.com">Amatomu</a> was launched which in comparison becomes our biggest competitor but I've tried to avoid, where possible, us conflicting with each other.
+
+Afrigator is our solution to a social media aggregator and directory built especially for Africa. Its _leak_ comes only two weeks after <a href="http://amatomu.com">Amatomu</a> was launched which in comparison becomes our biggest competitor but I've tried to avoid, where possible, us conflicting with each other.
+
 <a href="http://mikestopforth.com">Mike Stopforth</a>, my new partner in this project, has written a few great things about Afrigator so I'm going to try and give you some info that hasn't already been published in the Afrosphere.
+
 The history behind Afrigator is very interesting and it's conception began with my developments with <a href="http://grabble.co.za">Grabble</a>. In trying to improve my service offering for Grabble and to try and create additional value I decided I was going to create a news aggregator based largely off Google News. This development was starting to take shape quite nicely until I met Mike Stopforth.
+
 Mike introduced me to the idea of a Technorati-style site for Africa and I was hooked almost immediately. I really wanted to be involved in a project like this and it really started to blow my hair back! 
+
 Then a few weeks back I met with <a href="http://www.vincentmaher.com/">Vincent Maher</a> from the Mail and Guardian for the very first time and it was an awesome experience to say the least (yes I do attract bees but only when he's around). We spoke about a variety of issues and he racked my brain on stats collection, database stuff and other general technical geek issues. 
-I wanted to ask Vincent, and I think I eluded to it in our meeting, if he thought we should create a Technorati for Africa but seeing as this was my first meeting with the man I held off on talks about this issue. Little did I know at the time that M&G were only days away from launching the first real big &acirc;&euro;&oelig;Technorati&acirc;&euro; website in South Africa.
+
+I wanted to ask Vincent, and I think I eluded to it in our meeting, if he thought we should create a Technorati for Africa but seeing as this was my first meeting with the man I held off on talks about this issue. Little did I know at the time that M&G were only days away from launching the first real big _Technorati_ website in South Africa.
+
 When I got a personal invitation to join Amatomu and I realised what M&G were up to I was gutted. I thought this was the end of the road for Mike and I but despite this happening we decided to go ahead anyway with the development and I began a two-week intensive process of re-designing the Grabble aggregator into a new Technorati-style aggregator and the result is now available for all to see.
+
 I have been extremely worried about the perception that would be created by Mike and I launching a competing product to Amatomu and to an extent <a href="http://muti.co.za">Muti</a>. The last thing I wanted was to create an impression that we're following or trying to compete with them directly when nothing could be further from the truth. 
+
 Yes, I'm not naive to the fact that we are competition but after chatting extensively with Vincent & <a href="http://matthewbuckland.com">Matt</a> from Amatomu as well as Neville & <a href="http://whiteafrican.com/">Erik</a> from Muti I am truly hopeful that we can start to collaborate work together rather than work against each other. 
+
 The idea of competing products working together may seem altruistic but can you imagine how the blogosphere as a whole would benefit from collaborative work between us all? Only time will tell but the response and support we've received from Amatomu and Muti has been amazing and I think sets the tone for us to work closely together.
+
 The last 24 hours has been an interesting and amazing journey and I'll report more on developments in the weeks to come.

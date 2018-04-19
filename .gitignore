@@ -10,9 +10,6 @@ docs/
 ### Octopress ###
 .deploy/
 
-### Custom Shit I Added ###
-expand_date
-
 ### Pixelmator Templates ###
 image-template-with-backgrounds.pxm
 image-template.pxm

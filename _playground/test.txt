@@ -9,3 +9,5 @@ UPDATE - 04:15: OK the above worked. Yay! Now I'm going to try and get `Id` to w
 $Id$
 
 UPDATE - 04:25: This didn't work. My date still functions but Id is not being expanded. Going to try use a similar method to the Date function now.
+
+UPDATE - 04:33: D

@@ -37,13 +37,14 @@ exclude:
   - docs
   - justin.hartman.me.sublime-project
   - justin.hartman.me.sublime-workspace
-  - image-template-with-backgrounds.pxm
-  - image-template.pxm
-  - post_580x300.pxm
+  - assets/images/image-template-with-backgrounds.pxm
+  - assets/images/image-template.pxm
+  - assets/images/post_580x300.pxm
   - _deploy.yml
   - .deploy/
   - _templates/
-  - expand_date
+  - _playground/
+  - assets/images/browser-template.pxm
 # Plugins
 plugins:
   - jemoji
@@ -79,7 +80,7 @@ defaults:
       layout                  : single
       author_profile          : true
       share                   : true
-      related                 : true
+      related                 : false
       toc                     : true
       toc_label               : "On this Page"
       toc_icon                : bookmark
@@ -109,7 +110,7 @@ defaults:
       read_time               : true
       share                   : true
       toc                     : false
-      related                 : true
+      related                 : false
       sitemap:
         changefreq            : monthly
         priority              : 0.9
@@ -125,7 +126,7 @@ defaults:
       toc                     : true
       toc_label               : "On this Page"
       toc_icon                : bookmark
-      related                 : true
+      related                 : false
       sitemap:
         changefreq            : monthly
         priority              : 0.9
@@ -141,7 +142,7 @@ defaults:
       toc                     : true
       toc_label               : "On this Page"
       toc_icon                : bookmark
-      related                 : true
+      related                 : false
       sitemap:
         changefreq            : monthly
         priority              : 0.9
@@ -202,6 +203,7 @@ social:
   - https://stackoverflow.com/users/1322242/justinhartman
   - https://plus.google.com/115788405127011300666
   - http://whoswho.co.za/justin-hartman-30052-30052
+  - https://www.crunchbase.com/person/justin-hartman
 # Analytics
 analytics:
   provider                    : google # false (default), "google", "google-universal", "google-gtag", "custom"

@@ -19,10 +19,10 @@ tags:
 - HOWTO
 - projects
 header:
-  overlay_image: '/assets/images/projects/grabble.co.za_1200x400.jpg'
+  overlay_image: '/assets/images/projects/debian-wiki_1200x400.jpg'
   overlay_filter: rgba(0, 0, 0, 0.5)
-  teaser: '/assets/images/projects/grabble.co.za_580x300.jpg'
-excerpt: 
+  teaser: '/assets/images/projects/debian-wiki_580x300.jpg'
+excerpt: The Debian Wiki was created solely because I needed something to help me keep track of what I was doing when setting up Debian servers and as such it has developed into a whole series of HOWTO tutorials.
 comments:
 - id: 83
   author: Kamaraju Kusumanchi
