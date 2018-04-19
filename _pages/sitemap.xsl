@@ -1,7 +1,10 @@
 ---
 layout: atom
 permalink: /sitemap.xsl
-last_modified_at: 2018-04-06 00:11:33 +02:00
+last_modified_at: 2018-04-19 23:48:22 +02:00
+sitemap:
+    changefreq: yearly
+    priority: 0.1
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" 
