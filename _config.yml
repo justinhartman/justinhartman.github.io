@@ -37,14 +37,11 @@ exclude:
   - docs
   - justin.hartman.me.sublime-project
   - justin.hartman.me.sublime-workspace
-  - assets/images/image-template-with-backgrounds.pxm
-  - assets/images/image-template.pxm
-  - assets/images/post_580x300.pxm
   - _deploy.yml
   - .deploy/
   - _templates/
   - _playground/
-  - assets/images/browser-template.pxm
+  - assets/images/templates/
 # Plugins
 plugins:
   - jemoji

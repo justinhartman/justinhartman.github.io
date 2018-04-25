@@ -1,12 +1,17 @@
 ---
 title: How to change Apple Command key and CTRL key on Ubuntu 17.04
 date: 2017-07-17 10:22:00 +02:00
-last_modified_at: 2018-03-20 01:21 +02:00
+last_modified_at: 2018-04-25 18:51:51 +02:00
 permalink: "/linux/ubuntu/change-apple-command-and-ctrl-key-on-ubuntu-17.04.html"
 categories:
 - ubuntu
 - apple
 published: true
+header:
+  overlay_image: '/assets/images/linux/ubuntu_keys.jpg'
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Photo by [**Gustavo_Belemmi**](https://pixabay.com/en/ubuntu-wallpaper-linux-pc-simple-1479782/)"
+  teaser: '/assets/images/linux/ubuntu_keys_580x300.jpg'
 ---
 If you want to swap both the Command keys with the default Control key on Ubuntu 17.04 inverting what they do currently then this is for you.
 

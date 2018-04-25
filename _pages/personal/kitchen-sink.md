@@ -666,16 +666,31 @@ $ gem install octopress
 
 ### New Post
 
-Default command
+Default command which creates a post in the `_posts/` folder but tagged with the `/life/` collection as this is now my default category/collection.
 
 ```bash
-$ octopress new post "Post Title"
+$ octop new post "Post Title"
 ```
 
-Default works great if you want all your posts in one directory, but if you're like me and want to group them into subfolders like `/posts`, `/portfolio`, etc. Then this is the command for you. By specifying the DIR it will create a new post in that folder and populate the `categories:` YAML with the same value.
+To create posts per collection you need to create them as such:
 
 ```bash
-$ octopress new post "New Portfolio Post Title" --dir portfolio
+$ octop new post "Linux Collection Post" -T linux
+```
+
+The above command will create a new post in the `_posts` directory however it will be created with the `/linux/` category/collection so it can simply be moved to the `_linux/` folder.
+
+Similarly, these commands will create posts for each of the other collections found on the site.
+
+```bash
+$ octop new post "Projects Collection Post" -T projects
+$ octop new post "Technical Collection Post" -T technical
+```
+
+Default works great if you want all your posts in one directory, but if you want to group them into subfolders like `/posts`, `/portfolio`, etc. Then this is the command for you. By specifying the DIR it will create a new post in that folder and populate the `categories:` YAML with the same value.
+
+```bash
+$ octop new post "New Portfolio Post Title" --dir portfolio
 ```
 
 ### New Page
@@ -683,7 +698,7 @@ $ octopress new post "New Portfolio Post Title" --dir portfolio
 To create a new page use the following command.
 
 ```bash
-$ octopress new page new-page/
+$ octop new page new-page/
 ```
 
 This will create a page at `/new-page/index.md`

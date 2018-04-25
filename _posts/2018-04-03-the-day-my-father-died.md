@@ -25,7 +25,7 @@ header:
   overlay_image: '/assets/images/uploads/2010/05/2453473207_f875e719b3_b.jpg'
   overlay_filter: rgba(0, 0, 0, 0.5)
   caption: 'Me with my Dad. Photo by [Gregor Rohrig](http://gregorrohrig.com).'
-  teaser: '/assets/images/uploads/2010/05/2453473207_f875e719b3_b.jpg'
+  teaser: '/assets/images/life/the-day-my-father-died_580x300.jpg'
 image: '/assets/images/life/the-day-my-father-died_580x300.jpg'
 excerpt: At around midnight on 18 May 2010 my father passed away after a long battle with Cancer. I was 15 years old when he was first diagnosed with Chronic Lymphocytic Leukaemia (CLL).
 ---
