@@ -43,6 +43,7 @@ exclude:
   - _templates/
   - _playground/
   - assets/images/templates/
+  - vendor
 # Plugins
 plugins:
   - jemoji
