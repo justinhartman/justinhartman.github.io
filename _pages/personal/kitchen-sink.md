@@ -124,9 +124,9 @@ This tests how using different Liquid tags will output URLs. While all of them o
 
 Embed a video from YouTube or Vimeo that responsively sizes to fit the width of its parent.
 
-| Parameter  | Required     | Description |
-|----------  |---------     | ----------- |
-| `id`       | **Required** | ID of the video |
+| Parameter  | Required     | Description                                                |
+| ---------- | ------------ | ---------------------------------------------------------- |
+| `id`       | **Required** | ID of the video                                            |
 | `provider` | **Required** | Hosting provider of the video, either `youtube` or `vimeo` |
 
 ### YouTube
@@ -227,11 +227,12 @@ No wrap text.
 
 Generate a `<figure>` element with a single image and caption.
 
-| Include Parameter | Required     | Description |
-| ----              | --------     | ----------- |
-| **image_path**    | **Required** | Full path to image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. |
-| **alt**           | Optional     | Alternate text for image. |
-| **caption**       | Optional     | Figure caption text. Markdown is allowed. |
+| Include Parameter | Required     | Description                                           |
+| ----------------- | ------------ | ----------------------------------------------------- |
+| **image_path**    | **Required** | Full path to image eg: `/assets/images/filename.jpg`. |
+|                   |              | Use absolute URLS for those hosted externally.        |
+| **alt**           | Optional     | Alternate text for image.                             |
+| **caption**       | Optional     | Figure caption text. Markdown is allowed.             |
 
 Using the `figure` include like so:
 
@@ -666,7 +667,7 @@ $ gem install octopress
 
 ### New Post
 
-Default command which creates a post in the `_posts/` folder but tagged with the `/life/` collection as this is now my default category/collection.
+Default command which creates a post in the `_posts/` folder but tagged with the `/life/` collection as this is now my default collection.
 
 ```bash
 $ octop new post "Post Title"
@@ -678,7 +679,7 @@ To create posts per collection you need to create them as such:
 $ octop new post "Linux Collection Post" -T linux
 ```
 
-The above command will create a new post in the `_posts` directory however it will be created with the `/linux/` category/collection so it can simply be moved to the `_linux/` folder.
+The above command will create a new post in the `_posts` directory however it will be created with the `/linux/` collection so it can simply be moved to the `_linux/` folder.
 
 Similarly, these commands will create posts for each of the other collections found on the site.
 
