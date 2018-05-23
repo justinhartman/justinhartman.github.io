@@ -14,7 +14,17 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
-
+    <!--<form style="border:0px;padding:3px;text-align:center;" action="https://tinyletter.com/justinhartman" method="post" target="popupwindow"
+      onsubmit="window.open('https://tinyletter.com/justinhartman', 'popupwindow ', 'scrollbars=yes,width=800,height=600');return true">
+      <p>
+        <label for="tlemail">Enter your email address</label>
+      </p>
+      <p>
+        <input type="text" style="width:140px" name="email" id="tlemail" />
+      </p>
+      <input type="hidden" value="1" name="embed" />
+      <input type="submit" value="Subscribe" />
+    </form>-->
     <section class="page__content" itemprop="text">
       {{ content }}
     </section>
