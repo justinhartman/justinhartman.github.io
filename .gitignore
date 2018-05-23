@@ -1,11 +1,12 @@
 ### Jekyll ###
-# I don't want to include the `_site` build files in the master branch.
-# This should be created by Github Pages and shouldn't use the files
-# from my development machine.
 _site/
 docs/
 .jekyll-metadata
 .sass-cache
+
+### Ruby ###
+vendor/
+.bundle/
 
 ### Octopress ###
 .deploy/
