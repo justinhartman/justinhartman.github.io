@@ -3,7 +3,6 @@ published: true
 title: The end of a football era
 wordpress_id: 59
 redirect_from: /2007/06/25/the-end-of-a-football-era/
-permalink: /life/the-end-of-a-football-era.html
 author_profile: true
 toc: false
 classes: wide

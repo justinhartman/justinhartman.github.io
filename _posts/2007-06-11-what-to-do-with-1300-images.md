@@ -3,7 +3,6 @@ published: true
 title: What to do with 1,300 images?
 wordpress_id: 57
 redirect_from: /2007/06/11/what-to-do-with-1300-images/
-permalink: /life/what-to-do-with-1300-images.html
 author_profile: true
 toc: false
 classes: wide

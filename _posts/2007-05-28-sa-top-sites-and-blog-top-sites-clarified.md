@@ -3,7 +3,6 @@ published: true
 title: SA Top Sites and Blog Top Sites clarified
 wordpress_id: 54
 redirect_from: /2007/05/28/sa-top-sites-and-blog-top-sites-clarified/
-permalink: /life/projects/sa-top-sites-and-blog-top-sites-clarified.html
 author_profile: true
 toc: false
 classes: wide
@@ -12,6 +11,7 @@ date: '2007-05-28 10:29:08 +0200'
 last_modified_at: '2007-05-28 08:29:08 +0200'
 categories:
 - life
+- projects
 tags:
 - Old Projects
 comments:

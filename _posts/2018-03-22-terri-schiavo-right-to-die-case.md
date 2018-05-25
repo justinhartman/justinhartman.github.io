@@ -1,15 +1,5 @@
 ---
 title: Terri Schiavo Right To Die Case
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/life/death/terri-schiavo-right-to-die-case.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/111170567148643431
-  - http://jjhartman.blogspot.com/2005/03/terri-schiavo-right-to-die-case.html
 published: true
 toc: false
 classes: wide

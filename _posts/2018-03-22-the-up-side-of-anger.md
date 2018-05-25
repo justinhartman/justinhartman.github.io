@@ -1,15 +1,5 @@
 ---
 title: The Up Side Of Anger
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/life/the-up-side-of-anger.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/111611698258520797
-  - http://jjhartman.blogspot.com/2005/05/up-side-of-anger.html
 published: true
 toc: false
 classes: wide

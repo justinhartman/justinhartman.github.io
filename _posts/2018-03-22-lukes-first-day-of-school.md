@@ -1,15 +1,5 @@
 ---
 title: Luke's First Day of School!
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/life/luke/lukes-first-day-of-school.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/111261673767374437
-  - http://jjhartman.blogspot.com/2005/04/lukes-first-day-of-school.html
 published: true
 toc: false
 classes: wide

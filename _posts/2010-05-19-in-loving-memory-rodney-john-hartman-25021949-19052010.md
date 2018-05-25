@@ -2,7 +2,6 @@
 published: true
 title: In Loving Memory - Rodney John Hartman 25/02/1949 - 18/05/2010
 wordpress_id: 933
-permalink: /life/death/in-loving-memory-rodney-john-hartman-25021949-19052010.html
 date: '2010-05-19 08:30:11 +0200'
 last_modified_at: '2010-05-19 06:30:11 +0200'
 categories:
@@ -541,4 +540,3 @@ I nearly didn't book my plane ticket to Johannesburg on Monday night because I r
 To be honest his death has not sunken in yet but I can tell you I feel at peace with it. I did everything I needed to do with him and I'm so grateful that I don't have any regrets around his death.
 
 Today I remember my father as loving, dedicated and humble person who endured many hardships in his life to make our lives a little easier. The world has lost a great human being and I look forward to honouring him at his funeral.
-

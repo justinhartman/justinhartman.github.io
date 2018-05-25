@@ -2,8 +2,9 @@
 published: true
 title: Twac.co.za - my new baby
 wordpress_id: 30
-redirect_from: /2007/03/08/twaccoza-my-new-baby/
-permalink: /life/twaccoza-my-new-baby.html
+redirect_from: 
+ - /2007/03/08/twaccoza-my-new-baby/
+ - /life/twaccoza-my-new-baby.html
 author_profile: true
 toc: false
 classes: wide
@@ -12,6 +13,7 @@ date: '2007-03-08 10:10:35 +0200'
 last_modified_at: '2007-03-08 08:10:35 +0200'
 categories:
 - life
+- business
 tags:
 - Technology
 - SA Rocks

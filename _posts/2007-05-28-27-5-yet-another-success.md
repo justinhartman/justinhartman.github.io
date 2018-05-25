@@ -3,7 +3,6 @@ published: true
 title: 27-5 yet another success
 wordpress_id: 55
 redirect_from: /2007/05/28/27-5-yet-another-success/
-permalink: /life/27-5-yet-another-success.html
 author_profile: true
 toc: false
 classes: wide

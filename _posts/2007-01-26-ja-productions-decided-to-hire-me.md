@@ -2,8 +2,9 @@
 published: true
 title: Ja! Productions decided to hire me
 wordpress_id: 24
-redirect_from: /2007/01/26/ja-productions-decided-to-hire-me/
-permalink: /life/ja-productions-decided-to-hire-me.html
+redirect_from: 
+ - /life/ja-productions-decided-to-hire-me.html
+ - /2007/01/26/ja-productions-decided-to-hire-me/
 author_profile: true
 toc: false
 classes: wide
@@ -11,8 +12,11 @@ date: '2007-01-26 15:23:39 +0200'
 last_modified_at: '2007-01-26 13:23:39 +0200'
 categories:
 - life
+- business
 tags:
 - life
+- business
+- career
 comments:
 - id: 47
   author: Grant

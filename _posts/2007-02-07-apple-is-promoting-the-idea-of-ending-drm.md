@@ -3,7 +3,6 @@ published: true
 title: Apple is promoting the idea of ending DRM
 wordpress_id: 26
 redirect_from: /2007/02/07/apple-is-promoting-the-idea-of-ending-drm/
-permalink: /life/apple-is-promoting-the-idea-of-ending-drm.html
 author_profile: true
 toc: false
 classes: wide

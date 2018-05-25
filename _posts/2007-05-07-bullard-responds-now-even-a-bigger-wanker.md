@@ -3,7 +3,6 @@ published: true
 title: Bullard responds - now even a bigger wanker
 wordpress_id: 43
 redirect_from: /2007/05/07/bullard-responds-now-even-a-bigger-wanker/
-permalink: /life/bullard/bullard-responds-now-even-a-bigger-wanker.html
 author_profile: true
 toc: false
 classes: wide
@@ -12,6 +11,7 @@ date: '2007-05-07 16:53:42 +0200'
 last_modified_at: '2007-05-07 14:53:42 +0200'
 categories:
 - life
+- bullard
 tags:
 - Things I Don't Like
 - Blogging

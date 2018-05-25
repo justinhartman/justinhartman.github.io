@@ -2,8 +2,9 @@
 published: true
 title: I'm looking for a new job
 wordpress_id: 17
-redirect_from: /2006/12/27/im-looking-for-a-new-job/
-permalink: /life/im-looking-for-a-new-job.html
+redirect_from: 
+ - /life/im-looking-for-a-new-job.html
+ - /2006/12/27/im-looking-for-a-new-job/
 author_profile: true
 toc: false
 classes: wide
@@ -11,6 +12,7 @@ date: '2006-12-27 15:22:54 +0200'
 last_modified_at: '2006-12-27 13:22:54 +0200'
 categories:
 - life
+- business
 tags:
 - life
 - jobs

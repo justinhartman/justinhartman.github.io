@@ -3,7 +3,6 @@ published: true
 title: Seriously, Google is starting to scare me
 wordpress_id: 20
 redirect_from: /2007/01/09/seriously-google-is-starting-to-scare-me/
-permalink: /life/seriously-google-is-starting-to-scare-me.html
 author_profile: true
 toc: false
 classes: wide

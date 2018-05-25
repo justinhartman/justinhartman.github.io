@@ -3,7 +3,6 @@ published: true
 title: Is David Bullard an utter wanker?
 wordpress_id: 42
 redirect_from: /2007/05/07/is-david-bullard-an-utter-wanker/
-permalink: /life/bullard/is-david-bullard-an-utter-wanker.html
 author_profile: true
 toc: false
 classes: wide
@@ -12,6 +11,7 @@ date: '2007-05-07 00:44:59 +0200'
 last_modified_at: '2007-05-06 22:44:59 +0200'
 categories:
 - life
+- bullard
 tags:
 - Things I Don't Like
 - Blogging

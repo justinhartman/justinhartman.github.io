@@ -1,7 +1,6 @@
 ---
 title: "Since You've Been Gone..."
 layout: single
-permalink: /life/death/since-youve-been-gone.html
 published: true
 classes: wide
 toc: false

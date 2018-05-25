@@ -1,9 +1,6 @@
 ---
 title: "The Day My Father Died"
 layout: single
-permalink: /life/death/the-day-my-father-died.html
-# redirect_from: 
-#  - /url/
 published: true
 date: 2018-04-03T21:05:28+02:00
 last_modified_at: 2018-04-03T21:05:28+02:00

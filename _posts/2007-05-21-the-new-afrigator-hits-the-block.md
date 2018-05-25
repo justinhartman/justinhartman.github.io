@@ -3,7 +3,6 @@ published: true
 title: The new Afrigator hits the block
 wordpress_id: 51
 redirect_from: /2007/05/21/the-new-afrigator-hits-the-block/
-permalink: /life/projects/the-new-afrigator-hits-the-block.html
 author_profile: true
 toc: false
 classes: wide

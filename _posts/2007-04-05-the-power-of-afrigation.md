@@ -3,7 +3,6 @@ published: true
 title: The power of Afrigation
 wordpress_id: 38
 redirect_from: /2007/04/05/the-power-of-afrigation/
-permalink: /life/projects/the-power-of-afrigation.html
 author_profile: true
 toc: false
 classes: wide

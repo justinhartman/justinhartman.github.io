@@ -3,7 +3,6 @@ published: true
 title: The big Cameroon domain conspiracy
 wordpress_id: 53
 redirect_from: /2007/05/24/the-big-cameroon-domain-conspiracy/
-permalink: /life/the-big-cameroon-domain-conspiracy.html
 author_profile: true
 toc: false
 classes: wide

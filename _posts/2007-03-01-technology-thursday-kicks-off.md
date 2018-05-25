@@ -3,7 +3,6 @@ published: true
 title: Technology Thursday kicks off
 wordpress_id: 29
 redirect_from: /2007/03/01/technology-thursday-kicks-off/
-permalink: /life/technology-thursday-kicks-off.html
 author_profile: true
 toc: false
 classes: wide

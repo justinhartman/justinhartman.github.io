@@ -3,7 +3,6 @@ published: true
 title: Show me the Gatorlove
 wordpress_id: 52
 redirect_from: /2007/05/24/show-me-the-gatorlove/
-permalink: /life/projects/show-me-the-gatorlove.html
 author_profile: true
 toc: false
 classes: wide

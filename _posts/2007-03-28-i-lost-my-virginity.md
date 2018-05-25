@@ -3,7 +3,6 @@ published: true
 title: I lost my virginity
 wordpress_id: 34
 redirect_from: /2007/03/28/i-lost-my-virginity/
-permalink: /life/i-lost-my-virginity.html
 author_profile: true
 toc: false
 classes: wide

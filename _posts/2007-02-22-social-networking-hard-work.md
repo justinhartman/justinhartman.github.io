@@ -3,7 +3,6 @@ published: true
 title: Social Networking = hard work!
 wordpress_id: 28
 redirect_from: /2007/02/22/social-networking-hard-work/
-permalink: /life/social-networking-hard-work.html
 author_profile: true
 toc: false
 classes: wide

@@ -1,15 +1,5 @@
 ---
 title: Pic of my 10 1/2 month old son Luke
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/life/luke/pic-of-my-10-12-month-old-son-luke.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/109727686568433078
-  - http://jjhartman.blogspot.com/2004/10/pic-of-my-10-12-month-old-son-luke.html
 published: true
 toc: false
 classes: wide

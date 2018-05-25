@@ -3,7 +3,6 @@ published: true
 title: Words that end in gry
 wordpress_id: 19
 redirect_from: /2007/01/09/words-that-end-in-gry/
-permalink: /life/words-that-end-in-gry.html
 author_profile: true
 toc: false
 classes: wide

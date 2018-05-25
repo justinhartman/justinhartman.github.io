@@ -3,7 +3,6 @@ published: true
 title: Kudos to Mike Stopforth
 wordpress_id: 33
 redirect_from: /2007/03/27/kudos-to-mike-stopforth/
-permalink: /life/kudos-to-mike-stopforth.html
 author_profile: true
 toc: false
 classes: wide

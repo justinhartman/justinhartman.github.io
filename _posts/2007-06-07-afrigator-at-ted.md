@@ -2,8 +2,9 @@
 published: true
 title: Afrigator at TED
 wordpress_id: 56
-redirect_from: /2007/06/07/afrigator-at-ted/
-permalink: /life/afrigator-at-ted.html
+redirect_from: 
+ - /life/afrigator-at-ted.html
+ - /2007/06/07/afrigator-at-ted/
 author_profile: true
 toc: false
 classes: wide
@@ -12,6 +13,7 @@ date: '2007-06-07 20:46:19 +0200'
 last_modified_at: '2007-06-07 18:46:19 +0200'
 categories:
 - life
+- projects
 tags:
 - Technology
 - Afrigator

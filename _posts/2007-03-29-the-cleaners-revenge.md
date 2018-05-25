@@ -3,7 +3,6 @@ published: true
 title: The Cleaners Revenge
 wordpress_id: 35
 redirect_from: /2007/03/29/the-cleaners-revenge/
-permalink: /life/the-cleaners-revenge.html
 author_profile: true
 toc: false
 classes: wide

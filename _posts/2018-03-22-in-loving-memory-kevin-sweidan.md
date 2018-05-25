@@ -1,15 +1,5 @@
 ---
 title: In Loving Memory - Kevin Sweidan
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/life/death/in-loving-memory-kevin-sweidan.html"
-redirect_from:
-  - http://jjhartman.blogspot.com/2005/09/in-loving-memory-kevin-sweidan.html
-  - https://www.blogger.com/feeds/7253650/posts/default/112683453515253999
 published: true
 toc: false
 classes: wide

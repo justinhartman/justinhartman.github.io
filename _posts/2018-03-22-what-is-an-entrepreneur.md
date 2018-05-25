@@ -1,15 +1,5 @@
 ---
 title: What is an Entrepreneur?
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/life/business/what-is-an-entrepreneur.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/110989296776228608
-  - http://jjhartman.blogspot.com/2005/03/what-is-entrepreneur.html
 published: true
 toc: false
 classes: wide

@@ -1,15 +1,5 @@
 ---
 title: It's A Good May Day!
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/life/its-a-good-may-day.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/111671689757674648
-  - http://jjhartman.blogspot.com/2005/05/its-good-may-day.html
 published: true
 toc: false
 classes: wide

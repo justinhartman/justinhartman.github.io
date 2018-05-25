@@ -3,7 +3,6 @@ published: true
 title: My Digital Life?
 wordpress_id: 60
 redirect_from: /2007/06/25/my-digital-life/
-permalink: /life/my-digital-life.html
 author_profile: true
 toc: false
 classes: wide

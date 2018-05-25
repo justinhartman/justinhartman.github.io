@@ -3,7 +3,6 @@ published: true
 title: Shirley, Goodness and Mercy
 wordpress_id: 44
 redirect_from: /2007/05/09/shirley-goodness-and-mercy/
-permalink: /life/shirley-goodness-and-mercy.html
 author_profile: true
 toc: false
 classes: wide

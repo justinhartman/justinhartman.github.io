@@ -3,7 +3,6 @@ published: true
 title: How I spent my Valentines Day
 wordpress_id: 27
 redirect_from: /2007/02/15/how-i-spent-my-valentines-day/
-permalink: /life/how-i-spent-my-valentines-day.html
 author_profile: true
 toc: false
 classes: wide

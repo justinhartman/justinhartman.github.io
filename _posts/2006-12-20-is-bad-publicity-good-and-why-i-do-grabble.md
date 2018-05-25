@@ -3,7 +3,6 @@ published: true
 title: Is bad publicity good? and why i do grabble
 wordpress_id: 13
 redirect_from: /2006/12/20/is-bad-publicity-good-and-why-i-do-grabble/
-permalink: /life/projects/is-bad-publicity-good-and-why-i-do-grabble.html
 author_profile: true
 toc: false
 classes: wide

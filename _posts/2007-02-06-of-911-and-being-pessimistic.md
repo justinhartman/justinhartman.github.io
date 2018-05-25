@@ -3,7 +3,6 @@ published: true
 title: Of 9/11 and being pessimistic
 wordpress_id: 25
 redirect_from: /2007/02/06/of-911-and-being-pessimistic/
-permalink: /life/of-911-and-being-pessimistic.html
 author_profile: true
 toc: false
 classes: wide

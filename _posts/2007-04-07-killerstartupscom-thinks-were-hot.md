@@ -3,7 +3,6 @@ published: true
 title: KillerStartups.com thinks we're hot
 wordpress_id: 39
 redirect_from: /2007/04/07/killerstartupscom-thinks-were-hot/
-permalink: /life/projects/killerstartupscom-thinks-were-hot.html
 author_profile: true
 toc: false
 classes: wide

@@ -1,15 +1,5 @@
 ---
 title: My New Blog
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/life/my-new-blog.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/109727493703021954
-  - http://jjhartman.blogspot.com/2004/10/my-new-blog.html
 published: true
 toc: false
 classes: wide

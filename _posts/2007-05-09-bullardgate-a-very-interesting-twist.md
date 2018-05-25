@@ -3,7 +3,6 @@ published: true
 title: 'Bullardgate: A very interesting twist'
 wordpress_id: 46
 redirect_from: /2007/05/09/bullardgate-a-very-interesting-twist/
-permalink: /life/bullard/bullardgate-a-very-interesting-twist.html
 author_profile: true
 toc: false
 classes: wide
@@ -12,6 +11,7 @@ date: '2007-05-09 19:49:23 +0200'
 last_modified_at: '2007-05-09 17:49:23 +0200'
 categories:
 - life
+- bullard
 tags:
 - Things I Don't Like
 - Bullard

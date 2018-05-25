@@ -1,15 +1,5 @@
 ---
 title: Asia Tsunami
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/life/death/asia-tsunami.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/110427802977786594
-  - http://jjhartman.blogspot.com/2004/12/asia-tsunami.html
 published: true
 toc: false
 classes: wide
