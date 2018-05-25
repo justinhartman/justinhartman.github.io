@@ -13,15 +13,15 @@ collections:
   projects:
     title                     : Projects
     output                    : true
-    permalink                 : /:collection/:path/:title.html
+    permalink                 : /:collection/:title.html
   linux:
     title                     : Linux
     output                    : true
-    permalink                 : /:collection/:path/:title.html
+    permalink                 : /:collection/:title.html
   technical:
     title                     : Technical
     output                    : true
-    permalink                 : /:collection/:path/:title.html
+    permalink                 : /:collection/:title.html
 # Basic site structure / setup
 kramdown:
   input                       : GFM

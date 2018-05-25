@@ -3,7 +3,6 @@ published: true
 title: Debian Wiki Launched
 wordpress_id: 21
 redirect_from: /2007/01/18/debian-wiki-launched/
-permalink: /projects/debian-wiki-launched.html
 author_profile: true
 toc: false
 classes: wide

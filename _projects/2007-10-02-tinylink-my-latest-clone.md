@@ -3,7 +3,6 @@ published: true
 title: TinyLink - My latest clone
 wordpress_id: 127
 redirect_from: /2007/10/02/tinylink-my-latest-clone/
-permalink: /projects/tinylink-my-latest-clone.html
 header:
   overlay_image: '/assets/images/projects/tinylink_1200x400.jpg'
   overlay_filter: rgba(0, 0, 0, 0.5)

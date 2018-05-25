@@ -3,7 +3,6 @@ published: true
 title: Afrigator - the history behind the project
 wordpress_id: 37
 redirect_from: /2007/04/04/afrigator-the-history-behind-the-project/
-permalink: /projects/afrigator-the-history-behind-the-project.html
 header:
   overlay_image: '/assets/images/projects/afrigator_1200x400.jpg'
   overlay_filter: rgba(0, 0, 0, 0.5)

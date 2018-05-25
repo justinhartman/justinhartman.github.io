@@ -1,12 +1,10 @@
 ---
 title: Grabble.co.za is launched
 wordpress_id: 4
-permalink: /projects/grabble-coza-is-launched.html
 redirect_from: /2006/10/30/grabble-coza-is-launched/
 date: '2006-10-30 00:01:26 +0200'
 last_modified_at: '2006-10-30 00:01:26 +0200'
 categories:
-- search
 - projects
 tags:
 - grabble
@@ -86,4 +84,3 @@ Our accurate and detailed search results provide thumbnail shots of each website
 Grabble utilises the sheer brilliance of some of the worlds finest search engine engineers as the backbone for a search engine that is fast, responsive and very accurate. Grabble is hosted on its own dedicated Linux web-server with unmetered bandwidth and extensive resources in our Data center which provide maximum reliability and uptime and it is because of this that Grabble delivers quality search results every time.
 
 Let me know what you all think.
-
