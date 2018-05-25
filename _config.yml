@@ -23,13 +23,16 @@ collections:
     title                     : Technical
     output                    : true
     permalink                 : /:collection/:categories/:title.html
+  playground:
+    title                     : Playground
+    output                    : true
 # Basic site structure / setup
 kramdown:
   input                       : GFM
   syntax_highlighter          : rouge
   syntax_highlighter_opts:
     css_class                 : highlight
-github: [metadata]
+# github: [metadata]
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -159,9 +162,9 @@ tag_archive:
 # paginate_path                 : /everything/page:num/
 # Comments
 comments:
-  provider                    : facebook # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider                    : facebook
   disqus:
-    shortname                 : justin-hartman
+    shortname                 : 
   facebook:
     appid                     : 112996658724332
     num_posts                 : 5
@@ -180,7 +183,7 @@ google_site_verification      : P53F097c0BKW94kUm136hziQhHK_Ex_b-Jxwp2T_2u8
 bing_site_verification        : C7D6FF50BE25A9929352025D72EA0ED5
 yandex_site_verification      : 0e53bcee54bd0f45
 naver_site_verification       : cff9b1642528de3b4703608b5c9ae651d8ed9307
-alexa_site_verification       :
+# alexa_site_verification       :
 # Social Sharing
 twitter:
   username                    : justinhartman

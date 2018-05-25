@@ -4,7 +4,7 @@ permalink: '/humans.txt'
 sitemap:
     changefreq: monthly
     priority: 0.5
-last_modified_at: 2018-05-24T00:17:31+02:00
+last_modified_at: 2018-05-25 18:21:45 +0200
 ---
 
 /* TEAM */
