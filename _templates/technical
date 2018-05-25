@@ -1,7 +1,6 @@
 ---
 title: "{{ title }}"
 layout: {{ layout }}
-permalink: /technical/{{ slug }}.html
 # redirect_from: 
 #  - /url/
 published: false
@@ -13,7 +12,7 @@ sitemap:
   changefreq: monthly
   priority: 0.9
 categories:
-- technical
+- 
 tags:
 - technical
 header:

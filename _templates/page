@@ -1,7 +1,6 @@
 ---
 title: "{{ title }}"
 layout: {{ layout }}
-permalink: /{{ slug }}.html
 # redirect_from: 
 #  - /url/
 published: false
