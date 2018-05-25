@@ -1,9 +1,5 @@
 ---
 title: "How to Find Your Device's MAC Address"
-layout: single
-permalink: /technical/how-to-find-your-android-windows-iphone-ios-ipad-macos-mac-address.html
-# redirect_from: 
-#  - /url/
 published: true
 toc: true
 date: 2018-04-25T15:52:10+02:00
@@ -11,8 +7,6 @@ last_modified_at: 2018-04-25T15:52:10+02:00
 sitemap: 
   changefreq: monthly
   priority: 0.9
-categories:
-- technical
 tags:
 - technical
 - mac address

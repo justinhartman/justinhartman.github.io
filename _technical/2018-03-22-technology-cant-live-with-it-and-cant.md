@@ -1,23 +1,11 @@
 ---
 title: Technology - Can't live with it and can't live without it!!!!
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/technology-cant-live-with-it-and-cant.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/110799630454538997
-  - http://jjhartman.blogspot.com/2005/02/technology-cant-live-with-it-and-cant.html
 published: true
 toc: false
 classes: wide
 date: 2005-02-10 02:26:00 +02:00
 last_modified_at: 2005-02-10 02:53:11 +02:00
 excerpt: I'm in the IT world. I live and breath internet and IT technology yet somehow I wish I could throw it all away... Since Friday two weeks ago I have been inundated with the Beagle virus.
-categories:
-- technical
 tags:
 - personal
 - blog

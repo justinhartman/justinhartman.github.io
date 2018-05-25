@@ -1,15 +1,5 @@
 ---
 title: Google Desktop Search
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/search/google-desktop-search.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/110237658852978761
-  - http://jjhartman.blogspot.com/2004/12/google-desktop-search.html
 published: true
 toc: false
 classes: wide
@@ -17,7 +7,6 @@ date: 2004-12-07 01:32:00 +02:00
 last_modified_at: 2004-12-07 01:43:08 +02:00
 excerpt: If you're like me you've probably accumulated close on 9000 emails this year alone and I'm sure that the amount of files lying on your computer is getting far too unmanageable... 
 categories:
-- technical
 - search
 tags:
 - personal

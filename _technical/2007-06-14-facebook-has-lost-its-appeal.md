@@ -3,15 +3,12 @@ published: true
 title: Facebook has lost its appeal
 wordpress_id: 58
 redirect_from: /2007/06/14/facebook-has-lost-its-appeal/
-permalink: /technical/facebook-has-lost-its-appeal.html
 author_profile: true
 toc: false
 classes: wide
 excerpt: When I heard about the launch of Facebook Apps I got a little concerned and I think, rightfully so. 
 date: '2007-06-14 13:57:31 +0200'
 last_modified_at: '2007-06-14 11:57:31 +0200'
-categories:
-- technical
 tags:
 - Technology
 - Things I Don't Like

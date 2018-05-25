@@ -1,15 +1,5 @@
 ---
 title: Microsoft to Launch New Search Engine
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/search/microsoft-to-launch-new-search-engine.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/110009871304548014
-  - http://jjhartman.blogspot.com/2004/11/microsoft-to-launch-new-search-engine.html
 published: true
 toc: false
 classes: wide
@@ -17,7 +7,6 @@ date: 2004-11-10 16:58:00 +02:00
 last_modified_at: 2004-11-10 16:58:33 +02:00
 excerpt: It appears that if you have a lot of money you can be anti-competitive and illegal and get away with it by paying everyone off.
 categories:
-- technical
 - search
 tags:
 - personal

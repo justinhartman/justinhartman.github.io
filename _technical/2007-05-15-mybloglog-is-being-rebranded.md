@@ -3,15 +3,12 @@ published: true
 title: MyBlogLog is being re-branded
 wordpress_id: 49
 redirect_from: /2007/05/15/mybloglog-is-being-rebranded/
-permalink: /technical/mybloglog-is-being-rebranded.html
 author_profile: true
 toc: false
 classes: wide
 excerpt: At the recent SOBcon conference in Chicago Robyn Tippins spoke about several major upcoming changes with MyBlogLog. Yahoo! recently purchased MyBlogLog and Robyn was hired as the MyBlogLog community manager.
 date: '2007-05-15 09:50:19 +0200'
 last_modified_at: '2007-05-15 07:50:19 +0200'
-categories:
-- technical
 tags:
 - Blogging
 ---

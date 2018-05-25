@@ -10,6 +10,7 @@ collections:
   pages:
     title                     : Pages
     output                    : true
+    permalink                 : /:title.html
   projects:
     title                     : Projects
     output                    : true
@@ -17,11 +18,11 @@ collections:
   linux:
     title                     : Linux
     output                    : true
-    permalink                 : /:collection/:title.html
+    permalink                 : /:collection/:categories/:title.html
   technical:
     title                     : Technical
     output                    : true
-    permalink                 : /:collection/:title.html
+    permalink                 : /:collection/:categories/:title.html
 # Basic site structure / setup
 kramdown:
   input                       : GFM

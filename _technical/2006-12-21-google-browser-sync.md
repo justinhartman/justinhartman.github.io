@@ -3,14 +3,11 @@ published: true
 title: Google Browser Sync
 wordpress_id: 16
 redirect_from: /2006/12/21/google-browser-sync/
-permalink: /technical/google-browser-sync.html
 author_profile: true
 toc: false
 classes: wide
 date: '2006-12-21 14:03:55 +0200'
 last_modified_at: '2006-12-21 12:03:55 +0200'
-categories:
-- technical
 tags:
 - Browsers
 - Google

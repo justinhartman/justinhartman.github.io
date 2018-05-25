@@ -1,15 +1,5 @@
 ---
 title: New Website Released
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/blog/new-website-released.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/109986629546753264
-  - http://jjhartman.blogspot.com/2004/11/new-website-released.html
 published: true
 toc: false
 classes: wide
@@ -17,7 +7,6 @@ date: 2004-11-08 01:18:00 +02:00
 last_modified_at: 2004-11-08 02:25:23 +02:00
 excerpt: I am very excited about the release of the website... Finally!
 categories:
-- technical
 - blog
 tags:
 - personal

@@ -1,23 +1,11 @@
 ---
 title: My new pet hate
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/my-new-pet-hate.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/110799758501554906
-  - http://jjhartman.blogspot.com/2005/02/my-new-pet-hate.html
 published: true
 toc: false
 classes: wide
 date: 2005-02-10 03:02:00 +02:00
 last_modified_at: 2005-02-10 03:06:25 +02:00
 excerpt: Most of you wouldn't have noticed but if you now type in www.google.com in your browser you are automatically taken to the .CO.ZA google domain.
-categories:
-- technical
 tags:
 - personal
 - blog

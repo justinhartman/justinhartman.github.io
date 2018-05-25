@@ -1,23 +1,11 @@
 ---
 title: Gmail has arrived for me...
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/gmail-has-arrived-for-me.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/110868999260087688
-  - http://jjhartman.blogspot.com/2005/02/gmail-has-arrived-for-me.html
 published: true
 toc: false
 classes: wide
 date: 2005-02-18 03:19:00 +02:00
 last_modified_at: 2005-02-18 03:28:36 +02:00
 excerpt: Well finally I get to test out <a href="http://gmail.google.com/">Google's Gmail</a>. Gmail is Google's answer to email and has a massive capacity of 1GB of storage space.
-categories:
-- technical
 tags:
 - personal
 - blog

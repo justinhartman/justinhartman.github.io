@@ -3,14 +3,11 @@ published: true
 title: Web Standards
 wordpress_id: 23
 redirect_from: /2007/01/26/web-standards/
-permalink: /technical/web-standards.html
 author_profile: true
 toc: false
 classes: wide
 date: '2007-01-26 12:20:51 +0200'
 last_modified_at: '2007-01-26 10:20:51 +0200'
-categories:
-- technical
 tags:
 - Technology
 - Browsers

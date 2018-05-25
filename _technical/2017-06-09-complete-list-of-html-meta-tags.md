@@ -6,7 +6,6 @@ header:
   caption: "Photo by [**Pexels**](https://www.pexels.com/photo/coffee-cup-mug-apple-4159/)"
   teaser: '/assets/images/posts/meta-tag_580x300.jpg'
 image: '/assets/images/posts/meta-tag_580x300.jpg'
-permalink: "/technical/seo/complete-list-of-html-meta-tags.html"
 redirect_from:
   - /html/complete-list-of-html-meta-tags.html
   - /technical/html/complete-list-of-html-meta-tags.html
@@ -17,7 +16,6 @@ description: Ever wondered how many HTML meta tags there are? Ever wanted a comp
 excerpt: Ever wondered how many HTML meta tags there are? Ever wanted a complete list of all of them? Well, here you go. The most concise list of meta tags are at your disposal below. Enjoy.
 categories:
 - seo
-- technical
 tags:
 - html
 - seo

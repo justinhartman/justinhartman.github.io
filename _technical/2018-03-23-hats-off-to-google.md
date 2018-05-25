@@ -1,15 +1,5 @@
 ---
 title: Hats Off To Google
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/search/hats-off-to-google.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/109727762324062813
-  - http://jjhartman.blogspot.com/2004/10/hats-off-to-google.html
 published: true
 toc: false
 classes: wide
@@ -17,7 +7,6 @@ date: 2004-10-09 01:20:00 +02:00
 last_modified_at: 2004-10-09 01:20:23 +02:00
 excerpt: I can't help but feel inspired by Larry Page & Sergey Brin (founders of Google) and the rest of the Google team. Last night I spent most of my time on the web doing a little research on both the guys and found some interesting pieces.
 categories:
-- technical
 - search
 tags:
 - personal

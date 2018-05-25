@@ -1,23 +1,11 @@
 ---
 title: Firefox Ignites Demand For Alternative Browser
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/firefox-ignites-demand-for-alternative.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/110008335954789207
-  - http://jjhartman.blogspot.com/2004/11/firefox-ignites-demand-for-alternative.html
 published: true
 toc: false
 classes: wide
 date: 2004-11-10 13:42:00 +02:00
 last_modified_at: 2004-11-10 17:03:44 +02:00
 excerpt: For those of you not using the Firefox browser here is an interesting article about its development. Co-developed by a 19-year old techie (Ross) it has far surpassed what Internet Explorer can do and I highly recommend you download it to see what it can do.
-categories:
-- technical
 tags:
 - personal
 - blog

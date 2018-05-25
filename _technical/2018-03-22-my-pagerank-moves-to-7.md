@@ -1,15 +1,5 @@
 ---
 title: My PageRank moves to 7
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/seo/my-pagerank-moves-to-7.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/112176379080733964
-  - http://jjhartman.blogspot.com/2005/07/my-pagerank-moves-to-7.html
 published: true
 toc: false
 classes: wide
@@ -17,7 +7,6 @@ date: 2005-07-19 10:53:00 +02:00
 last_modified_at: 2005-07-19 11:03:10 +02:00
 excerpt: Imagine my suprise when I realised yesterday that my Google PageRank jumped from a minute 4 out of 10 to 7 out of 10!!!!! I have been working very hard over the last few months to get this PageRank up and finally I can see the rewards.
 categories:
-- technical
 - seo
 tags:
 - personal

@@ -3,7 +3,6 @@ published: true
 title: Afrigator goes Mobile... and then some
 wordpress_id: 40
 redirect_from: /2007/04/13/afrigator-goes-mobile-and-then-some/
-permalink: /technical/projects/afrigator-goes-mobile-and-then-some.html
 author_profile: true
 toc: false
 classes: wide
@@ -11,7 +10,6 @@ excerpt: It's been just over 10 days since Afrigator hit the waters and so much 
 date: '2007-04-13 11:40:49 +0200'
 last_modified_at: '2007-04-13 09:40:49 +0200'
 categories:
-- technical
 - projects
 tags:
 - Afrigator

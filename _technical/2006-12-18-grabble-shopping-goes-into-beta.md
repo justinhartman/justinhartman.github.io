@@ -3,14 +3,12 @@ published: true
 title: Grabble shopping goes into beta
 wordpress_id: 8
 redirect_from: /2006/12/18/grabble-shopping-goes-into-beta/
-permalink: /technical/projects/grabble-shopping-goes-into-beta.html
 author_profile: true
 toc: false
 classes: wide
 date: '2006-12-18 02:37:20 +0200'
 last_modified_at: '2006-12-18 00:37:20 +0200'
 categories:
-- technical
 - projects
 tags:
 - Grabble

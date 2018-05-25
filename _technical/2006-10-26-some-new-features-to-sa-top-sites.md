@@ -3,7 +3,6 @@ published: true
 title: 'Some new features to SA Top Sites'
 wordpress_id: 7
 redirect_from: /2006/10/26/some-new-features-to-sa-top-sites/
-permalink: /technical/projects/some-new-features-to-sa-top-sites.html
 author_profile: true
 toc: false
 classes: wide
@@ -11,7 +10,6 @@ date: '2006-10-26 02:16:20 +0200'
 last_modified_at: '2006-10-26 00:16:20 +0200'
 categories:
 - projects
-- technical
 tags:
 - Old Projects
 - projects

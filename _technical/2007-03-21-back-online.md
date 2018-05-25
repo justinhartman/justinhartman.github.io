@@ -3,15 +3,12 @@ published: true
 title: Back online
 wordpress_id: 31
 redirect_from: /2007/03/21/back-online/
-permalink: /technical/projects/back-online.html
 author_profile: true
 toc: false
 classes: wide
 excerpt: So it's been almost two weeks but I'm finally back online. I've learnt the hard way that if you don't have RAID configured on your server you will lose everything if your hard drive packs up.
 date: '2007-03-21 21:26:37 +0200'
 last_modified_at: '2007-03-21 19:26:37 +0200'
-categories:
-- technical
 tags:
 - Grabble
 - Technology

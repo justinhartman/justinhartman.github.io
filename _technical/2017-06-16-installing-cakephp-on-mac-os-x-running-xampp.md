@@ -6,7 +6,6 @@ header:
   caption: "Photo by [**Pexels**](https://www.pexels.com/photo/coffee-cup-mug-apple-4159/)"
   teaser: '/assets/images/posts/cakephp_580x300.jpg'
 image: '/assets/images/posts/cakephp_580x300.jpg'
-permalink: "/technical/php/installing-cakephp-on-mac-os-x-running-xampp.html"
 redirect_from:
   - /php/cakephp/installing-cakephp-on-mac-os-x-running-xampp.html
   - /php/installing-cakephp-on-mac-os-x-running-xampp.html
@@ -17,8 +16,6 @@ description: The following Howto will install CakePHP and get you up and running
 excerpt: The following Howto will install CakePHP and get you up and running using XAMPP on Mac OS X 10.7.5+.
 categories:
 - php
-- cakephp
-- technical
 tags:
 - cakephp
 - php

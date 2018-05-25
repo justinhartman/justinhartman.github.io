@@ -3,15 +3,12 @@ published: true
 title: Game Over for Sony PlayStation 3
 wordpress_id: 32
 redirect_from: /2007/03/23/game-over-for-sony-playstation-3/
-permalink: /technical/game-over-for-sony-playstation-3.html
 author_profile: true
 toc: false
 classes: wide
 excerpt: Let me state before I start ranting that I <strike>am</strike> was a huge supporter of Sony in that I own a PS1, PlayStation 2 and PSP. All in all I've been a very happy customer of Sony for many years now up until I saw the price tag of the new PS3.
 date: '2007-03-23 11:11:22 +0200'
 last_modified_at: '2007-03-23 09:11:22 +0200'
-categories:
-- technical
 tags:
 - Technology
 - Things I Don't Like

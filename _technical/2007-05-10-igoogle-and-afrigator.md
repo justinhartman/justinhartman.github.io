@@ -3,15 +3,12 @@ published: true
 title: iGoogle and Afrigator
 wordpress_id: 48
 redirect_from: /2007/05/10/igoogle-and-afrigator/
-permalink: /technical/igoogle-and-afrigator.html
 author_profile: true
 toc: false
 classes: wide
 excerpt: It's no secret and it's been out for a long time but iGoogle is really starting to amount to something. Previously known as Google Personalized Homepage the team at Google are now officially calling it iGoogle.
 date: '2007-05-10 18:14:35 +0200'
 last_modified_at: '2007-05-10 16:14:35 +0200'
-categories:
-- technical
 tags:
 - Google
 - Afrigator

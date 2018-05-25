@@ -1,15 +1,5 @@
 ---
 title: I Got Hacked...
-header:
-  overlay_image: 
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "Photo by [**Pexels**]()"
-  teaser: ''
-image: ''
-permalink: "/technical/blog/i-got-hacked.html"
-redirect_from:
-  - https://www.blogger.com/feeds/7253650/posts/default/112247681530696549
-  - http://jjhartman.blogspot.com/2005/07/i-got-hacked.html
 published: true
 toc: false
 classes: wide
@@ -17,7 +7,6 @@ date: 2005-07-27 16:54:00 +02:00
 last_modified_at: 2005-07-27 17:08:11 +02:00
 excerpt: On entering my web site I was hit with a very nasty surprise... I had been hacked. I am so angry with these guys and even managed to log onto their IRC chat to give them a piece of my mind.
 categories:
-- technical
 - blog
 tags:
 - personal
