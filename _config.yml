@@ -43,7 +43,6 @@ exclude:
   - _deploy.yml
   - .deploy/
   - _templates/
-  - _playground/
   - assets/images/templates/
   - vendor
 # Plugins
