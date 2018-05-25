@@ -2,7 +2,6 @@
 title: PureFTPd Installation and Setup
 date: 2007-01-15 20:53:00 +02:00
 last_modified_at: 2018-03-20 01:21 +02:00
-permalink: "/linux/debian/lamp/pureftpd-installation-and-setup.html"
 categories:
 - debian
 - lamp

@@ -3,13 +3,11 @@ published: true
 title: iBook G4 now sporting Ubuntu Edgy Eft
 wordpress_id: 10
 redirect_from: /2006/11/20/ibook-g4-now-sporting-ubuntu-edgy-eft/
-permalink: /linux/ubuntu/ibook-g4-now-sporting-ubuntu-edgy-eft.html
 toc: false
 classes: wide
 date: '2006-11-20 00:54:02 +0200'
 last_modified_at: '2006-11-19 22:54:02 +0200'
 categories:
-- linux
 - ubuntu
 tags:
 - Ubuntu

@@ -5,11 +5,8 @@ wordpress_id: 18
 redirect_from: /2006/12/20/how-to-swap-control-and-command-keys-on-powerpc/
 date: '2006-12-20 22:17:14 +0200'
 last_modified_at: '2006-12-20 20:17:14 +0200'
-permalink: /linux/debian/how-to-swap-control-and-command-keys-on-powerpc.html
 categories:
 - debian
-- linux
-- ubuntu
 tags:
 - Ubuntu
 - Debian

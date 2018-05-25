@@ -3,11 +3,9 @@ published: true
 title: Mark Shuttleworth puts me in my place
 wordpress_id: 14
 redirect_from: /2006/12/07/mark-shuttleworth-puts-me-in-my-place/
-permalink: /linux/ubuntu/mark-shuttleworth-puts-me-in-my-place.html
 date: '2006-12-07 17:58:32 +0200'
 last_modified_at: '2006-12-07 15:58:32 +0200'
 categories:
-- linux
 - ubuntu
 tags:
 - Ubuntu
@@ -129,4 +127,3 @@ Most people with a PPC desktop or laptop have multiple devices and can afford ei
 
 > At this stage, I think the better philanthropic argument is in favour of improving the desktop of 98% of our users. If you are willing to become one of the community members that it will take to keep PPC officially-supported, then please make your voice heard in the distro mailing lists and channels, sign up, contribute time, make it happen.
 Mark
-

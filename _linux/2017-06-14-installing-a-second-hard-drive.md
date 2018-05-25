@@ -2,7 +2,6 @@
 title: Installing a second hard drive
 date: 2007-01-29 20:53:00 +02:00
 last_modified_at: 2018-03-20 01:21 +02:00
-permalink: "/linux/debian/server/installing-a-second-hard-drive.html"
 categories:
 - debian
 - server

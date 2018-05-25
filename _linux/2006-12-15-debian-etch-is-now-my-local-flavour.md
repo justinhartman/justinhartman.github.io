@@ -3,13 +3,11 @@ published: true
 title: Debian etch is now my local flavour
 wordpress_id: 11
 redirect_from: /2006/12/15/debian-etch-is-now-my-local-flavour/
-permalink: /linux/debian/debian-etch-is-now-my-local-flavour.html
 toc: false
 classes: wide
 date: '2006-12-15 01:19:37 +0200'
 last_modified_at: '2006-12-15 01:19:37 +0200'
 categories:
-- linux
 - debian
 tags:
 - Debian

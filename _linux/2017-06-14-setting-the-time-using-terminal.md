@@ -2,7 +2,6 @@
 title: Setting the time using Terminal
 date: 2007-03-06 20:25:00 +02:00
 last_modified_at: 2018-03-20 01:21 +02:00
-permalink: "/linux/debian/server/setting-the-time-using-terminal.html"
 categories:
 - debian
 - server
@@ -58,4 +57,3 @@ $ apt-get install ntpdate
 `ntpdate` will automatically run when booting your system.
 
 [history]: /howto-history/
-

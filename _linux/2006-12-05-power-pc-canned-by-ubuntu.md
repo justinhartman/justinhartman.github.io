@@ -3,13 +3,11 @@ published: true
 title: PowerPC canned by Ubuntu
 wordpress_id: 12
 redirect_from: /2006/12/05/power-pc-canned-by-ubuntu/
-permalink: /linux/ubuntu/power-pc-canned-by-ubuntu.html
 toc: false
 classes: wide
 date: '2006-12-05 01:50:06 +0200'
 last_modified_at: '2006-12-04 23:50:06 +0200'
 categories:
-- linux
 - ubuntu
 tags:
 - Ubuntu

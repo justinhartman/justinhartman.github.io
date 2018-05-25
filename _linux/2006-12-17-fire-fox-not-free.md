@@ -3,14 +3,13 @@ published: true
 title: Firefox not free?
 wordpress_id: 9
 redirect_from: /2006/12/17/fire-fox-not-free/
-permalink: /linux/debian/fire-fox-not-free.html
 author_profile: true
 toc: false
 classes: wide
 date: '2006-12-17 15:54:18 +0200'
 last_modified_at: '2006-12-17 13:54:18 +0200'
 categories:
-- linux
+- debian
 tags:
 - Debian
 - Browsers
