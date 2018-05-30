@@ -11,6 +11,9 @@ vendor/
 ### Octopress ###
 .deploy/
 
+### VS Code ###
+.vscode
+
 ### Pixelmator Templates ###
 image-template-with-backgrounds.pxm
 image-template.pxm

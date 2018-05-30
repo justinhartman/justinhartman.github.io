@@ -64,7 +64,7 @@ plugins:
 # Theme configuration
 remote_theme                  : mmistakes/minimal-mistakes
 minimal_mistakes_skin         : "justin" # (contrast or neon. justin is based off contrast)
-locale                        : "en-ZA"
+locale                        : "en_ZA"
 title                         : "Justin Hartman"
 title_separator               : "-"
 name                          : "Justin Hartman"
