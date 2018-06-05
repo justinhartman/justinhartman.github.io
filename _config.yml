@@ -2,6 +2,7 @@ url                           : "https://justin.hartman.me"
 baseurl                       : 
 permalink                     : "/:title"
 timezone                      : Africa/Johannesburg
+encoding                      : utf-8
 collections:
   posts:
     title                     : Posts

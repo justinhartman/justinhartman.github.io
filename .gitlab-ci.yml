@@ -17,7 +17,7 @@ variables:
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll serve --host=0.0.0.0 -d public
+  - LANG="en_GB.UTF-8" LC_ALL="en_GB.UTF-8" bundle exec jekyll build -d public
   artifacts:
     paths:
     - public
