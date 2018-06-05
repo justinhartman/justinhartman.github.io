@@ -7,8 +7,8 @@ cache:
   - vendor/
 
 before_script:
-  - gem install jekyll bundler
-  - gem install sass --no-user-install
+  - gem install jekyll bundler --install-dir vendor/ruby/2.3.0
+  - gem install sass --no-user-install --install-dir vendor/ruby/2.3.0
   - bundle install --path vendor
 
 variables:
@@ -17,7 +17,7 @@ variables:
 pages:
   stage: deploy
   script:
-  - LANG="en_GB.UTF-8" LC_ALL="en_GB.UTF-8" bundle exec jekyll build -d public
+  - bundle exec jekyll serve --host=0.0.0.0 -d public
   artifacts:
     paths:
     - public
