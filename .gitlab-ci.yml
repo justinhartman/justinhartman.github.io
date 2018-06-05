@@ -6,12 +6,10 @@ image: ruby:2.3
 variables:
   JEKYLL_ENV: production
 
-before_script:
-- bundle install
-
 test:
   stage: test
   script:
+  - bundle install
   - bundle exec jekyll build -d test
   artifacts:
     paths:
@@ -22,10 +20,10 @@ test:
 pages:
   stage: deploy
   script:
+  - bundle install
   - bundle exec jekyll build -d public
   artifacts:
     paths:
     - public
   only:
   - master
-
