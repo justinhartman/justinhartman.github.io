@@ -7,6 +7,8 @@ cache:
   - vendor/
 
 before_script:
+  - sudo gem install jekyll bundler
+  - sudo gem install sass --no-user-install
   - bundle install --path vendor
 
 variables:
