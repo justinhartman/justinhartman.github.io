@@ -15,7 +15,7 @@ variables:
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public
+  - LANG="en_GB.UTF-8" LC_ALL="en_GB.UTF-8" bundle exec jekyll build -d public
   artifacts:
     paths:
     - public
@@ -25,7 +25,7 @@ pages:
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test
+  - LANG="en_GB.UTF-8" LC_ALL="en_GB.UTF-8" bundle exec jekyll build -d test
   artifacts:
     paths:
     - test
