@@ -20,7 +20,7 @@ header:
   caption: "Photo by [The GitHub Blog](https://blog.github.com/2018-06-04-github-microsoft/), modified by me."
   teaser: '/assets/images/technical/github-microsoft-not-a-bright-future_580x300.jpg'
 image: '/assets/images/technical/github-microsoft-not-a-bright-future_580x300.jpg'
-excerpt: Really concerned to read this morning that [GitHub][3] is going [to be acquired][4] by Microsoft for $7.5 billion. Yes, that is billions!
+excerpt: Really concerned to read this morning that GitHub is going to be acquired by Microsoft for $7.5 billion. Yes, that is billions!
 ---
 Really concerned to read this morning that [GitHub][3] is going [to be acquired][4] by Microsoft for $7.5 billion. Yes, that is billions! Of all companies, [Microsoft][5] just isn't the right fit for Open-Source Software despite them being the largest OSS committers on GitHub with over 2 million commits.
 
