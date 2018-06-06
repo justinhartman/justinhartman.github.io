@@ -1,7 +1,6 @@
 ---
 layout: atom
 permalink: /sitemap.xml
-last_modified_at: 2018-05-24T00:17:31+02:00
 sitemap:
     changefreq: weekly
     priority: 1.0
@@ -22,11 +21,4 @@ sitemap:
     {%- endunless -%}
   {%- endfor -%}
 {% endfor %}
-    <url>
-        <loc>{{ '/sitemap.xml' | absolute_url }}</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="{{ '/sitemap.xml' | absolute_url }}" />
-        <lastmod>2018-05-24T00:17:31+02:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
 </urlset>

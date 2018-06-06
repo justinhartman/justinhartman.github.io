@@ -12,7 +12,6 @@ redirect_from:
   - /comment-policy.html
 published: true
 date: 2018-03-04 20:33:00 +02:00
-last_modified_at: 2018-03-21 01:04 +02:00
 categories:
 - legal
 tags:

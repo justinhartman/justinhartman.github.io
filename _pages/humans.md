@@ -4,7 +4,6 @@ permalink: '/humans.txt'
 sitemap:
     changefreq: monthly
     priority: 0.5
-last_modified_at: 2018-05-25 18:21:45 +0200
 ---
 
 /* TEAM */
@@ -21,7 +20,6 @@ last_modified_at: 2018-05-25 18:21:45 +0200
 
 /* SITE */
     Last update: {{ site.time }}
-    Revision: {{ site.github.build_revision }}
     Language: English
     Doctype: HTML5
     IDE: Sublime Text 3, Pixelmator 3.7, Github Pages, Jekyll, Github, iTerm2

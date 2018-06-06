@@ -17,7 +17,6 @@ sidebar:
   nav: "diceware-release-notes"
 published: true
 date: 2018-03-19 15:50:54 +02:00
-last_modified_at: 2018-04-19 23:48:22 +02:00
 sitemap:
     changefreq: monthly
     priority: 0.9

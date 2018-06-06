@@ -13,7 +13,6 @@ redirect_from:
   - /legal/
 published: true
 date: 2018-03-14 19:25:00 +02:00
-last_modified_at: 2018-03-31 04:07:42 +02:00
 sitemap:
     changefreq: yearly
     priority: 0.8

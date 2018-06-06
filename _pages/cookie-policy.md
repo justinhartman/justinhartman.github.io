@@ -10,7 +10,6 @@ excerpt:
 permalink: "/legal/cookies-policy.html"
 published: true
 date: 2018-03-20 22:30:22 +02:00
-last_modified_at: 2018-03-21 01:04 +02:00
 categories:
 - legal
 tags:

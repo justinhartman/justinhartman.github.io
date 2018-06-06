@@ -1,7 +1,6 @@
 ---
 layout: splash
 permalink: /
-last_modified_at: 2018-04-25 18:56:05 +02:00
 title: Introducing the Diceware Password Generator
 header:
   overlay_image: /assets/images/projects/diceware-password-generator-1200.jpg
