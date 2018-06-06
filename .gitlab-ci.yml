@@ -7,6 +7,13 @@ cache:
   - vendor/
 
 before_script:
+  - apt-get update -y
+  - apt-get install -y locales
+  - echo "en_US UTF-8" > /etc/locale.gen
+  - locale-gen en_US.UTF-8
+  - export LANG=en_US.UTF-8
+  - export LANGUAGE=en_US:en
+  - export LC_ALL=en_US.UTF-8
   - gem install jekyll bundler --install-dir vendor/ruby/2.3.0
   - gem install sass --no-user-install --install-dir vendor/ruby/2.3.0
   - bundle install --path vendor
@@ -17,7 +24,7 @@ variables:
 pages:
   stage: deploy
   script:
-  - LANG="en_GB.UTF-8" LC_ALL="en_GB.UTF-8" bundle exec jekyll build -d public
+  - bundle exec jekyll build -d public
   artifacts:
     paths:
     - public
@@ -27,7 +34,7 @@ pages:
 test:
   stage: test
   script:
-  - LANG="en_GB.UTF-8" LC_ALL="en_GB.UTF-8" bundle exec jekyll build -d test
+  - bundle exec jekyll build -d test
   artifacts:
     paths:
     - test
