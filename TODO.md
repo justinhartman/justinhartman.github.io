@@ -4,20 +4,20 @@
 ## Missing Content
 
 #### Legal @created(19-03-2018 21:53):
-- [ ] Privacy Policy
-- [ ] Cookie Notice
-- [ ] Terms and Conditions
+- [x] Privacy Policy
+- [x] Cookie Notice
+- [x] Terms and Conditions
 
 #### Linux @created(19-03-2018 21:53):
-- [ ] Header image
-- [ ] Teaser image
+- [x] Header image
+- [x] Teaser image
 
 #### Technical @created(19-03-2018 21:53):
-- [ ] Header image
-- [ ] Teaser image
+- [x] Header image
+- [x] Teaser image
 
 #### Life: @created(19-03-2018 21:53)
-- [ ] 2x Posts from the Medium blog
+- [x] 2x Posts from the Medium blog
 - [ ] Introductory Blog Post to introduce starting afresh
 
 #### Projects @created(19-03-2018 21:53): **@completed(20-03-2018 00:20**
@@ -55,7 +55,7 @@
 #### Gnome Desktop Tutorials: @created(17-06-23 13:33)
 
 - [ ] Installing a PDF Printer in Gnome   
-- [ ] Swapping Control and Command keys for PowerPC   
+- [x] Swapping Control and Command keys for PowerPC   
 
 ## Project Files:
 
@@ -81,11 +81,11 @@
 
 #### ~~CONTRIBUTING.md @created(17-06-23 13:38):~~ **@done(18-03-18 20:43)**   
 
-- ~~[ ] Research the file for this so it can form the basis for people who want to contribute on the site.~~   
-- ~~[ ] Create the file~~   
-- ~~[ ] Add content~~   
+- ~~[x] Research the file for this so it can form the basis for people who want to contribute on the site.~~   
+- ~~[x] Create the file~~   
+- ~~[x] Add content~~   
 
 ## Theme @created(17-06-23 13:42): **@done(18-03-18 20:43)**
 
-- ~~[ ] Find the Jekyll theme that looked like `readthedocs.org`~~ _(now using minimal mistakes theme)_   
+- ~~[x] Find the Jekyll theme that looked like `readthedocs.org`~~ _(now using minimal mistakes theme)_   
 - [x] Evaluate how difficult it would be to migrate that theme into the boilerplate theme I have now
