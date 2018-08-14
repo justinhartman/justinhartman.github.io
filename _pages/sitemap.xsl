@@ -6,8 +6,9 @@ sitemap:
     priority: 0.1
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" 
+<xsl:stylesheet version="2.0"
                 xmlns:html="http://www.w3.org/TR/REC-html40"
+                xmlns:xhtml="http://www.w3.org/1999/xhtml"
                 xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
