@@ -1,5 +1,5 @@
-url                           : "https://justin.hartman.me"
-baseurl                       : 
+url                           : "https://justinhartman.blog"
+baseurl                       :
 permalink                     : "/:title"
 timezone                      : Africa/Johannesburg
 encoding                      : utf-8
@@ -165,7 +165,7 @@ tag_archive:
 comments:
   provider                    : facebook
   disqus:
-    shortname                 : 
+    shortname                 :
   facebook:
     appid                     : 112996658724332
     num_posts                 : 5
@@ -174,7 +174,7 @@ reCaptcha:
   siteKey                     : 6LfjtkwUAAAAAEmkBKSJ1jsVlf6qKXPrqqjGgv1i
   secret                      : 6LfjtkwUAAAAAPeJyxISYz8aFsbLM2Qt7ZmZXSGJ
 atom_feed:
-  path                        : https://justin.hartman.me/feed.xml
+  path                        : https://justinhartman.blog/feed.xml
 # Search Config
 search                        : true
 search_full_content           : true
@@ -196,7 +196,7 @@ og_image                      : "/assets/images/general/justin-hartman.jpeg"
 social:
   type                        : Person
   name                        : Justin Hartman
-  links: 
+  links:
   - https://www.facebook.com/justin.hartman.me
   - https://www.flickr.com/photos/justinhartman
   - https://www.github.com/justinhartman
@@ -220,7 +220,7 @@ author:
   bio                         : "Justin Hartman is a South African entreprenuer who has been innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary."
   location                    : "South Africa"
   email                       : justin@hartman.me
-  uri                         : https://justin.hartman.me
+  uri                         : https://justinhartman.blog
   home                        : / # null (default), "absolute or relative url to link to author home"
   #bitbucket                  : justinhartman
   flickr                      : justinhartman
