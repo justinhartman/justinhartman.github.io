@@ -26,8 +26,8 @@ header:
   teaser: '/assets/images/technical/how-to-find-your-mac-address_580x300.jpg'
 image: '/assets/images/technical/how-to-find-your-mac-address_580x300.jpg'
 excerpt: The following HOWTO will show you how to find a device's MAC Address on either Android, iPhone, iPad, Windows or macOS.
- redirect_from: 
-  - /technical/how-to-find-your-android-windows-iphone-ios-ipad-macos-mac-address.html
+redirect_from: 
+- /technical/how-to-find-your-android-windows-iphone-ios-ipad-macos-mac-address.html
 ---
 ## What is a mac address?
 
