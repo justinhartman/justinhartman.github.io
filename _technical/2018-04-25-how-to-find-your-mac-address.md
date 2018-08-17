@@ -3,7 +3,7 @@ title: "How to Find Your Device's MAC Address"
 published: true
 toc: true
 date: 2018-04-25T15:52:10+02:00
-last_modified_at: 2018-04-25T15:52:10+02:00
+last_modified_at: 2018-08-18T00:40:32+02:00
 sitemap: 
   changefreq: monthly
   priority: 0.9
@@ -26,6 +26,8 @@ header:
   teaser: '/assets/images/technical/how-to-find-your-mac-address_580x300.jpg'
 image: '/assets/images/technical/how-to-find-your-mac-address_580x300.jpg'
 excerpt: The following HOWTO will show you how to find a device's MAC Address on either Android, iPhone, iPad, Windows or macOS.
+ redirect_from: 
+  - /technical/how-to-find-your-android-windows-iphone-ios-ipad-macos-mac-address.html
 ---
 ## What is a mac address?
 
@@ -48,96 +50,84 @@ If you have any questions or need some help, please [open a ticket][github] and 
 <!-- MarkdownTOC -->
 
 - [Android](#android)
-    - [Open Settings, tap on _Wi-Fi_](#open-settings-tap-on-_wi-fi_)
-    - [Tap on the _Three Dotted Icon_](#tap-on-the-_three-dotted-icon_)
-    - [Tap _Advanced_](#tap-_advanced_)
-    - [The MAC address is listed as _MAC Address_](#the-mac-address-is-listed-as-_mac-address_)
+  - [Open Settings, tap on _Wi-Fi_](#open-settings-tap-on-_wi-fi_)
+  - [Tap on the _Three Dotted Icon_](#tap-on-the-_three-dotted-icon_)
+  - [Tap _Advanced_](#tap-_advanced_)
+  - [The MAC address is listed as _MAC Address_](#the-mac-address-is-listed-as-_mac-address_)
 - [Windows 10](#windows-10)
-    - [Click _Windows Menu_, then click _Settings_](#click-_windows-menu_-then-click-_settings_)
-    - [Click on _Network & Internet_](#click-on-_network--internet_)
-    - [Click on _Wi-Fi_, then click _Hardware Properties_](#click-on-_wi-fi_-then-click-_hardware-properties_)
-    - [The MAC address is listed under _Physical Address \(MAC\)_](#the-mac-address-is-listed-under-_physical-address-mac_)
+  - [Click _Windows Menu_, then click _Settings_](#click-_windows-menu_-then-click-_settings_)
+  - [Click on _Network & Internet_](#click-on-_network--internet_)
+  - [Click on _Wi-Fi_, then click _Hardware Properties_](#click-on-_wi-fi_-then-click-_hardware-properties_)
+  - [The MAC address is listed under _Physical Address \(MAC\)_](#the-mac-address-is-listed-under-_physical-address-mac_)
 - [Pre-Windows 10](#pre-windows-10)
-    - [Open _Network and Sharing Center_](#open-_network-and-sharing-center_)
-    - [Click _Change Adapter Settings_](#click-_change-adapter-settings_)
-    - [Double-click the _Wi-Fi network adapter_](#double-click-the-_wi-fi-network-adapter_)
-    - [Click on the _Properties_ button](#click-on-the-_properties_-button)
-    - [The MAC address is listed under _Physical Address_](#the-mac-address-is-listed-under-_physical-address_)
+  - [Open _Network and Sharing Center_](#open-_network-and-sharing-center_)
+  - [Click _Change Adapter Settings_](#click-_change-adapter-settings_)
+  - [Double-click the _Wi-Fi network adapter_](#double-click-the-_wi-fi-network-adapter_)
+  - [Click on the _Properties_ button](#click-on-the-_properties_-button)
+  - [The MAC address is listed under _Physical Address_](#the-mac-address-is-listed-under-_physical-address_)
 - [macOS](#macos)
-    - [Open _System Preferences_](#open-_system-preferences_)
-    - [Click the _Network_ icon](#click-the-_network_-icon)
-    - [Under Wi-Fi, click _Advanced_](#under-wi-fi-click-_advanced_)
-    - [The MAC address is listed as _Wi-Fi Address_](#the-mac-address-is-listed-as-_wi-fi-address_)
+  - [Open _System Preferences_](#open-_system-preferences_)
+  - [Click the _Network_ icon](#click-the-_network_-icon)
+  - [Under Wi-Fi, click _Advanced_](#under-wi-fi-click-_advanced_)
+  - [The MAC address is listed as _Wi-Fi Address_](#the-mac-address-is-listed-as-_wi-fi-address_)
 - [iOS \(iPhone & iPad\)](#ios-iphone--ipad)
-    - [Tap _Settings_](#tap-_settings_)
-    - [Select _General_](#select-_general_)
-    - [Select _About_](#select-_about_)
-    - [The MAC address is listed as _Wi-Fi Address_](#the-mac-address-is-listed-as-_wi-fi-address_-1)
+  - [Tap _Settings_](#tap-_settings_)
+  - [Select _General_](#select-_general_)
+  - [Select _About_](#select-_about_)
+  - [The MAC address is listed as _Wi-Fi Address_](#the-mac-address-is-listed-as-_wi-fi-address_-1)
 
 <!-- /MarkdownTOC -->
 
-<a id="android"></a>
 ## Android
 
-<a id="open-settings-tap-on-_wi-fi_"></a>
 ### Open Settings, tap on _Wi-Fi_
 
 ![][android-1]
 
-<a id="tap-on-the-_three-dotted-icon_"></a>
 ### Tap on the _Three Dotted Icon_
 
 The three dotted icon is in the top-right of the screen.
 
 ![][android-1a]
 
-<a id="tap-_advanced_"></a>
 ### Tap _Advanced_
 
 Once you've tapped the three dotted icon a sub-menu will appear. Click on the `Advanced` button in this menu.
 
 ![][android-2]
 
-<a id="the-mac-address-is-listed-as-_mac-address_"></a>
 ### The MAC address is listed as _MAC Address_
 
 You will find the MAC address directly below the `Install Certificates` section near the bottom of the screen.
 
 ![][android-3]
 
-<a id="windows-10"></a>
 ## Windows 10
 
-<a id="click-_windows-menu_-then-click-_settings_"></a>
 ### Click _Windows Menu_, then click _Settings_
 
 ![][windows-1]
 
-<a id="click-on-_network--internet_"></a>
 ### Click on _Network & Internet_
 
 ![][windows-2]
 
-<a id="click-on-_wi-fi_-then-click-_hardware-properties_"></a>
 ### Click on _Wi-Fi_, then click _Hardware Properties_
 
 In the left-hand menu click on the menu item labelled `Wi-Fi`. This will bring up the Wi-Fi options in the right-hand pane. Once you see this click on the `Hardware Properties` link in the right-hand pane of the window.
 
 ![][windows-3]
 
-<a id="the-mac-address-is-listed-under-_physical-address-mac_"></a>
 ### The MAC address is listed under _Physical Address (MAC)_
 
 The MAC address will be listed at the bottom of the window under the `Physical Address (MAC):` label.
 
 ![][windows-4]
 
-<a id="pre-windows-10"></a>
 ## Pre-Windows 10
 
 For versions of Windows pre-Windows 10 you will need to get the MAC address using this method.
 
-<a id="open-_network-and-sharing-center_"></a>
 ### Open _Network and Sharing Center_
 
 To open the `Network and Sharing Center` properties:
@@ -149,72 +139,58 @@ To open the `Network and Sharing Center` properties:
 
 ![][winold-1]
 
-<a id="click-_change-adapter-settings_"></a>
 ### Click _Change Adapter Settings_
 
 ![][winold-2]
 
-<a id="double-click-the-_wi-fi-network-adapter_"></a>
 ### Double-click the _Wi-Fi network adapter_
 
 ![][winold-3]
 
-<a id="click-on-the-_properties_-button"></a>
 ### Click on the _Properties_ button
 
 ![][winold-4]
 
-<a id="the-mac-address-is-listed-under-_physical-address_"></a>
 ### The MAC address is listed under _Physical Address_
 
 ![][winold-5]
 
-<a id="macos"></a>
 ## macOS
 
-<a id="open-_system-preferences_"></a>
 ### Open _System Preferences_
 
 ![][mac-1]
 
-<a id="click-the-_network_-icon"></a>
 ### Click the _Network_ icon
 
 ![][mac-2]
 
-<a id="under-wi-fi-click-_advanced_"></a>
 ### Under Wi-Fi, click _Advanced_
 
 You'll see this button in the bottom right-hand corner of the screen.
 
 ![][mac-3]
 
-<a id="the-mac-address-is-listed-as-_wi-fi-address_"></a>
 ### The MAC address is listed as _Wi-Fi Address_
 
 You can see the MAC address highlighted on the bottom-left of the screen.
 
 ![][mac-4]
 
-<a id="ios-iphone--ipad"></a>
 ## iOS (iPhone & iPad)
 
-<a id="tap-_settings_"></a>
 ### Tap _Settings_
 
 ![][ios-1]
 
-<a id="select-_general_"></a>
 ### Select _General_
 
 ![][ios-2]
 
-<a id="select-_about_"></a>
 ### Select _About_
 
 ![][ios-3]
 
-<a id="the-mac-address-is-listed-as-_wi-fi-address_-1"></a>
 ### The MAC address is listed as _Wi-Fi Address_
 
 ![][ios-4]

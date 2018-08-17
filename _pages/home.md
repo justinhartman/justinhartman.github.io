@@ -20,7 +20,7 @@ feature_row:
     alt: "How to find your MAC Address"
     title: "Find a MAC Address"
     excerpt: "The following HOWTO will show you how to find a device's MAC Address on either Android, iPhone, iPad, Windows or macOS."
-    url: "/technical/how-to-find-your-android-windows-iphone-ios-ipad-macos-mac-address.html"
+    url: "/technical/how-to-find-your-mac-address.html"
     btn_class: "btn--primary"
     btn_label: "Read More"
   - image_path: '/assets/images/life/the-day-my-father-died_580x300.jpg'
