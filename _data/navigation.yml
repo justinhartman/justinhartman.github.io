@@ -13,6 +13,49 @@ main:
   - title: "Legal"
     url: /legal/legal-notices.html
 
+# Bootstrap 4 Boilerplate Kit
+bootstrap:
+  - title: "What is Included"
+    url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#what-is-included"
+    children:
+      - title: "Bootstrap 4.1.3"
+        url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#bootstrap-413"
+      - title: "Vendor Scripts"
+        url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#vendor-scripts"
+      - title: "Theme Templates"
+        url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#theme-templates"
+        children:
+          - title: "Framework"
+            url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#framework"
+          - title: "Custom Components"
+            url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#custom-components"
+          - title: "Navbars"
+            url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#navbars"
+          - title: "Experiments"
+            url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#experiments"
+      - title: "Theme Options"
+        url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#theme-options"
+      - title: "Extras"
+        url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#extras"
+      - title: "Favicons"
+        url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#favicons"
+  - title: "Getting Started"
+    url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#getting-started"
+    children:
+      - title: "Prerequisites"
+        url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#prerequisites"
+      - title: "Installing"
+        url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#installing"
+        children:
+          - title: "In Espresso"
+            url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#in-espresso"
+          - title: "Via Terminal"
+            url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#via-terminal"
+  - title: "License"
+    url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#license"
+  - title: "Acknowledgements"
+    url: "/projects/bootstrap-4-boilerplate-template-kit-for-espresso.html#acknowledgements"
+
 # Dicewear Sidebar
 dicewear:
   - title: Overview
@@ -160,7 +203,7 @@ kitchen:
         url: /personal/kitchen-sink.html#variable-tag
   - title: Octopress
     url: /personal/kitchen-sink.html#adding-content-with-octopress
-    children: 
+    children:
       - title: New Post
         url: /personal/kitchen-sink.html#new-post
       - title: New Page
