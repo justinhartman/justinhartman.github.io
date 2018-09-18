@@ -36,12 +36,12 @@ the [Bootstrap][bootstrap] framework.
 
 ## What is Included
 
-This Boilerplate Kit's primary objective is to accelerate your development
+The Boilerplate Kit's primary objective is to accelerate your development
 process by providing you with all the files and code needed for working with the
 most current release of Bootstrap - currently version 4.1.3. Not
 only does this Kit include all the Bootstrap CSS and JS, `jQuery`, `Popper.js`
-and `Holder.js` scripts, but it also includes 20 fully-functional example
-templates that you can fire up and begin using as a base for your project.
+and `Holder.js` scripts, but it also includes **20 fully-functional example
+templates** that you can fire up and begin using as a base for your project.
 
 Here is what is included in this Boilerplate Kit for `Espresso`.
 
@@ -185,13 +185,15 @@ The following breaks down what each of the meta-tags provide.
   your website to their favourites and/or bookmarks and appears under the
   favourite sites in Safari.
 
-**VERY IMPORTANT:** The files contained in `/img/favicons/` are all Bootstrap
+**NB: PLEASE TAKE NOTE**{: .btn .btn--success .btn--small}  
+The files contained in **/img/favicons/** are all Bootstrap
 favicons and you will need to redesign each of the images and SVG files in this
 directory (or delete what you aren't going to use in your markup). You will also
-need to update the `<TileColor>` contained in the `browserconfig.xml` file as
-well as the `theme_color` and `background_color` in the `manifest.json` to your
+need to update the **TileColor** contained in the **browserconfig.xml** file as
+well as the **theme_color** and **background_color** in the **manifest.json** to your
 website's primary colour used. The colours are all Bootstrap specific colours
-and need changing. {: .notice--primary}
+and need changing.
+{: .notice--success}
 
 ## Getting Started
 

@@ -131,7 +131,7 @@ Embed a video from YouTube or Vimeo that responsively sizes to fit the width of 
 
 ### YouTube
 
-To embed the following YouTube video at url `https://www.youtube.com/watch?v=XsxDH4HcOWA` (long version) or `https://youtu.be/XsxDH4HcOWA` (short version) into a post or page's main content you'd use: 
+To embed the following YouTube video at url `https://www.youtube.com/watch?v=XsxDH4HcOWA` (long version) or `https://youtu.be/XsxDH4HcOWA` (short version) into a post or page's main content you'd use:
 
 ```liquid
 {% raw %}{% include video id="XsxDH4HcOWA" provider="youtube" %}{% endraw %}
@@ -149,7 +149,7 @@ header:
 ```
 ### Vimeo
 
-To embed the following Vimeo video at url `https://vimeo.com/212731897` into a post or page's main content you'd use: 
+To embed the following Vimeo video at url `https://vimeo.com/212731897` into a post or page's main content you'd use:
 
 ```liquid
 {% raw %}{% include video id="212731897" provider="vimeo" %}{% endraw %}
@@ -279,10 +279,10 @@ gallery:
     title: "Image 3 title caption"
 ```
 
-And then drop-in the gallery include in the body where you'd like it to appear. 
+And then drop-in the gallery include in the body where you'd like it to appear.
 
 | Include Parameter | Required    | Description | Default |
-| ----------------- | --------    | ----------- | ------- | 
+| ----------------- | --------    | ----------- | ------- |
 | **id**            | Optional    | To add multiple galleries to a document uniquely name them in the YAML Front Matter and reference in `{% raw %}{% include gallery id="gallery_id" %}{% endraw %}` | `gallery` |
 | **class**         | Optional    | Use to add a `class` attribute to the surrounding `<figure>` element for additional styling needs. | |
 | **caption**       | Optional    | Gallery caption description. Markdown is allowed. | |
@@ -542,8 +542,8 @@ Do It Live
 
 ## Unordered Lists (Nested)
 
-  * List item one 
-      * List item one 
+  * List item one
+      * List item one
           * List item one
           * List item two
           * List item three
@@ -557,8 +557,8 @@ Do It Live
 
 ## Ordered List (Nested)
 
-  1. List item one 
-      1. List item one 
+  1. List item one
+      1. List item one
           1. List item one
           2. List item two
           3. List item three
