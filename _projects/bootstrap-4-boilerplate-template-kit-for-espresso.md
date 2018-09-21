@@ -163,36 +163,37 @@ The following breaks down what each of the meta-tags provide.
 
 - `favicon.ico` is the first meta-tag and sits in the root of your project
   folder. The `favicon.ico` is a compiled icon image made of 16x16, 32x32 and,
-  in some cases, 64x64 pixel images. If you don't know how to generate a
+  in some cases, 48x48 pixel images. If you don't know how to generate a
   `favicon.ico` have a [look at this resource][favicon].
 - `manifest.json` is used by Android devices and sits in your root folder. This
   json file contains the path to the various Android-specific favicon files.
-  These files are locate in `/img/favicons/` and are labelled
+  These files are located in `/img/favicons/` and are labelled
   `android-chrome-192x192.png` and `android-chrome-512x512.png`. These are the
   default sizes required for most Android devices.
 - `browserconfig.xml` is similar to the Android `manifest.json` but this file is
   specific to Windows and Microsoft devices. The `browserconfig.xml` contains
   links to Microsoft-specific favicon files. These files are located in
-  `/img/favicons/` and are prefixed with `mstile-*` and then the file sizes.
-  Each of these files cover an array of Windows and Mobile device sizes.
+  `/img/favicons/` and are prefixed with `mstile-*` and then the file
+  dimensions. Each of these files cover an array of Windows and Mobile device
+  sizes.
 - `apple-touch-icon` is a link to the favicon used for iOS devices. There is
   only one size image for iOS devices as this is all you really need to provide
   but some developers choose to add more icons to cater for specific iOS
-  devices. You don't need to add more but feel free to add more if you want.
+  devices. You don't need to add more but feel free to should you want.
 - `safari-pinned-tab.svg` is a link to a SVG file which is used by Safari on
   macOS and iOS. This is a transparent, single-colour SVG which is styled by the
   `color="#563d7c"` class in the meta-tag. This favicon is used when people add
-  your website to their favourites and/or bookmarks and appears under the
-  favourite sites in Safari.
+  your website to their favourites and appears under the favourite sites in
+  Safari.
 
 **NB: PLEASE TAKE NOTE**{: .btn .btn--success .btn--small}  
 The files contained in **/img/favicons/** are all Bootstrap
 favicons and you will need to redesign each of the images and SVG files in this
 directory (or delete what you aren't going to use in your markup). You will also
 need to update the **TileColor** contained in the **browserconfig.xml** file as
-well as the **theme_color** and **background_color** in the **manifest.json** to your
-website's primary colour used. The colours are all Bootstrap specific colours
-and need changing.
+well as the **theme_color** and **background_color** in the **manifest.json** to
+your website's primary colour used. The current colours are all Bootstrap
+specific colours and need changing.
 {: .notice--success}
 
 ## Getting Started
@@ -233,7 +234,7 @@ should be seeing).
 
 #### Via Terminal
 
-- Open up your `Terminal.app` application on your machine.
+- Open up your `Terminal.app` on your machine.
 - Run the following commands to checkout the project directly to your
   `Templates` folder:
 
@@ -257,10 +258,10 @@ This project is licensed under the `MIT` License. See the
 
 Special thanks go out to the following people and projects.
 
-- [Bootstrap][bootstrap] - for the libraries and example code that is used in
+- [Bootstrap][bootstrap] - for the framework and example code that is used in
   this project. Without them, this project wouldn't even exist.
 - [Espresso][espressoapp] - for their H5BP template that this was adapted from.
-- [Font Awesome][fontawesome] - the the best icon font library in the world.
+- [Font Awesome][fontawesome] - the best icon font library in the world.
 - [humans.txt][humans] - for the `humans.txt` boilerplate file.
 - [robotstxt][robots] - for the `robots.txt` file.
 - [H5BP][h5bp] - for providing the `.htaccess` file in the extras component.
