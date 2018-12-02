@@ -16,4 +16,6 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'jekyll-mentions'
   gem 'jekyll-import'
+  gem 'jekyll-minifier'
+  # gem 'octopress-minify-html'
 end
