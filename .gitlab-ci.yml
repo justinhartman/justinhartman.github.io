@@ -1,6 +1,6 @@
 # Template project: https://gitlab.com/pages/jekyll
 # Docs: https://docs.gitlab.com/ce/pages/
-image: ruby:2.3
+image: ruby:2.5
 
 cache:
   paths:
@@ -14,8 +14,8 @@ before_script:
   - export LANG=en_US.UTF-8
   - export LANGUAGE=en_US:en
   - export LC_ALL=en_US.UTF-8
-  - gem install jekyll bundler --install-dir vendor/ruby/2.3.0
-  - gem install sass --no-user-install --install-dir vendor/ruby/2.3.0
+  - gem install jekyll bundler --install-dir vendor/ruby/2.5.0
+  - gem install sass --no-user-install --install-dir vendor/ruby/2.5.0
   - bundle install --path vendor
 
 variables:
