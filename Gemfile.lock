@@ -168,6 +168,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  execjs
   jekyll (= 3.7.3)
   jekyll-algolia
   jekyll-feed

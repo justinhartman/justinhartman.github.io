@@ -16,6 +16,7 @@ before_script:
   - export LC_ALL=en_US.UTF-8
   - gem install jekyll bundler --install-dir vendor/ruby/2.5.0
   - gem install sass --no-user-install --install-dir vendor/ruby/2.5.0
+  - export JEKYLL_ENV=production
   - bundle install --path vendor
 
 variables:

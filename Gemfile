@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby RUBY_VERSION
+gem 'execjs'
 gem "jekyll", "3.7.3"
 gem 'minimal-mistakes-jekyll'
 gem 'octopress', '~> 3.0'
