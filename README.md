@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/justinhartman/justinhartman.github.io.svg?branch=master)](https://travis-ci.org/justinhartman/justinhartman.github.io)
 
-This repository contains the source code that runs my personal site @ [justin.hartman.me][site].
+This repository contains the source code that runs my personal site, [justinhartman.blog][site].
 
 ### Table of Contents
 
@@ -28,7 +28,7 @@ The source code for my website is broken up into three different licenses. I rea
 
 ### 2.1. Content
 
-The following directories and its contents within are Copyright &copy; 2004-2018 [Justin Hartman][site] and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][by-nc-sa].
+The following directories and its contents within are Copyright &copy; 2004-2019 [Justin Hartman][site] and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][by-nc-sa].
 
 - `_data/`
 - `_drafts/`
@@ -40,23 +40,23 @@ The following directories and its contents within are Copyright &copy; 2004-2018
 - `_templates/`
 - `assets/`
 
-This license gives you permission to reuse the content on this site along with attribution. If you do plan on reusing any of the work please [log a ticket][issue] informing me of how and where you plan to reuse my content.
+This license gives you permission to reuse the content on this site along with attribution. If you do plan on reusing any of the work please [send me an email][issue] informing me of how and where you plan to reuse my content.
 
 ### 2.2. Software
 
-The following directories and its contents within are Copyright &copy; 2017-2018 [Justin Hartman][site] and is licensed under the [GNU Affero General Public License - Version 3][agpl].
+The following directories and its contents within are Copyright &copy; 2017-2019 [Justin Hartman][site] and is licensed under the [GNU Affero General Public License - Version 3][agpl].
 
 - `_playground/`
 
-This license allows you to reuse, create derivatives and make available copies of the software, provided you retain the copyright and license as well as make your source code available with installation instructions. Please [log a ticket][issue] when you do plan on reusing any code or software that I have created.
+This license allows you to reuse, create derivatives and make available copies of the software, provided you retain the copyright and license as well as make your source code available with installation instructions. Please [send me an email][issue] when you do plan on reusing any code or software that I have created.
 
 ### 2.3. Theme
 
 All other directories and files not listed above are MIT Licensed. Feel free to use the HTML, JavaScript and CSS as you please and do yourself a favour and download the amazing [Minimal Mistakes Jekyll Theme][mm].
 
-[site]: https://justin.hartman.me
-[email]: mailto:justin@hartman.me?subject=Content+Attribution
-[issue]: https://github.com/justinhartman/justinhartman.github.io/issues/new
+[site]: https://justinhartman.blog
+[email]: mailto:incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com
+[issue]: mailto:incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com
 [mm]: https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
 [jekyll]: https://jekyllrb.com
 [mmistakes]: https://github.com/mmistakes
