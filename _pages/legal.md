@@ -12,7 +12,7 @@ redirect_from:
   - /legal-notices.html
   - /legal/
 published: true
-date: 2019-08-23 23:21:00 +02:00
+date: 2018-03-14 19:25:00 +02:00
 sitemap:
     changefreq: yearly
     priority: 0.8
@@ -43,7 +43,7 @@ By posting on my site you agree to certain ground rules and these can be found i
 
 [My Terms and Conditions][terms] apply to all visitors, users and others who access or use my website. By accessing or using the website you agree to be bound by these Terms and Conditions. Please read through these Terms and Conditions carefully.
 
-[support]: https://github.com/justinhartman/justinhartman.github.io/issues/new
+[support]: https://gitlab.com/justinhartman/justinhartman.gitlab.io/issues/new
 [pic-credit]: https://www.pexels.com/photo/police-money-finance-funny-33596/
 [comment-policy]: /legal/comment-policy.html
 [cookie-policy]: /legal/cookies-policy.html

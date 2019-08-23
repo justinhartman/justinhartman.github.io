@@ -23,7 +23,7 @@ sitemap:
     priority: 0.8
 ---
 # Terms and Conditions
-Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using [https://justin.hartman.me][me] (the "Site") operated by Justin Hartman ("I", "us", "we", or "our").
+Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using [justinhartman.blog][me] (the "Site") operated by Justin Hartman ("I", "us", "we", or "our").
 
 Your access to and use of the Site is conditioned on your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Site.
 
@@ -47,13 +47,12 @@ Justin Hartman has no control over, and assumes no responsibility for, the conte
 
 ## Changes
 
-I reserve the right, at my sole discretion, to modify or replace these Terms and Conditions at any time. If a revision is material I will try to provide at least 14 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at my sole discretion. You are also able to [track the changes and revisions][github_privacy] of this Terms and Conditions file.
+I reserve the right, at my sole discretion, to modify or replace these Terms and Conditions at any time. If a revision is material I will try to provide at least 14 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at my sole discretion.
 
 ## Contact Me
 
 If you have any questions about these Terms and Conditions, [please contact me][github].
 
 
-[me]: https://justin.hartman.me
-[github]: https://github.com/justinhartman/justinhartman.github.io/issues/new
-[github_privacy]: https://github.com/justinhartman/justinhartman.github.io/commits/master/_pages/terms-and-conditions.md
+[me]: https://justinhartman.blog
+[github]: https://gitlab.com/justinhartman/justinhartman.gitlab.io/issues/new

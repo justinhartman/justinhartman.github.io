@@ -23,7 +23,7 @@ sitemap:
 # Cookies Policy
 
 ## Overview
-Justin Hartman ("I", us", "we", or "our") uses cookies on the Justin Hartman Website (the "Service") located at [https://justin.hartman.me][me]. By using the Service, you consent to my use of cookies.
+Justin Hartman ("I", us", "we", or "our") uses cookies on the Justin Hartman Website (the "Service") located at [justinhartman.blog][me]. By using the Service, you consent to my use of cookies.
 
 My Cookies Policy explains what cookies are, how I use cookies, how third-parties I may partner with may use cookies on the Service, your choices regarding cookies and further information about cookies.
 
@@ -60,6 +60,6 @@ You can learn more about cookies on the following third-party websites:
 * [AllAboutCookies][allabout]
 * [Network Advertising Initiative][nai]
 
-[me]: https://justin.hartman.me
+[me]: https://justinhartman.blog
 [allabout]: http://www.allaboutcookies.org/
 [nai]: http://www.networkadvertising.org/

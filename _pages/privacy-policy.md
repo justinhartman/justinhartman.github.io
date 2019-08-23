@@ -22,7 +22,7 @@ sitemap:
 ---
 # Privacy Policy
 
-Justin Hartman ("I", "us", "we", or "our") operates [https://justin.hartman.me][me] (the "Site"). This page informs you of my policies regarding the collection, use and disclosure of Personal Information I receive from users of the Site.
+Justin Hartman ("I", "us", "we", or "our") operates [justinhartman.blog][me] (the "Site"). This page informs you of my policies regarding the collection, use and disclosure of Personal Information I receive from users of the Site.
 
 I use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.
 
@@ -66,13 +66,12 @@ I reserve the right to update or change my Privacy Policy at any time and you sh
 
 Your continued use of the Service after I post any modifications to the Privacy Policy on this page will constitute your acknowledgement of the modifications and your consent to abide and be bound by the modified Privacy Policy.
 
-If I make any material changes to this Privacy Policy, I will notify you either through the email address you have provided me, or by placing a prominent notice on my website. You are also able to [track the changes and revisions][github_privacy] of this Privacy Policy file.
+If I make any material changes to this Privacy Policy, I will notify you either through the email address you have provided me, or by placing a prominent notice on my website.
 
 ## Contact Me
 
 If you have any questions about this Privacy Policy, [please contact me][github].
 
-[me]: https://justin.hartman.me
+[me]: https://justinhartman.blog
 [cookie-policy]: /legal/cookies-policy.html
-[github]: https://github.com/justinhartman/justinhartman.github.io/issues/new
-[github_privacy]: https://github.com/justinhartman/justinhartman.github.io/commits/master/_pages/privacy-policy.md
+[github]: https://gitlab.com/justinhartman/justinhartman.gitlab.io/issues/new

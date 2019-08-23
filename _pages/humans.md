@@ -9,7 +9,7 @@ sitemap:
 /* TEAM */
     Chef: Justin Hartman
     Email: justin [@] hartman.me
-    Web: http://justin.hartman.me
+    Web: http://justinhartman.blog
     Twitter: @justinhartman
     From: Cape Town, South Africa
 
