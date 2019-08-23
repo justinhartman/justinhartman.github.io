@@ -74,4 +74,4 @@ If you have any questions about this Privacy Policy, [please contact me][github]
 
 [me]: https://justinhartman.blog
 [cookie-policy]: /legal/cookies-policy.html
-[github]: https://gitlab.com/justinhartman/justinhartman.gitlab.io/issues/new
+[github]: mailto:incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com

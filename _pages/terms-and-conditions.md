@@ -55,4 +55,4 @@ If you have any questions about these Terms and Conditions, [please contact me][
 
 
 [me]: https://justinhartman.blog
-[github]: https://gitlab.com/justinhartman/justinhartman.gitlab.io/issues/new
+[github]: mailto:incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com
