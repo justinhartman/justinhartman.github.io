@@ -12,7 +12,7 @@ redirect_from:
   - /legal-notices.html
   - /legal/
 published: true
-date: 2018-03-14 19:25:00 +02:00
+date: 2019-08-23 23:21:00 +02:00
 sitemap:
     changefreq: yearly
     priority: 0.8
@@ -22,7 +22,7 @@ As much as I like to believe we live in an altruistic world where hand-shakes an
 As such, the following legal notices are applicable to you as part of using this website. Each agreement is there mostly for your protection and I implore you to read through them to understand your rights.
 
 ## License
-All the content on this website is Copyright &copy; 2004-2018 <a rel="author" href="http://justin.hartman.me">Justin Hartman</a> and is licensed under a <a rel="license external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
+All the content on this website is Copyright &copy; 2004-2019 <a rel="author" href="https://justinhartman.blog">Justin Hartman</a> and is licensed under a <a rel="license external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
 
 This license gives you permission to re-use the content on this site along with attribution. If you do plan on re-using any of the work please [open a support request][support] informing me of how and where you plan to re-use my content.
 
