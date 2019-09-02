@@ -1,5 +1,14 @@
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Both apex and sub
+# RewriteCond %{HTTP_HOST} ^justinhartman.blog [NC,OR]
+# RewriteCond %{HTTP_HOST} ^www.justinhartman.blog [NC]
+# RewriteRule ^(.*)$ https://justinhartman.blog/$1 [L, R=301,NC]
+
+# Just subdomain
+RewriteCond %{HTTP_HOST} ^www.justinhartman.blog [NC]
+RewriteRule ^(.*)$ https://justinhartman.blog/$1 [L, R=301,NC]
 </IfModule>
