@@ -1,4 +1,4 @@
-url                           : "https://justinhartman.blog"
+url                           : "https://hartman.me"
 baseurl                       :
 permalink                     : "/:title"
 timezone                      : Africa/Johannesburg
@@ -176,7 +176,7 @@ reCaptcha:
   siteKey                     : 6LfjtkwUAAAAAEmkBKSJ1jsVlf6qKXPrqqjGgv1i
   secret                      : 6LfjtkwUAAAAAPeJyxISYz8aFsbLM2Qt7ZmZXSGJ
 atom_feed:
-  path                        : https://justinhartman.blog/feed.xml
+  path                        : https://hartman.me/feed.xml
 # Search Config
 search                        : true
 search_full_content           : true
@@ -222,11 +222,11 @@ author:
   bio                         : "Justin Hartman is a South African entreprenuer who has been innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary."
   location                    : "South Africa"
   email                       : justin@hartman.me
-  uri                         : https://justinhartman.blog
+  uri                         : https://hartman.me
   home                        : / # null (default), "absolute or relative url to link to author home"
   #bitbucket                  : justinhartman
   flickr                      : justinhartman
-  facebook                    : justin.hartman.me
+  facebook                    : justinhartman.blog
   github                      : justinhartman
   google_plus                 : 115788405127011300666
   instagram                   : justin.hartman
