@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby RUBY_VERSION
 gem 'therubyracer'
-gem "jekyll", "3.7.3"
+gem "jekyll", "3.7.4"
 gem 'minimal-mistakes-jekyll'
 gem 'octopress', '~> 3.0'
 
