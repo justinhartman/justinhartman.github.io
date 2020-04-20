@@ -25,7 +25,7 @@ GEM
     faraday (0.15.1)
       multipart-post (>= 1.2, < 3)
     fastercsv (1.5.5)
-    ffi (1.9.23)
+    ffi (1.12.2)
     filesize (0.1.1)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
