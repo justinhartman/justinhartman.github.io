@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+#
+# Setup the media folders and SQLite database from repo.
+#
+# Author: Justin Hartman <j.hartman@ctca.co.za>
+# Version: 1.0.0
+# Copyright (c) 2020 Creative Academy <https://creativeacademy.ac.za>
+#
+
+# halt script on error
+set -e
+
+#######################################
+# Install and build the site.
+# Globals:
+#   None
+# Arguments:
+#   None
+# Returns:
+#   None
+#######################################
+build() {
+    gem install jekyll html-proofer sass --no-user-install
+    bundle exec jekyll build
+}
+
+#######################################
+# Run htmlproof to validate site.
+# Globals:
+#   None
+# Arguments:
+#   None
+# Returns:
+#   None
+#######################################
+proof(){
+    bundle exec htmlproofer ./_site \
+    --disable-external \
+    --allow-hash-href \
+    --file-ignore='./_site/personal/kitchen-sink.html'
+}
+
+build
+proof
+
+
