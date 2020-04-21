@@ -56,4 +56,4 @@ $ apt-get install ntpdate
 ```
 `ntpdate` will automatically run when booting your system.
 
-[history]: /howto-history/
+[history]: /projects/howto-history.html

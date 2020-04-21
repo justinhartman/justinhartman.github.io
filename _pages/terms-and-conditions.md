@@ -54,5 +54,5 @@ I reserve the right, at my sole discretion, to modify or replace these Terms and
 If you have any questions about these Terms and Conditions, [please contact me][github].
 
 
-[me]: https://justinhartman.blog
-[github]: mailto:incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com
+[me]: https://hartman.me
+[github]: mailto:justinhartman@fire.fundersclub.com

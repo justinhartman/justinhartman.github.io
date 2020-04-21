@@ -22,7 +22,7 @@ As much as I like to believe we live in an altruistic world where hand-shakes an
 As such, the following legal notices are applicable to you as part of using this website. Each agreement is there mostly for your protection and I implore you to read through them to understand your rights.
 
 ## License
-All the content on this website is Copyright &copy; 2004-2019 <a rel="author" href="https://justinhartman.blog">Justin Hartman</a> and is licensed under a <a rel="license external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
+All the content on this website is Copyright &copy; 2004-2019 <a rel="author" href="https://hartman.me">Justin Hartman</a> and is licensed under a <a rel="license external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
 
 This license gives you permission to re-use the content on this site along with attribution. If you do plan on re-using any of the work please [send me a mail][support] informing me of how and where you plan to re-use my content.
 
@@ -43,7 +43,7 @@ By posting on my site you agree to certain ground rules and these can be found i
 
 [My Terms and Conditions][terms] apply to all visitors, users and others who access or use my website. By accessing or using the website you agree to be bound by these Terms and Conditions. Please read through these Terms and Conditions carefully.
 
-[support]: mailto:incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com
+[support]: mailto:justinhartman@fire.fundersclub.com
 [pic-credit]: https://www.pexels.com/photo/police-money-finance-funny-33596/
 [comment-policy]: /legal/comment-policy.html
 [cookie-policy]: /legal/cookies-policy.html

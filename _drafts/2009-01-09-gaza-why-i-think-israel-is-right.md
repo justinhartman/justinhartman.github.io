@@ -1496,7 +1496,7 @@ Now the only reason all of this upsets me is because our leaders are quick to ju
 While I can see the facts and merits of Israel's motivation to protect their nation I'm still undecided as to whether or not <em>Operation Cast Lead</em> is actually the right way of executing their rights. 
 Either way, let's not forget that the middle-east is not unique in this scenario as all around the world we have Muslim extremists causing havoc and inflicting <em>Holy Wars</em>. There really is no place in the world for people like this.
 Right, I've had my say, and I thought that I'd like to end with this cool comic I found which I believe sums the whole situation up.
-<img src="/assets/images/uploads/2009/01/palestine.jpg" alt="" />
+<img src="/assets/images/uploads/2009/01/palestine.jpg" alt="Image" />
 <strong>~~~ Footnotes: ~~~</strong>
 [1] IDF Spokesperson's Unit, Dec. 19, 2008; &ldquo;Iran-backed Terrorists in Gaza Kill 3, Wound Others in Continuing Rocket Attacks on Israel,&rdquo; <a href="http://www.theisraelproject.org/site/apps/nlnet/content2.aspx?c=hsJPK0PIJpH&b=3587015&content_id={4F0CF025-98BF-4875-A59B-B1F5E4B079F7}&notoc=1">The Israel Project press release, Dec. 29, 2008</a>; Barzak, Ibrahim and Friedman, Matti, &ldquo;Israel rejects truce call, pursues bombing Gaza,&rdquo; <a href="http://www.google.com/hostednews/ap/article/ALeqM5ioi_0jtO9RjMwPNRoXNCndRPRq3gD95DQIEO0">Associated Press, Dec. 31, 2008</a>
 [2] Ibid.

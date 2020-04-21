@@ -60,6 +60,6 @@ You can learn more about cookies on the following third-party websites:
 * [AllAboutCookies][allabout]
 * [Network Advertising Initiative][nai]
 
-[me]: https://justinhartman.blog
+[me]: https://hartman.me
 [allabout]: http://www.allaboutcookies.org/
 [nai]: http://www.networkadvertising.org/

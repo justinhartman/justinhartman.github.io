@@ -250,7 +250,7 @@ comments:
   last_modified_at: '2008-07-18 05:31:18 +0200'
   content: Rex rocks!
 ---
-<img src="/assets/images/uploads/2008/07/rexthelion.jpg" alt="" title="Rex The Lion" align="right" class="alignnone size-full wp-image-277" /><strong>I am Rex. Hear me purr.</strong>
+<img src="/assets/images/uploads/2008/07/rexthelion.jpg" alt="Image" title="Rex The Lion" align="right" class="alignnone size-full wp-image-277" /><strong>I am Rex. Hear me purr.</strong>
 <a href="http://www.zoopy.com/member/profile/id/2920">Rex The Lion</a> surfaced at the beginning of this month and the hype around this pussy cat is something to behold. Quite frankly I am  bored. 
 Don't get me wrong, I love the concept and <a href="http://www.reallusion.com/crazytalk/">the software</a> they're using is awesome but I feel Rex could be executed far more effectively.
 As an anonymous user, who's sole mandate is to talk about the local blogosphere, I would expect Rex to be more controversial but alas all we get is name-dropping and link-baiting which is really not amusing or interesting in the least.

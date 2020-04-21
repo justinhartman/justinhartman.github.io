@@ -130,7 +130,7 @@ Pure-FTPd should now startup in daemon mode and everything should be up and runn
  - [Howto install pureftpd on a debian machine][ref1] - by remofritzsche
  - [Pure-FTPd Website][ref2]
 
-[debian-etch-install]: /debian/installing-a-debian-etch-base-system/
-[history]: /howto-history/
+[debian-etch-install]: /linux/debian/installing-a-debian-etch-base-system.html
+[history]: /projects/howto-history.html
 [ref1]: http://www.debian-administration.org/articles/383
 [ref2]: http://www.pureftpd.org/

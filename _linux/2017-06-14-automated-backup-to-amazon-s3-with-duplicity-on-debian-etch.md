@@ -225,6 +225,6 @@ If you get Python errors when trying to run your backup script then I recommend 
 ### Amazon S3 Bucket Names
 Another common issue is the naming of your bucket on Amazon S3. Remember that bucket names have to be unique on the entire Amazon S3 server so if another user is using the same bucket name as you're trying to create then your backup will fail. Try using a name like `amazon_bucket_1234` when naming your bucket.
 
-[history]: /howto-history/
+[history]: /projects/howto-history.html
 [duplicity]: http://duplicity.nongnu.org/
 [boto]: http://code.google.com/p/boto/

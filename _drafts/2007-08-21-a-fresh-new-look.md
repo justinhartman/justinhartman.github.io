@@ -84,5 +84,5 @@ comments:
     the same general layout were in Korean, which of course I can&#39;t read, haha.
 ---
 In a sad and shallow attempt for exposure <a href="http://groogle.co.za">Groogle</a> and I have decided to launch our new blog designs at the same time. That aside, I have needed a new, fresh look for some time now and I'm very happy with the final results. 
-Not only has the design changed but I've redone my <a href="/profile/">Profile</a>, <a href="/projects/">Projects</a> and <a href="/contact/">Contact</a> page and brought them more up to date with what's going on in my life. I've also taken on a new Blogroll strategy and I've decided to only link to people that I regularly interact with so I'm hoping to meet more people over the coming months and increasing my <em>real-life</em> blogroll.
+Not only has the design changed but I've redone my <a href="/profile/">Profile</a>, <a href="/projects/">Projects</a> and <a href="/contact.html">Contact</a> page and brought them more up to date with what's going on in my life. I've also taken on a new Blogroll strategy and I've decided to only link to people that I regularly interact with so I'm hoping to meet more people over the coming months and increasing my <em>real-life</em> blogroll.
 <img src="http://farm2.static.flickr.com/1266/1190741939_70337ca53e.jpg" alt="New Blog Design" />

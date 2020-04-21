@@ -33,22 +33,29 @@ kramdown:
   syntax_highlighter          : rouge
   syntax_highlighter_opts:
     css_class                 : highlight
-# github: [metadata]
+github: [metadata]
 exclude:
+  - .editorconfig
+  - .git
+  - .gitattributes
+  - .gitignore
+  - .gitlab-ci.yml
+  - .nova
+  - .travis.yml
+  - .wakatime-project
+  - CNAME
   - Gemfile
   - Gemfile.lock
-  - README.md
   - LICENSE.md
-  - CNAME
-  - TODO
-  - docs
-  - justin.hartman.me.sublime-project
-  - justin.hartman.me.sublime-workspace
-  - justinhartman.code-workspace
+  - README.md
+  - TODO.md
   - _deploy.yml
-  - .deploy/
-  - _templates/
-  - assets/images/templates/
+  - .deploy
+  - _drafts
+  - _sass
+  - _templates
+  - assets/images/templates
+  - script
   - vendor
 # Plugins
 plugins:
@@ -191,7 +198,7 @@ naver_site_verification       : cff9b1642528de3b4703608b5c9ae651d8ed9307
 twitter:
   username                    : justinhartman
 facebook:
-  username                    : justin.hartman.me
+  username                    : justinhartman.blog
   app_id                      : 112996658724332
   publisher                   : 566420412
 og_image                      : "/assets/images/general/justin-hartman.jpeg"
@@ -221,7 +228,7 @@ author:
   avatar                      : "/assets/images/general/justin-hartman.jpeg"
   bio                         : "Justin Hartman is a South African entreprenuer who has been innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary."
   location                    : "South Africa"
-  email                       : justin@hartman.me
+  email                       : justinhartman@fire.fundersclub.com
   uri                         : https://hartman.me
   home                        : / # null (default), "absolute or relative url to link to author home"
   #bitbucket                  : justinhartman

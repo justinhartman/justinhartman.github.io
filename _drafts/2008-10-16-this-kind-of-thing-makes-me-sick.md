@@ -106,6 +106,6 @@ comments:
   content: 'New blog post: This kind of thing makes me sick http://tinyurl.com/4ffzfz'
 ---
 Picked this up on Muti only moments ago. Read the tag highlighted in blue.
-<img src="/assets/images/uploads/2008/10/aids-story1.png" alt="" />
+<img src="/assets/images/uploads/2008/10/aids-story1.png" alt="Image" />
 To be honest I just have no time for people like this. It's disgraceful, inhumane and shows a total disrespect for human life. I know we live in a culture that still breeds this type of racism but really... doing this in a public forum is just not on.
 Sick...

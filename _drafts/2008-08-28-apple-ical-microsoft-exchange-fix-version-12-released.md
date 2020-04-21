@@ -157,7 +157,7 @@ Here are the release notes for this version:
 If you've never installed this fix before then please read the detailed installation instructions <a href="/2008/03/31/apple-ical-microsoft-exchange-fix-for-leopard/">found over here</a>. If you're upgrading from a previous version please read the detailed upgrade notes below.
 <strong>Upgrading from version 1.1</strong>
 1. Delete the folder <strong>/Applications/iCalFix/</strong> in Finder.
-<img src="/assets/images/uploads/2008/08/delete-icalfix.png" alt="" />
+<img src="/assets/images/uploads/2008/08/delete-icalfix.png" alt="Image" />
 2. Download this <a href="/ccount/click.php?id=3">Upgrade Script</a> to your computer and extract the contents from the ZIP file. The folder contains a Shell script (install.sh) which sets everything up for you.
 <img src='/assets/images/uploads/2008/03/ical-installfolder1.png' alt='ical-installfolder.png' />
 3. Right-click on the <strong>install.sh</strong> file, select <em>Open With</em> and then click on <em>Other</em>.

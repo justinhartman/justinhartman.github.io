@@ -263,13 +263,13 @@ In so doing I stumbled across an APN Changer website based in New Zealand called
 Unlockit provides a simple tool for changing your APN and other settings by creating a custom profile for your file which you can install. It's an identical method to Apple's utility just much simpler and easier to use. Here's the steps I took to get my iPhone back on the Vodacom EDGE network.
 <strong>Step 1:</strong>
 Visit <a href="http://unlockit.co.nz">http://unlockit.co.nz</a> in Safari on your iPhone.
-<img src="/assets/images/uploads/2008/07/unlock1.png" alt="" />
+<img src="/assets/images/uploads/2008/07/unlock1.png" alt="Image" />
 <strong>Step 2:</strong>
 Click on <em>Set Custom APN</em>.
-<img src="/assets/images/uploads/2008/07/unlock2.png" alt="" />
+<img src="/assets/images/uploads/2008/07/unlock2.png" alt="Image" />
 <strong>Step 3:</strong>
 In the APN text box type <em>internet</em> and then click on <em>Download Custom Config</em>.
-<img src="/assets/images/uploads/2008/07/unlock2.png" alt="" />
+<img src="/assets/images/uploads/2008/07/unlock2.png" alt="Image" />
 <strong>Step 4:</strong>
 Safari will close and you'll be asked whether or not you'd like to install the custom profile file. Just click Yes and once the file has installed you'll be back on the EDGE network.
 In order to run this hack you'll need to be connected to a Wi-Fi network. I also suggest that you read <a href="http://www.spirituality.org.za/2008/07/1st-generation-apple-iphone-running-new.html">Dion's post</a> on how to reactivate the Cellular Data settings in the Network settings tab. Dion's solution is a more complicated but once done you'll be able to change the settings as and when you need to.

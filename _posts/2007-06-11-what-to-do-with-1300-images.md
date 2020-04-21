@@ -39,6 +39,6 @@ I then figured that online storage is the way to go so I started to look at alte
 
 So I did the next best thing and I signed up for <a href="http://www.flickr.com/photos/justinhartman/">Flickr Pro</a>. I've proven time and again that I am utterly useless at managing my photos so now I've taken the plunge and put my entire collection in the trust of someone else.
 
-In looking for some WordPress and Flickr integration I found this awesome plugin for WordPress called <a href="http://www.randombyte.net/blog/projects/falbum/">FAlbum</a> which not only integrates with Flickr but now also allows me to have a <a href="/photos/">Photo Gallery</a> on my site using the public images I have on Flickr.
+In looking for some WordPress and Flickr integration I found this awesome plugin for WordPress called <a href="http://www.randombyte.net/blog/projects/falbum/">FAlbum</a> which not only integrates with Flickr but now also allows me to have a Photo Gallery on my site using the public images I have on Flickr.
 
 Although this migration has been long and cumbersome I have to say I'm really pleased with the results.

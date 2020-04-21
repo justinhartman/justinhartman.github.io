@@ -246,7 +246,7 @@ $ apt-get -y install ntpdate
  - [Two-in-one DNS server with BIND9][ref3] - by pupeno
  - [Building A Debian DNS System][ref4] - by joe
 
-[history]: /howto-history/
+[history]: /projects/howto-history.html
 [debian-etch-install]: /debian/installing-a-debian-etch-base-system/
 [rfc-link]: http://tools.ietf.org/html/rfc2606
 [wikipedia-article]: http://en.wikipedia.org/wiki/Example.com

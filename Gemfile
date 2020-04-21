@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
-ruby RUBY_VERSION
-gem 'therubyracer'
+ruby '2.6.3'
+# gem 'therubyracer'
 gem "jekyll", "3.7.4"
 gem 'minimal-mistakes-jekyll'
 gem 'octopress', '~> 3.0'
+gem "html-proofer"
 
 group :jekyll_plugins do
   gem 'jekyll-feed'

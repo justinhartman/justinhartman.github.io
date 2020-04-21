@@ -148,7 +148,7 @@ What do you get when you...
 &bull; ...steal <a href="http://www.flysaa.com">FlySAA</a>'s home page banner and insert it into the WordPress default theme?
 &bull; ...do a <a href="http://www.google.co.za/search?q=%22saa+sucks%22&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a">Google search</a> for other people who've complained about SAA?
 The answer... <a href="http://saasucks.com">SAA Sucks</a>.
-<a href="http://saasucks.com"><img src="/assets/images/uploads/2008/10/picture-5-500x228.png" alt="" title="South African Airlines Sucks" width="500" height="228" class="alignnone size-medium wp-image-358" /></a>
+<a href="http://saasucks.com"><img src="/assets/images/uploads/2008/10/picture-5-500x228.png" alt="Image" title="South African Airlines Sucks" width="500" height="228" class="alignnone size-medium wp-image-358" /></a>
 Seriously though, the whole <a href="/2008/10/21/saa-extortion-at-its-best/">getting ripped off experience</a> I've recently gone through with <a href="http://saasucks.com">South African Airways</a> has really hit me hard. What's more is that I've realised that not only do most people feel the same way but many have gone through similar experiences.
 Added to this, my letter of demand to Khaya Ngqula (CEO of <a href="http://saasucks.com">SAA</a>) seems to have fallen on deaf ears and I've been left with a bad taste in my mouth ever since.
 Thanks to <a href="http://gregorrohrig.com">Gregor</a> for giving me the idea to do a site around this and in a short space of time I managed to get SAA Sucks up and running. The idea behind it is to dedicate space on the interwebs for anyone to go and complain about <a href="http://saasucks.com">SAA</a>. 

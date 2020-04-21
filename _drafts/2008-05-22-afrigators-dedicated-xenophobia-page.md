@@ -62,7 +62,7 @@ comments:
     Social Media (and even in Afrigator&#39;s case) should have an impact on exposing
     the truth and to some degree it does. I&#39;d like to see it do more though...
 ---
-<a href="http://afrigator.com/topics/xenophobia"><img src="http://blog.afrigator.com/assets/images/uploads/2008/05/xenophobia-page.jpg" alt="" title="Xenophobia in South Africa" width="500" height="300" class="alignnone size-full wp-image-64" /></a>
+<a href="http://afrigator.com/topics/xenophobia"><img src="http://blog.afrigator.com/assets/images/uploads/2008/05/xenophobia-page.jpg" alt="Image" title="Xenophobia in South Africa" width="500" height="300" class="alignnone size-full wp-image-64" /></a>
 Last night we published a brand new <a href="http://afrigator.com/topics/xenophobia">Xenophobia topic page</a> on <a href="http://afrigator.com">Afrigator</a> which highlights everything that is being covered throughout Africa about the recent xenophobic attacks in our country.
 <a href="http://stii.za.net">Stii</a> and <a href="http://www.markforrester.co.za">Mark</a> worked like mad on this yesterday and I'm super impressed with the way in which the page has turned out. I urge you to <a href="http://blog.afrigator.com/2008/05/22/xenophobia-in-south-africa-how-were-helping/">read the blog post on the Afrigator blog</a> as it breaks down this page into much greater detail.
 One thing I found particularly interesting to see is how many blog posts have been written about the xenophobic attacks. As of last night a total of 217 blog posts have been published compared to only 33 news articles on the same topic.

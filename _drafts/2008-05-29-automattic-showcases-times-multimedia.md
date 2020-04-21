@@ -34,4 +34,4 @@ comments:
 ---
 <a href="http://blog.linuxinternet.org/">Warwick Poole</a>, a born and bred South African now living in New York, is the Systemologist for <a href="http://automattic.com/">Automattic</a> - the company that runs <a href="http://wordpress.org">WordPress</a>. 
 I'm not sure what a Systemologist does but Warwick has just showcased The Times' new <a href="http://multimedia.thetimes.co.za">Multimedia Portal</a> on one of the Automattic blogs and you can read the <a href="http://publisherblog.automattic.com/2008/05/28/the-times-multimedia-portal-runs-on-wordpress/">full post here</a>. 
-<a href='http://publisherblog.automattic.com/2008/05/28/the-times-multimedia-portal-runs-on-wordpress/'><img src="/assets/images/uploads/2008/05/picture-1.png" alt="" title="Automattic Features Times Multimedia" width="500" height="446" class="alignnone size-full wp-image-258" /></a>
+<a href='http://publisherblog.automattic.com/2008/05/28/the-times-multimedia-portal-runs-on-wordpress/'><img src="/assets/images/uploads/2008/05/picture-1.png" alt="Image" title="Automattic Features Times Multimedia" width="500" height="446" class="alignnone size-full wp-image-258" /></a>

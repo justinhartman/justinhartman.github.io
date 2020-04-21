@@ -134,6 +134,6 @@ Congratulations! Your base system is now finished installing:
 
 [network-install]: http://www.debian.com/distrib/netinst
 [etch-download]: http://cdimage.debian.org/cdimage/etch_di_rc1/i386/iso-cd/debian-testing-i386-netinst.iso
-[history]: /howto-history/
+[history]: /projects/howto-history.html
 [falko-setup]: http://www.howtoforge.com/perfect_setup_debian_sarge
-[postfix-url]: //
+[postfix-url]: https://www.linuxbabe.com/mail-server/setup-basic-postfix-mail-sever-ubuntu

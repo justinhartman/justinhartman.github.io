@@ -406,7 +406,7 @@ comments:
     got angry at what must have been a very baffled [...]"
 ---
 I'm not sure how I feel about this.
-<img src="/assets/images/uploads/2008/07/picture-7.png" alt="" title="Regator steals Afrigator brand?" width="500" height="340" class="alignnone size-full wp-image-272" />
+<img src="/assets/images/uploads/2008/07/picture-7.png" alt="Image" title="Regator steals Afrigator brand?" width="500" height="340" class="alignnone size-full wp-image-272" />
 Regator.com went into private beta today and I picked it up via this <a href="http://www.techcrunch.com/2008/07/03/regator-wants-to-be-a-blog-reader-for-the-masses/">Techcrunch article</a>. They've also got great exposure on <a href="http://www.readwriteweb.com/cgi-bin/mt/mt-tb.cgi/4353">ReadWriteWeb</a> and even <a href="http://mashable.com/2008/07/03/regator/">Mashable</a>.
 <a href="http://www.regator.com/blog/?p=21">These guys</a> are a blog aggregator that not only use the <a href="http://afrigator.com">Afrigator</a> crocodile, similar domain name and colour scheme and I have to feel this is a little more than a coincidence.
 There is little doubt that <a href="http://www.mikestopforth.com">Mike</a>, <a href="http://stii.za.net">Stii</a>, <a href="http://www.markforrester.co.za">Mark</a> and myself will need to speak to our <a href="http://jacobson.co.za/">legal team</a> to find out what action we can take on this.

@@ -67,7 +67,7 @@ comments:
 </blockquote>
 <strong>Yeah right!</strong>
 Yesterday we shipped off to Mary Fitzgerald Square in Newtown, Johannesburg where we'd hoped to share some moments like the one below.
-<img src="/assets/images/uploads/2008/06/luke-snow_opt.jpg" alt="" title="Luke playing in the Snow..." width="500" height="566" class="alignnone size-full wp-image-267" />
+<img src="/assets/images/uploads/2008/06/luke-snow_opt.jpg" alt="Image" title="Luke playing in the Snow..." width="500" height="566" class="alignnone size-full wp-image-267" />
 To our dismay though the <em><a href="http://www.joburg.org.za/content/view/2612/168/">Snow in the City</a></em> event, sponsored by Nando's, The Star and JDA, turned out to be a miserable disaster.
 When we heard on Radio 702 that the Johannesburg CBD was to be turned into a massive snow day we couldn't resist taking Luke to play in some real snow.
 We arrived shortly after 11:00 only to discover there was a massive queue for tickets. We stood in the line for nearly an hour and a half because Computicket only had two people issuing tickets at the event.

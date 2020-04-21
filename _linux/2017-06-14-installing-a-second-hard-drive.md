@@ -95,4 +95,4 @@ At the end of the file add the following line:
 Save the file and you're done.
 
 
-[history]: /howto-history/
+[history]: /projects/howto-history.html

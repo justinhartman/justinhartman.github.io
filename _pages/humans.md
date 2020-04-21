@@ -8,8 +8,8 @@ sitemap:
 
 /* TEAM */
     Chef: Justin Hartman
-    Email: incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com
-    Web: http://justinhartman.blog
+    Email: justinhartman@fire.fundersclub.com
+    Web: https://justinhartman.blog
     Twitter: @justinhartman
     From: Cape Town, South Africa
 

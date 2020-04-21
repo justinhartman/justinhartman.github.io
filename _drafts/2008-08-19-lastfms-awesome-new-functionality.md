@@ -55,7 +55,7 @@ I have a four year old. He loves music. The only problem is he loves listening t
 <img src="/assets/images/uploads/2008/08/last-fm-before.png" alt="Last.fm" />
 Now prior to the new look Last.fm site there was no way to actually ban or remove artists from your profile. I asked other Last.fm connections if this could be done but alas, there was little hope of cleaning my profile up.
 The great news is that all thanks to this...
-<img src="/assets/images/uploads/2008/08/hannah-montana-remove.png" alt="" />
+<img src="/assets/images/uploads/2008/08/hannah-montana-remove.png" alt="Image" />
 ...My Last.fm profile now looks like this:
 <img src="/assets/images/uploads/2008/08/last-fm-after.png" alt="Last.fm" />
 Thank you Last.fm for giving me this much needed functionality!!!

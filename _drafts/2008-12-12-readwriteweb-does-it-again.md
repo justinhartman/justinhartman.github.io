@@ -120,7 +120,7 @@ comments:
   last_modified_at: '2008-12-12 08:28:56 +0200'
   content: 'New post: ReadWriteWeb does it again - http://tinyurl.com/5f98fr'
 ---
-<img src="/assets/images/uploads/2008/12/rrw1.png" alt="" />
+<img src="/assets/images/uploads/2008/12/rrw1.png" alt="Image" />
 <a href="http://www.readwriteweb.com/">ReadWriteWeb</a> loves us! <strong>WOW</strong>. I know the last few posts of mine have been about gloating but when ReadWriteWeb features us in their Top 10 lists who can resist?
 This time, RRW has given <a href="http://afrigator.com">Afrigator</a> an honourable mention in the <a href="http://www.readwriteweb.com/archives/top_10_rsssyndication_products_of_2008.php">Top 10 RSS and Syndication Products of 2008</a> list.
 This Top 10 list features <a href="http://friendfeed.com">FriendFeed</a>, <a href="http://www.google.com/reader/">Google Reader</a>, <a href="http://twitterfeed.com/">Twitterfeed</a>, <a href="http://www.feedburner.com">Feedburner</a> and <a href="http://pipes.yahoo.com/">Yahoo! Pipes</a>. Here's what RRW had to say about us.

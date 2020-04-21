@@ -30,4 +30,4 @@ This page first appeared on the [original Debian Wiki][history] which was create
  - Migrated: 14 June 2017
  - Last Updated: 14 June 2017
 ---
-[history]: /howto-history/
+[history]: /projects/howto-history.html

@@ -135,7 +135,7 @@ comments:
   last_modified_at: '2008-11-07 11:34:59 +0200'
   content: 'New blog post: Thoughts on my first month in Cape Town http://tinyurl.com/6xlctv'
 ---
-<img src="/assets/images/uploads/2008/11/2956110702_0fa0d13278.jpg" alt="" />
+<img src="/assets/images/uploads/2008/11/2956110702_0fa0d13278.jpg" alt="Image" />
 To be honest I have to say that I can't believe it's only been a month since we <a href="/2008/10/16/moving-to-the-mother-city/">moved to Cape Town</a>. So much has happened this past month that I feel like an old pro navigating my way through the Mother City and living the <em>relaxed life</em>.
 Well, not sure if that's all entirely true but we are all settling in very nicely which is hugely positive for me. I certainly feel like we've made the right decision coming here.
 On the work front I'm amazed at how much we've managed to achieve in the last 30 days. For the first time ever <a href="http://stii.co.za">Stii</a> and I have been in the same place for longer than a couple drinks and having <a href="http://lesterhein.blogspot.com/">Lester</a> on board has been a blessing in disguise.

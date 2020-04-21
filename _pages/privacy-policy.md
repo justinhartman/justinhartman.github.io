@@ -72,6 +72,6 @@ If I make any material changes to this Privacy Policy, I will notify you either 
 
 If you have any questions about this Privacy Policy, [please contact me][github].
 
-[me]: https://justinhartman.blog
+[me]: https://hartman.me
 [cookie-policy]: /legal/cookies-policy.html
-[github]: mailto:incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com
+[github]: mailto:justinhartman@fire.fundersclub.com

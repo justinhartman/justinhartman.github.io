@@ -40,4 +40,4 @@ comments:
 ---
 Just got this email from Vodacom about the imminent launch of the 3G iPhone. I spoke to Apple earlier today and it is confirmed that the iPhone will launch this week in South Africa - just not exactly sure of the date yet.
 Based on the email below it looks like you now get a chance to be pre-approved which means they will now credit check you and if you qualify then they'll offer you a massive package. Anyway, I've applied. Let's see what happens.
-<a href="/assets/images/uploads/2008/09/iphone3g.jpg"><img src="/assets/images/uploads/2008/09/iphone3g.jpg" alt="" title="iPhone 3G Now in South Africa" width="500" height="561" class="alignnone size-full wp-image-310" /></a>
+<a href="/assets/images/uploads/2008/09/iphone3g.jpg"><img src="/assets/images/uploads/2008/09/iphone3g.jpg" alt="Image" title="iPhone 3G Now in South Africa" width="500" height="561" class="alignnone size-full wp-image-310" /></a>

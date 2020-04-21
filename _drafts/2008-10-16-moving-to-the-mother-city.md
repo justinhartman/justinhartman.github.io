@@ -137,9 +137,9 @@ comments:
   content: 'New blog post: Moving to the Mother City http://tinyurl.com/3qzcqw'
 ---
 It's been 13 days since I shipped my entire family down to Cape Town and what an experience it has been. We've gone from this chaos in Johannesburg:-
-<img src="/assets/images/uploads/2008/10/img_1682-500x333.jpg" alt="" title="Boxes and boxes ready to leave our house in Johannesburg" width="500" height="333" class="alignnone size-medium wp-image-327" />
+<img src="/assets/images/uploads/2008/10/img_1682-500x333.jpg" alt="Image" title="Boxes and boxes ready to leave our house in Johannesburg" width="500" height="333" class="alignnone size-medium wp-image-327" />
 To this ordered chaos in our new home in Cape Town:-
-<img src="/assets/images/uploads/2008/10/img_1796-500x333.jpg" alt="" title="New home in Cape Town" width="500" height="333" class="alignnone size-medium wp-image-328" />
+<img src="/assets/images/uploads/2008/10/img_1796-500x333.jpg" alt="Image" title="New home in Cape Town" width="500" height="333" class="alignnone size-medium wp-image-328" />
 I have to say that moving to a new city is really not as easy as it seems and proved to be an immense challenge for all of us. 
 When we knew that we'd have to move it really seemed like an awesome idea at the time. I mean, who wouldn't want to move to a city with reduced crime, beautiful oceans, mountains and a better overall quality of life?
 While I am not regretting the move at all I didn't/couldn't anticipate how trying this would be both emotionally and physically to all of us - including the people we left behind. Packing boxes is no fun, unpacking even less, but the really difficult aspect has been the emotional loss of our families and friends.

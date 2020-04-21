@@ -54,9 +54,9 @@ This license allows you to reuse, create derivatives and make available copies o
 
 All other directories and files not listed above are MIT Licensed. Feel free to use the HTML, JavaScript and CSS as you please and do yourself a favour and download the amazing [Minimal Mistakes Jekyll Theme][mm].
 
-[site]: https://justinhartman.blog
-[email]: mailto:incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com
-[issue]: mailto:incoming+justinhartman-justinhartman-gitlab-io-6731849-issue-@incoming.gitlab.com
+[site]: https://hartman.me
+[email]: mailto:justinhartman@fire.fundersclub.com
+[issue]: mailto:justinhartman@fire.fundersclub.com
 [mm]: https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
 [jekyll]: https://jekyllrb.com
 [mmistakes]: https://github.com/mmistakes

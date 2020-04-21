@@ -16,8 +16,6 @@ tags:
 - children
 - luke
 ---
-<a href="http://www.hartman.za.net/hello/595034/640/DSC01559-2005.04.04-05.12.04.jpg"><img style="border: 1px solid rgb(0, 0, 0); margin: 2px;" src="http://www.hartman.za.net/hello/595034/320/DSC01559-2005.04.04-05.12.04.jpg" border="0" /></a>
-
 Today marks the first official school day for my 16-month old son Luke. I have to admit it was a very emotional day particularly for me as it just shows how quickly these little ones grow up. If I had it my way I'd still have him fully-dependent on us but I guess we all have to grow up at some point.
 
 The sad part is he didn't even miss his Mom and I at all and when we picked him up this afternoon he was all smiles playing on the school playground. I guess another chapter in my life begins and I look forward to the new challenges that lie ahead :)
