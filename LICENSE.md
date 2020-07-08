@@ -1,5 +1,5 @@
 # License
-Copyright &copy; 2004-2019 <a rel="author" href="https://hartman.me">Justin Hartman</a>. All Rights Reserved. 
+Copyright &copy; 2004-2020 <a rel="author" href="https://hartman.me">Justin Hartman</a>. All Rights Reserved. 
 
 This work is licensed under a <a rel="license external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 

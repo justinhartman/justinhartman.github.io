@@ -28,7 +28,7 @@ The source code for my website is broken up into three different licenses. I rea
 
 ### 2.1. Content
 
-The following directories and its contents within are Copyright &copy; 2004-2019 [Justin Hartman][site] and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][by-nc-sa].
+The following directories and its contents within are Copyright &copy; 2004-2020 [Justin Hartman][site] and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][by-nc-sa].
 
 - `_data/`
 - `_drafts/`
@@ -44,7 +44,7 @@ This license gives you permission to reuse the content on this site along with a
 
 ### 2.2. Software
 
-The following directories and its contents within are Copyright &copy; 2017-2019 [Justin Hartman][site] and is licensed under the [GNU Affero General Public License - Version 3][agpl].
+The following directories and its contents within are Copyright &copy; 2017-2020 [Justin Hartman][site] and is licensed under the [GNU Affero General Public License - Version 3][agpl].
 
 - `_playground/`
 
