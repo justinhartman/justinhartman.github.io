@@ -24,10 +24,6 @@ collections:
     title                     : Technical
     output                    : true
     permalink                 : /:collection/:categories/:title.html
-    entries_layout: grid # list (default), grid
-    show_excerpts: true # true (default), false
-    sort_by: date # date (default) title
-    sort_order: forward # forward (default), reverse
   playground:
     title                     : Playground
     output                    : true
@@ -78,7 +74,7 @@ plugins:
 # Theme configuration
 remote_theme                  : mmistakes/minimal-mistakes
 minimal_mistakes_skin         : "justin" # (contrast or neon. justin is based off contrast)
-locale                        : "en_GB"
+locale                        : "en_ZA"
 title                         : "Justin Hartman"
 title_separator               : "-"
 name                          : "Justin Hartman"
