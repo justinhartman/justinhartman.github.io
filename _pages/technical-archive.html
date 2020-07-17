@@ -1,5 +1,6 @@
 ---
-layout: archive
+layout: default
+sort_order: forward
 title: "Technical HOWTOs"
 permalink: /technical/
 redirect_from:
@@ -25,6 +26,6 @@ sitemap:
 <div class="grid__wrapper">
     <h1 id="technical" class="archive__subtitle">Technical</h1>
   {% for post in site.technical %}
-    {% include archive-single.html %}
+    {% include archive-single.html sort_order=reverse %}
   {% endfor %}
 </div>
