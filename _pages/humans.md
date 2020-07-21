@@ -4,12 +4,13 @@ permalink: '/humans.txt'
 sitemap:
     changefreq: monthly
     priority: 0.5
+last_modified_at: 2020-07-21T00:40:32+02:00
 ---
 
 /* TEAM */
     Chef: Justin Hartman
     Email: justinhartman@fire.fundersclub.com
-    Web: https://justinhartman.blog
+    Web: https://hartman.me
     Twitter: @justinhartman
     From: Cape Town, South Africa
 

@@ -7,6 +7,7 @@ sitemap:
     changefreq: monthly
     priority: 0.7
 toc: true
+last_modified_at: 2020-07-21T00:40:32+02:00
 ---
 
 On the 15th of January 2007 I launched a [MediaWiki][wiki] website called the **Debian Wiki** which used to be hosted at `linux.justinhartman.com`. I began this website solely for selfish reasons as I wanted to document how I got various software packages up and running so I could come back to them at a later stage for easy deployment.

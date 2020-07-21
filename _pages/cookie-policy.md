@@ -19,6 +19,7 @@ tags:
 sitemap:
     changefreq: yearly
     priority: 0.7
+last_modified_at: 2020-07-21T00:40:32+02:00
 ---
 # Cookies Policy
 

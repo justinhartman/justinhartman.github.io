@@ -15,6 +15,7 @@ excerpt: 'A Boilerplate Template Kit for Espresso that speeds up your project de
 sitemap:
     changefreq: weekly
     priority: 1.0
+last_modified_at: 2020-07-21T00:40:32+02:00
 feature_row:
   - image_path: "/assets/images/technical/publishing-jekyll-on-gitlab-pages_580x300.jpg"
     alt: "Migrating Jekyll from GitHub Pages to GitLab Pages"

@@ -16,6 +16,7 @@ excerpt: This is my space where I house a collection of personal blog posts whic
 sitemap:
     changefreq: weekly
     priority: 0.9
+last_modified_at: 2020-07-21T00:40:32+02:00
 ---
 <div class="grid__wrapper">
     <h1 id="posts" class="archive__subtitle">Life</h1>

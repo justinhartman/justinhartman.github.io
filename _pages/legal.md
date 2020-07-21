@@ -16,6 +16,7 @@ date: 2018-03-14 19:25:00 +02:00
 sitemap:
     changefreq: yearly
     priority: 0.8
+last_modified_at: 2020-07-21T00:40:32+02:00
 ---
 As much as I like to believe we live in an altruistic world where hand-shakes and _your word_ still meant something; sadly this just isn't the case any more.
 
