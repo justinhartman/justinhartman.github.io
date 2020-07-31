@@ -1,0 +1,103 @@
+[build]
+  base = ""
+  publish = "_site/"
+  command = "jekyll build"
+
+# https://github.com/chrisdwheatley/netlify-plugin-image-optim#readme
+[[plugins]]
+package = "netlify-plugin-image-optim"
+
+# https://github.com/munter/netlify-plugin-checklinks#readme
+[[plugins]]
+package = "netlify-plugin-checklinks"
+
+  [plugins.inputs]
+  # An array of glob patterns for pages on your site
+  # Recursive traversal will start from these
+  entryPoints = [
+    "*.html",
+  ]
+
+  # Recurse through all the links and asset references on your page, starting
+  # at the entrypoints
+  recursive = true
+
+  # Checklinks outputs TAP (https://testanything.org/tap-version-13-specification.html)
+  # by default. Enabling pretty mode makes the output easier on the eyes.
+  pretty = true
+
+  # You can mark some check as skipped, which will block checklinks
+  # from ever attempting to execute them.
+  # skipPatterns is an array of strings you can match against failing reports
+  skipPatterns = []
+
+  # You can mark some check as todo, which will execute the check, but allow failures.
+  # todoPatterns is an array of strings you can match against failing reports
+  todoPatterns = []
+
+  # Report on all broken links to external pages.
+  # Enabling this will make your tests more brittle, since you can't control
+  # external pages.
+  checkExternal = false
+
+  # Enable to check references to source maps, source map sources etc.
+  # Many build tools don't emit working references, so this is disabled by default
+  followSourceMaps = false
+
+
+# https://github.com/munter/netlify-plugin-hashfiles#readme
+[[plugins]]
+package = "netlify-plugin-hashfiles"
+
+  [plugins.inputs]
+  # An array of glob patterns for pages on your site. Recursive traversal will start from these
+  entryPoints = [
+    "*.html"
+  ]
+
+  # Directory where content-addressable files are moved and immutable cache-headers are set
+  staticDir = "/_site/"
+
+# https://github.com/netlify-labs/netlify-plugin-lighthouse#readme
+[[plugins]]
+package = "@netlify/plugin-lighthouse"
+
+  [plugins.inputs.thresholds]
+  performance = 0.9
+
+  # to audit a sub path of the build directory
+  # route1 audit will use the top level thresholds
+  [[plugins.inputs.audits]]
+  path = "route1"
+
+  # to audit a specific absolute url
+  [[plugins.inputs.audits]]
+  url = "https://hartman.me"
+
+    # you can specify thresholds per audit
+    [plugins.inputs.audits.thresholds]
+    performance = 0.8
+
+
+# A basic redirect rule
+# [[redirects]]
+#   from = "/*"
+#   to = "/blog/:splat"
+
+# A redirect rule with all the supported properties
+# [[redirects]]
+#   from = "/old-path"
+#   to = "/new-path"
+
+  # The default HTTP status code is 301, but you can define a different one.
+  # status = 302
+
+  # By default, redirects won't be applied if there's a file with the same
+  # path as the one defined in the `from` property. Setting `force` to `true`
+  # will make the redirect rule take precedence over any existing files.
+  # force = true
+
+  # Redirect from /old-path?id=123 to /new-path. Each combination of query
+  # params needs to be defined in a separate [[redirects]] block.
+  # More information at https://docs.netlify.com/routing/redirects/redirect-options/#query-parameters
+  # query = {id = ":id"}
