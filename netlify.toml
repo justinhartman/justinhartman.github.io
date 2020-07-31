@@ -40,7 +40,7 @@ package = "netlify-plugin-hashfiles"
   ]
 
   # Directory where content-addressable files are moved and immutable cache-headers are set
-  staticDir = "/static/"
+  staticDir = "/static/:splat"
 
 # https://github.com/netlify-labs/netlify-plugin-lighthouse#readme
 [[plugins]]
@@ -50,8 +50,8 @@ package = "@netlify/plugin-lighthouse"
   performance = 0.8
 
   # to audit a specific absolute url
-  [[plugins.inputs.audit_url]]
-  url = "https://hartman.me"
+  # [[plugins.inputs.audit_url]]
+  # url = "https://hartman.me"
 
 
 # A basic redirect rule
