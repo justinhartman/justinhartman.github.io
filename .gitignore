@@ -1,3 +1,6 @@
+### General ###
+/GitHub-Sponsors-Profile.md
+
 ### Jekyll ###
 /_site/
 /docs/
@@ -11,11 +14,19 @@
 ### Octopress ###
 /.deploy/
 
-### Nova Editor ###
+### Text Editors ###
 /.nova/
-
-### VS Code ###
 /.vscode
+
+### Node Files ###
+package-lock.json
+yarn.lock
+node_modules/
+npm-debug.log*
+
+### Netlify Plugins ###
+/.netlify/lighthouse/*
+!/.netlify/lighthouse/README.md
 
 ### Pixelmator Templates ###
 image-template-with-backgrounds.pxm
@@ -76,4 +87,3 @@ bh_unicode_properties.cache
 # Sublime-github package stores a github token in this file
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
-/GitHub-Sponsors-Profile.md
