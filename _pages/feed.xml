@@ -4,6 +4,7 @@ permalink: /feed.xml
 sitemap:
     changefreq: weekly
     priority: 1.0
+last_modified_at: 2020-08-06T00:32:32+02:00
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xml" href="{{ '/feed.xslt.xml' | absolute_url }}"?>

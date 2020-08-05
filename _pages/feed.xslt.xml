@@ -1,9 +1,7 @@
 ---
 layout: atom
 permalink: /feed.xslt.xml
-sitemap:
-    changefreq: yearly
-    priority: 0.1
+sitemap: false
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:transform  version="1.0" xmlns:a="http://www.w3.org/2005/Atom" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">

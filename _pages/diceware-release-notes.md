@@ -20,7 +20,7 @@ date: 2018-03-19 15:50:54 +02:00
 sitemap:
     changefreq: monthly
     priority: 0.9
-last_modified_at: 2020-07-21T00:40:32+02:00
+last_modified_at: 2020-08-06T00:32:32+02:00
 ---
 # Release Notes
 This is a dedicated page which documents the changes made to the [Diceware Password Generator][diceware] as well as all the release notes for the software. 

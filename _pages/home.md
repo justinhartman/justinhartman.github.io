@@ -15,7 +15,7 @@ excerpt: 'A Boilerplate Template Kit for Espresso that speeds up your project de
 sitemap:
     changefreq: weekly
     priority: 1.0
-last_modified_at: 2020-07-21T00:40:32+02:00
+last_modified_at: 2020-08-06T00:32:32+02:00
 feature_row:
   - image_path: "/assets/images/technical/publishing-jekyll-on-gitlab-pages_580x300.jpg"
     alt: "Migrating Jekyll from GitHub Pages to GitLab Pages"
@@ -81,7 +81,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Read More"
 intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fab fa-twitter"></i> @justinhartman](https://twitter.com/justinhartman){: .btn .btn--twitter} [<i class="fab fa-facebook"></i> justinhartman.blog](https://www.facebook.com/justinhartman.blog){: .btn .btn--facebook}'
+  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fab fa-twitter"></i> @justinhartman](https://twitter.com/justinhartman){: .btn .btn--twitter} [<i class="fab fa-facebook"></i> justinhartman.co](https://www.facebook.com/justinhartman.co){: .btn .btn--facebook}'
 ---
 
 {% include feature_row id="intro" type="center" %}
