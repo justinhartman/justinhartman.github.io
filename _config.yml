@@ -1,4 +1,4 @@
-url                           : "https://hartman.me"
+url                           : "https://justinhartman.co"
 baseurl                       :
 permalink                     : "/:title"
 timezone                      : Africa/Johannesburg
@@ -74,7 +74,7 @@ plugins:
 # Theme configuration
 remote_theme                  : mmistakes/minimal-mistakes
 minimal_mistakes_skin         : "justin" # (contrast or neon. justin is based off contrast)
-locale                        : "en_ZA"
+locale                        : "en_GB"
 title                         : "Justin Hartman"
 title_separator               : "-"
 name                          : "Justin Hartman"
@@ -183,7 +183,7 @@ reCaptcha:
   siteKey                     : 6LfjtkwUAAAAAEmkBKSJ1jsVlf6qKXPrqqjGgv1i
   secret                      : 6LfjtkwUAAAAAPeJyxISYz8aFsbLM2Qt7ZmZXSGJ
 atom_feed:
-  path                        : https://hartman.me/feed.xml
+  path                        : https://justinhartman.co/feed.xml
 # Search Config
 search                        : true
 search_full_content           : true
@@ -206,7 +206,7 @@ social:
   type                        : Person
   name                        : Justin Hartman
   links:
-  - https://www.facebook.com/justin.hartman.me
+  - https://www.facebook.com/justinhartman.co
   - https://www.flickr.com/photos/justinhartman
   - https://www.github.com/justinhartman
   - https://www.instagram.com/justin.hartman/
@@ -214,7 +214,6 @@ social:
   - https://za.pinterest.com/iamjustinhartman
   - https://twitter.com/justinhartman
   - https://stackoverflow.com/users/1322242/justinhartman
-  - https://plus.google.com/115788405127011300666
   - http://whoswho.co.za/justin-hartman-30052-30052
   - https://www.crunchbase.com/person/justin-hartman
 # Analytics
@@ -229,11 +228,11 @@ author:
   bio                         : "Justin Hartman is a South African entreprenuer who has been innovating in the digital landscape for more than seventeen years. Having pioneered and spearheaded a number of great businesses; Social Code and Afrigator, Justin Hartman is a true digital visionary."
   location                    : "South Africa"
   email                       : justinhartman@fire.fundersclub.com
-  uri                         : https://hartman.me
+  uri                         : https://justinhartman.co
   home                        : / # null (default), "absolute or relative url to link to author home"
   #bitbucket                  : justinhartman
   flickr                      : justinhartman
-  facebook                    : justinhartman.blog
+  facebook                    : justinhartman.co
   github                      : justinhartman
   google_plus                 : 115788405127011300666
   instagram                   : justin.hartman

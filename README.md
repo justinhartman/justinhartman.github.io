@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/justinhartman/justinhartman.github.io.svg?branch=master)](https://travis-ci.org/justinhartman/justinhartman.github.io)
 
-This repository contains the source code that runs my personal site, [justinhartman.blog][site].
+This repository contains the source code that runs my personal site, [justinhartman.co][site].
 
 ### Table of Contents
 
@@ -54,7 +54,7 @@ This license allows you to reuse, create derivatives and make available copies o
 
 All other directories and files not listed above are MIT Licensed. Feel free to use the HTML, JavaScript and CSS as you please and do yourself a favour and download the amazing [Minimal Mistakes Jekyll Theme][mm].
 
-[site]: https://hartman.me
+[site]: https://justinhartman.co
 [email]: mailto:justinhartman@fire.fundersclub.com
 [issue]: mailto:justinhartman@fire.fundersclub.com
 [mm]: https://mademistakes.com/work/minimal-mistakes-jekyll-theme/

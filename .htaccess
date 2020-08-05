@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
-#RewriteEngine On
+RewriteEngine On
 #RewriteCond %{HTTPS} off
 #RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
@@ -9,6 +9,6 @@
 # RewriteRule ^(.*)$ https://hartman.me/$1 [L,R=301,NC]
 
 # Just subdomain
-RewriteCond %{HTTP_HOST} ^www.hartman.me [NC]
-RewriteRule ^(.*)$ https://hartman.me/$1 [L,R=301,NC]
+RewriteCond %{HTTP_HOST} ^www.justinhartman.co [NC]
+RewriteRule ^(.*)$ https://justinhartman.co/$1 [L,R=301,NC]
 </IfModule>
