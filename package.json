@@ -1,0 +1,22 @@
+{
+  "name": "hartman-me",
+  "version": "1.0.0",
+  "description": "Installs various Netlify plugins for builds.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinhartman/justinhartman.github.io.git"
+  },
+  "author": "22 Digital",
+  "license": "Copyright",
+  "bugs": {
+    "url": "https://github.com/justinhartman/justinhartman.github.io/issues"
+  },
+  "homepage": "https://hartman.me",
+  "private": true,
+  "devDependencies": {
+    "@netlify/plugin-lighthouse": "^1.4.0"
+  },
+  "scripts": {
+    "plugin-lighthouse": "node -e 'require(\"./node_modules/@netlify/plugin-lighthouse/src/index.js\").onSuccess()'"
+  }
+}

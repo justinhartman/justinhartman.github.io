@@ -1,56 +1,22 @@
 [build]
   base = ""
   publish = "_site/"
-  command = "jekyll build"
+  command = "bundle exec jekyll build"
 
 # https://github.com/chrisdwheatley/netlify-plugin-image-optim#readme
 # [[plugins]]
 # package = "netlify-plugin-image-optim"
 
-# https://github.com/munter/netlify-plugin-checklinks#readme
-# [[plugins]]
-# package = "netlify-plugin-checklinks"
-
-#   [plugins.inputs]
-#   entryPoints = [
-#     "*.html",
-#   ]
-#   recursive = true
-#   # Checklinks outputs TAP (https://testanything.org/tap-version-13-specification.html)
-#   pretty = true
-#   # You can mark some check as skipped, which will block checklinks
-#   # from ever attempting to execute them.
-#   # skipPatterns is an array of strings you can match against failing reports
-#   skipPatterns = []
-#   # You can mark some check as todo, which will execute the check, but allow failures.
-#   # todoPatterns is an array of strings you can match against failing reports
-#   todoPatterns = []
-#   checkExternal = false
-#   followSourceMaps = false
-
-
 # https://github.com/munter/netlify-plugin-hashfiles#readme
-# [[plugins]]
-# package = "netlify-plugin-hashfiles"
-
-#   [plugins.inputs]
-#   # An array of glob patterns for pages on your site. Recursive traversal will start from these
-#   entryPoints = [
-#     "*.html"
-#   ]
-#   # Directory where content-addressable files are moved and immutable cache-headers are set
-#   staticDir = "/static"
-
-# https://github.com/netlify-labs/netlify-plugin-lighthouse#readme
 [[plugins]]
-package = "@netlify/plugin-lighthouse"
+package = "netlify-plugin-hashfiles"
 
-  [plugins.inputs.thresholds]
-  performance = 0.8
-
-  # to audit a specific absolute url
-  # [[plugins.inputs.audit_url]]
-  # url = "https://hartman.me"
+  [plugins.inputs]
+  entryPoints = [
+    "*.html"
+  ]
+  # Directory where content-addressable files are moved and immutable cache-headers are set
+  staticDir = "/static"
 
 
 # A basic redirect rule
