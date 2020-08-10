@@ -18,12 +18,12 @@ package = "netlify-plugin-hashfiles"
   # Directory where content-addressable files are moved and immutable cache-headers are set
   staticDir = "/static"
 
-
-# A basic redirect rule
+# Redirect any page to new site.
 [[redirects]]
-  from = "/*"
+  from = "https://hartman.me/*"
   to = "https://justinhartman.co/:splat"
   status = 301
+  force = true
 
 # A redirect rule with all the supported properties
 # [[redirects]]
