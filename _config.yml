@@ -39,7 +39,6 @@ exclude:
   - .git
   - .gitattributes
   - .gitignore
-  - .gitlab-ci.yml
   - .nova
   - .travis.yml
   - .wakatime-project
@@ -49,8 +48,6 @@ exclude:
   - LICENSE.md
   - README.md
   - TODO.md
-  - _deploy.yml
-  - .deploy
   - _drafts
   - _sass
   - _templates
@@ -198,7 +195,7 @@ naver_site_verification       : cff9b1642528de3b4703608b5c9ae651d8ed9307
 twitter:
   username                    : justinhartman
 facebook:
-  username                    : justinhartman.blog
+  username                    : justinhartman.co
   app_id                      : 112996658724332
   publisher                   : 566420412
 og_image                      : "/assets/images/general/justin-hartman.jpeg"
