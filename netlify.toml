@@ -20,9 +20,10 @@ package = "netlify-plugin-hashfiles"
 
 
 # A basic redirect rule
-# [[redirects]]
-#   from = "/*"
-#   to = "/blog/:splat"
+[[redirects]]
+  from = "/*"
+  to = "https://justinhartman.co/:splat"
+  status = 301
 
 # A redirect rule with all the supported properties
 # [[redirects]]
