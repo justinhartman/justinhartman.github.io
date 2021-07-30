@@ -87,7 +87,7 @@ last_modified_at: 2020-08-06T00:32:32+02:00
 					</table>
 				</div>
 				<div id="footer">
-					Copyright 2004-2020 <a href="https://justinhartman.co/">Justin Hartman</a>. All Rights Reserved. This XSLT template is released under GPL.
+					Copyright 2004-2021 <a href="https://justinhartman.co/">Justin Hartman</a>. All Rights Reserved. This XSLT template is released under GPL.
 				</div>
 			</body>
 		</html>
