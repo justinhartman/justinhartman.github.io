@@ -43,6 +43,7 @@ exclude:
   - .travis.yml
   - .wakatime-project
   - CNAME
+  - DEAD-LINKS.md
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
