@@ -2,6 +2,7 @@
 published: true
 title: In Loving Memory - Rodney John Hartman 25/02/1949 - 18/05/2010
 wordpress_id: 933
+redirect_from: /2010/05/19/in-loving-memory-rodney-john-hartman-25021949-19052010/
 date: '2010-05-19 08:30:11 +0200'
 last_modified_at: '2010-05-19 06:30:11 +0200'
 categories:
