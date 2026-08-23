@@ -16,7 +16,6 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from', '~> 0.16.0'
   gem 'jemoji', '~> 0.13.0'
   gem 'jekyll-mentions', '~> 1.6.0'
-  gem 'jekyll-import', '~> 0.25.0'
   gem 'jekyll-minifier', '~> 0.1.10'
   gem "kramdown-parser-gfm", "~> 1.1.0"
 end

@@ -13,21 +13,30 @@ Liquid templates, Sass, and a little jQuery (plus one stray Ruby script in `_pla
 ```bash
 bundle exec jekyll build          # build to _site/
 bundle exec jekyll serve          # local preview
-./script/cibuild                  # full gate: build + html-proofer
+./script/cibuild                  # build + html-proofer (see caveat below)
 ```
 
-There is no test suite. `script/cibuild` is the only validation and it runs:
+Ruby 3.1.7 (pinned by `.ruby-version`, matching the deploy workflow); every direct gem in
+the `Gemfile` is pinned to the version in `Gemfile.lock`. Change one and change both — the
+workflow's `bundler-cache: true` will fail on a Gemfile-only commit.
+
+There is no test suite. `script/cibuild` builds, then runs:
 
 ```bash
 bundle exec htmlproofer ./_site --disable-external --allow-hash-href \
-  --file-ignore='./_site/personal/kitchen-sink.html'
+  --ignore-files '/kitchen-sink\.html/'
 ```
 
-Note `--disable-external`: broken external links are **not** caught. 
-**Toolchain caveat:** the `Gemfile` pins ruby 2.7.1 and `Gemfile.lock` wants bundler 2.2.9.
-The machine's system ruby is 2.6.10 with neither installed, so `bundle` fails out of the box.
-A version manager (rbenv/rvm) plus `gem install bundler:2.2.9` is needed before any of the
-above will run.
+**`cibuild` validates almost nothing — do not treat a green run as a check on your work.**
+Two independent reasons: `--disable-external` skips external links by design, and every
+internal link is emitted absolute against `site.url` by `absolute_url`, so nothing is left
+to check. Worse, html-proofer 5.2.2 extracts *zero* links from these pages (Nokogiri finds
+47 in the same file) — the failure is upstream of link extraction, so no flag tuning
+(`--swap-urls`, `--root-dir`, `--checks`) changes it; a different html-proofer version is
+the only lever. The real gate is `bundle exec jekyll build` succeeding.
+
+`.travis.yml` still calls `cibuild`, but travis-ci.org is retired and the GitHub workflow
+does not invoke it.
 
 ## Theme resolution — read this before editing templates
 
@@ -72,7 +81,13 @@ Conventions worth knowing:
   `page_template: page`, `draft_template: draft` in `_config.yml` select which. Match an
   existing template's front matter when hand-writing a file.
 - Images follow `/assets/images/<collection>/<slug>.jpg` for `header.overlay_image` and
-  `/assets/images/<collection>/<slug>_580x300.jpg` for `header.teaser` and `image`.
+  `/assets/images/<collection>/<slug>_580x300.jpg` for `header.teaser` and `image`. The 96
+  WordPress-migrated posts instead point both keys at the same
+  `/assets/images/uploads/<year>/<month>/` file (no `_580x300` variant exists for them).
+- Adding `header.overlay_image` switches on the hero, which renders `page.excerpt` inside it.
+  Posts whose body opens with raw markup (`<img>`, `<blockquote>`) would have Jekyll
+  auto-excerpt that markup into the banner, so the 43 without an explicit `excerpt:` key set
+  `header.show_overlay_excerpt: false`. Keep that pairing when adding a header image.
 - Search is client-side lunr (`search_provider: lunr`, `search_full_content: true`);
   an algolia path exists in `_includes/search/` but is not selected.
 
@@ -93,8 +108,12 @@ when adding keys.
 
 ## Deployment
 
-Undetermined from the repo. `.travis.yml` invokes `script/cibuild`, but travis-ci.org is
-retired; there is no `.github/` directory, no workflow, and no `CNAME`. Several plugins in
-use (`jekyll-minifier`, `jekyll-algolia`, `octopress`, `jekyll-last-modified-at`) are outside
-the GitHub Pages allowlist, and an `.htaccess` with Apache rewrites is committed. Ask before
-assuming a deploy target.
+GitHub Pages via `.github/workflows/deploy-jekyll.yml` — every push to `main` builds and
+deploys, so a commit there is a publish. Ruby 3.1.7, `bundler-cache: true`, then
+`bundle exec jekyll build --baseurl <configure-pages base_path>` with `JEKYLL_ENV=production`,
+uploaded as an artifact and deployed by `actions/deploy-pages`.
+
+Because the workflow runs Jekyll itself rather than relying on Pages' built-in build, the
+plugins outside the GitHub Pages allowlist (`jekyll-minifier`, `jekyll-algolia`, `octopress`,
+`jekyll-last-modified-at`) work fine. Note `JEKYLL_ENV=production` means `jekyll-minifier`
+only minifies in CI — local builds are unminified. There is no `CNAME`.
