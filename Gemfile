@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.7.1'
+ruby '3.1.7'
 # gem 'therubyracer'
 gem "jekyll", "3.8.7"
 gem 'minimal-mistakes-jekyll'
