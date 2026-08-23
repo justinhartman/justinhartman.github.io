@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-ruby '3.1.7'
-# gem 'therubyracer'
+ruby '3.4.4'
 gem "jekyll", "3.8.7"
 gem 'minimal-mistakes-jekyll'
 gem 'octopress', '~> 3.0'
@@ -19,5 +18,4 @@ group :jekyll_plugins do
   gem 'jekyll-mentions'
   gem 'jekyll-import'
   gem 'jekyll-minifier'
-  # gem 'octopress-minify-html'
 end
