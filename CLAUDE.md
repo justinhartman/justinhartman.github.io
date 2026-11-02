@@ -117,3 +117,94 @@ Because the workflow runs Jekyll itself rather than relying on Pages' built-in b
 plugins outside the GitHub Pages allowlist (`jekyll-minifier`, `jekyll-algolia`, `octopress`,
 `jekyll-last-modified-at`) work fine. Note `JEKYLL_ENV=production` means `jekyll-minifier`
 only minifies in CI — local builds are unminified. There is no `CNAME`.
+
+## Mirroring the site to Arweave (`blog-old_justinhartman.ar.io`)
+
+An archival copy of the built site lives on Arweave under the `blog-old`
+undername of the ArNS name `justinhartman`. The tooling is **not in this repo** —
+it is `~/Code/Claude/Arweave\ Vault/arweave-vault/arvault.mjs` (`arv`).
+
+### Why `_config.yml` gets edited before an Arweave build
+
+23 theme templates use `absolute_url` and none use `relative_url`, so every link
+and asset reference is baked against `site.url` **at build time**. There is no
+post-build rewrite that is worth doing; the supported way to retarget the output
+is to change `url:` and rebuild.
+
+```yaml
+url                           : "https://blog-old_justinhartman.ar.io"
+```
+
+**This edit must never reach `main`.** A push to `main` publishes
+(`.github/workflows/deploy-jekyll.yml`), and a `_config.yml` carrying the ArNS
+host would rewrite every URL on the live justinhartman.co site. Build, then
+`git checkout _config.yml` before committing anything.
+
+### The three steps
+
+```bash
+# 1. retarget + build
+sed -i '' 's|^url  *:.*|url                           : "https://blog-old_justinhartman.ar.io"|' _config.yml
+bundle exec jekyll build
+
+# 2. upload as ONE transaction (~1.23 AR; see the cost note below)
+cd ~/Code/Claude/Arweave\ Vault/arweave-vault
+node --max-old-space-size=6144 arvault.mjs bundle \
+    /Users/justin/Code/GitHub/justinhartman.github.io/_site --dry-run   # price it first
+node --max-old-space-size=6144 arvault.mjs bundle \
+    /Users/justin/Code/GitHub/justinhartman.github.io/_site
+
+# 3. point the undername at the manifest ID that step 2 prints
+node arvault.mjs point blog-old <manifest-txid>
+
+# 4. put _config.yml back
+git checkout _config.yml
+```
+
+### Propagation: expect hours, not minutes
+
+The ArNS record updates instantly, but a gateway can only serve a path once it
+has fetched and unbundled that part of the transaction. For a 107 MB / 2,653-item
+bundle that backfill takes **hours**, and while it runs you get a mix of 200s,
+404s and 503s that changes minute to minute — a path that works can go back to
+404. This is not a manifest problem and there is nothing to re-upload; the data
+is confirmed on L1 and permanent.
+
+Check progress by sampling item IDs straight out of the manifest:
+
+```bash
+curl -s https://arweave.net/raw/<manifest-txid> > /tmp/m.json
+python3 -c "
+import json,random,urllib.request
+p=json.load(open('/tmp/m.json'))['paths']
+random.seed()
+for k in random.sample(list(p),10):
+    try: urllib.request.urlopen('https://arweave.net/'+p[k]['id']); print('ok  ',k)
+    except Exception as e: print('wait',k)
+"
+```
+
+When that reports mostly `ok`, the site will render.
+
+### Cost: use `bundle`, never `upload`
+
+Arweave bills whole 256 KiB chunks with a **one-chunk minimum per transaction**.
+`arv upload` posts one transaction per file, so this site's 2,652 mostly-tiny
+files are billed 2,787 chunks for 395 chunks of actual data:
+
+| | cost |
+|---|---|
+| `arv upload _site/` | **~8.41 AR** |
+| `arv bundle _site/` | **~1.23 AR** |
+
+A previous `arv upload` run burned ~1.4 AR before being stopped and produced
+nothing usable — it never reached the manifest, so those files are unreachable.
+Re-sending that same data inside a bundle costs about 0.08 AR, which is why
+recovering it is not worth the effort.
+
+### Preview
+
+There is no way to preview this before pointing the name. `arweave.net/<txid>/`
+302-redirects to a sandboxed `<hash>.arweave.net` subdomain, and the site's
+absolute `blog-old_justinhartman.ar.io` URLs only resolve under the real ArNS
+name anyway. Check the build locally (`bundle exec jekyll serve`) instead.
