@@ -28,7 +28,7 @@ The source code for my website is broken up into three different licenses. I rea
 
 ### 2.1. Content
 
-The following directories and its contents within are Copyright &copy; 2004-2020 [Justin Hartman][site] and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][by-nc-sa].
+The following directories and its contents within are Copyright &copy; 2004-2026 [Justin Hartman][site] and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][by-nc-sa].
 
 - `_data/`
 - `_drafts/`
@@ -40,23 +40,22 @@ The following directories and its contents within are Copyright &copy; 2004-2020
 - `_templates/`
 - `assets/`
 
-This license gives you permission to reuse the content on this site along with attribution. If you do plan on reusing any of the work please [send me an email][issue] informing me of how and where you plan to reuse my content.
+This license gives you permission to reuse the content on this site along with attribution. If you do plan on reusing any of the work please [open an issue][issue] informing me of how and where you plan to reuse my content.
 
 ### 2.2. Software
 
-The following directories and its contents within are Copyright &copy; 2017-2020 [Justin Hartman][site] and is licensed under the [GNU Affero General Public License - Version 3][agpl].
+The following directories and its contents within are Copyright &copy; 2017-2026 [Justin Hartman][site] and is licensed under the [GNU Affero General Public License - Version 3][agpl].
 
 - `_playground/`
 
-This license allows you to reuse, create derivatives and make available copies of the software, provided you retain the copyright and license as well as make your source code available with installation instructions. Please [send me an email][issue] when you do plan on reusing any code or software that I have created.
+This license allows you to reuse, create derivatives and make available copies of the software, provided you retain the copyright and license as well as make your source code available with installation instructions. Please [open an issue][issue] when you do plan on reusing any code or software that I have created.
 
 ### 2.3. Theme
 
 All other directories and files not listed above are MIT Licensed. Feel free to use the HTML, JavaScript and CSS as you please and do yourself a favour and download the amazing [Minimal Mistakes Jekyll Theme][mm].
 
 [site]: https://justinhartman.co
-[email]: mailto:justinhartman@fire.fundersclub.com
-[issue]: mailto:justinhartman@fire.fundersclub.com
+[issue]: https://github.com/justinhartman/justinhartman.github.io/issues
 [mm]: https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
 [jekyll]: https://jekyllrb.com
 [mmistakes]: https://github.com/mmistakes
